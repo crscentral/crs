@@ -1,0 +1,21 @@
+<header class="p-4 border-b border-gray-200 dark:border-gray-800 flex justify-between items-center bg-white dark:bg-brand-dark/50 backdrop-blur-md sticky top-0 z-50">
+  <a href="{{ '/' | relative_url }}" class="flex items-center gap-2">
+    <img src="{{ '/assets/images/crs_Logo.png' | relative_url }}" alt="CRS Central Logo" class="h-10" />
+  </a>
+  <nav class="hidden md:flex gap-6 font-outfit font-semibold text-sm">
+    <a href="{{ '/' | relative_url }}" class="hover:text-brand-primary transition-colors">Home</a>
+    <a href="/services" class="hover:text-brand-primary transition-colors">Services</a>
+    <a href="/about" class="hover:text-brand-primary transition-colors">About Us</a>
+  </nav>
+  <div class="flex items-center gap-4">
+    <select class="bg-transparent border border-gray-300 dark:border-gray-600 rounded px-2 py-1 text-sm outline-none">
+      <option value="en">English</option>
+      <option value="th">ไทย</option>
+      <option value="zh">中文</option>
+      <option value="lo">ລາວ</option>
+    </select>
+    <button onclick="toggleTheme()" class="p-2 bg-gray-200 dark:bg-gray-800 rounded-full" aria-label="Toggle Theme">
+      🌓
+    </button>
+  </div>
+</header>

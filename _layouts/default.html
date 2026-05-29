@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.meta_description | default: site.description }}">
+  
+  <!-- Tailwind CSS via CDN for zero-build setup -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'brand-primary': '#673de6',
+            'brand-dark': '#2f1c6a',
+            'brand-light': '#ebe4ff',
+            'brand-accent': '#00b090',
+            'bg-night': '#18181a',
+            'bg-day': '#ffffff'
+          },
+          fontFamily: {
+            outfit: ['Outfit', 'sans-serif'],
+            inter: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <script>
+    function toggleTheme() {
+      document.documentElement.classList.toggle('dark');
+    }
+  </script>
+</head>
+<body class="font-inter bg-bg-day dark:bg-bg-night text-gray-900 dark:text-gray-100 min-h-screen flex flex-col">
+
+  {% if site.data.promotions.promo_banner_active %}
+    <div class="bg-brand-accent text-white text-center py-2 px-4 text-sm font-semibold relative">
+      <a href="{{ site.data.promotions.promo_link }}" class="hover:underline">{{ site.data.promotions.promo_text }}</a>
+    </div>
+  {% endif %}
+
+  {% include header.html %}
+
+  <main class="flex-grow">
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+
+</body>
+</html>

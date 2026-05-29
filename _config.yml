@@ -1,0 +1,11 @@
+title: CRS Central
+email: info@crscentral.com
+description: >- 
+  Hotel Revenue Management & Cost-Effective Solutions
+baseurl: "" 
+url: "https://crscentral.com"
+theme: minima
+
+# Exclude these from the build
+exclude:
+  - .pages.yml
