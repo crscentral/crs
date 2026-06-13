@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Core Services — CRS Central</title>
+  <meta name="description" content="Explore CRS Central's smart hotel solutions: Revenue Management, OTA optimization, reservations, centralized call handling, guest support, and upselling.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Hero override to make background image more visible and scenic */
+    .hero {
+      min-height: 25vh !important;
+      padding: 2.25rem 2rem 1.5rem 2rem !important;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(6, 18, 36, 0.75) 0%, rgba(6, 18, 36, 0.4) 100%);
+      z-index: 2;
+    }
+    .hero-bg-media {
+      opacity: 0.75 !important;
+      mix-blend-mode: normal !important;
+      z-index: 1 !important;
+    }
+    .hero-container {
+      z-index: 3 !important;
+    }
+    
+    /* Service Flow Layout overrides to wrap text around floated images */
+    .service-media-flow {
+      width: 48%;
+      max-width: 520px;
+      min-width: 300px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--border-color);
+      background-color: var(--bg-light);
+      margin-bottom: 1.5rem;
+    }
+    .service-media-flow.align-left {
+      float: left;
+      margin-right: 2.5rem;
+    }
+    .service-media-flow.align-right {
+      float: right;
+      margin-left: 2.5rem;
+    }
+    .service-media-flow img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .bullet-list {
+      list-style-position: inside;
+    }
+    .service-detail-section h3 {
+      clear: both;
+      margin-top: 2rem !important;
+    }
+    
+    /* Keep Service 6 photo vertically full matching the content height */
+    .service-6-media {
+      height: 100%;
+      align-self: stretch;
+    }
+    .service-6-media .split-image-container {
+      height: 100%;
+    }
+    .service-6-media .split-image-container img {
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    @media (max-width: 768px) {
+      .service-media-flow {
+        float: none !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 0 1.5rem 0 !important;
+      }
+      .hero {
+        min-height: 21vh !important;
+        padding: 2rem 1.5rem 1.5rem 1.5rem !important;
+      }
+      .service-6-media {
+        height: auto !important;
+      }
+      .service-6-media .split-image-container {
+        height: auto !important;
+      }
+      .service-6-media .split-image-container img {
+        height: 450px !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo-link">
+        <img src="assets/images/logo_globe_transparent.png" alt="CRS Central Logo" class="logo-img">
+      </a>
+      <button class="menu-toggle">☰</button>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link" data-i18n="nav-home">Home</a>
+        <a href="services.html" class="nav-link" data-i18n="nav-services">Services</a>
+        <div class="nav-dropdown-wrapper">
+          <button class="dropdown-toggle" data-i18n="nav-presence">Our Presence</button>
+          <div class="nav-dropdown-menu">
+            <a href="thailand.html" class="nav-dropdown-item" data-i18n="nav-thailand">Thailand Presence</a>
+            <a href="laos.html" class="nav-dropdown-item" data-i18n="nav-laos">Laos Presence</a>
+          </div>
+        </div>
+        <a href="about.html" class="nav-link" data-i18n="nav-about">Company Profile</a>
+        <a href="audit.html" class="nav-link" data-i18n="nav-audit">Free Revenue Audit</a>
+        <a href="blog.html" class="nav-link" data-i18n="nav-blog">Blog</a>
+        <a href="contact.html" class="nav-link" data-i18n="nav-contact">Contact Us</a>
+      </nav>
+      <div class="lang-selector">
+        <button class="lang-btn">English</button>
+        <div class="lang-dropdown">
+          <div class="lang-option active" data-lang="en">English</div>
+          <div class="lang-option" data-lang="th">ภาษาไทย</div>
+          <div class="lang-option" data-lang="zh">中文</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Introduction Hero -->
+  <section class="hero" style="min-height: 60vh; padding: 6rem 2rem 4rem 2rem;">
+    <img src="assets/images/services_hero_scenic.jpg" alt="Hotel pool and gardens at dusk" class="hero-bg-media">
+    <div class="hero-container" style="grid-template-columns: 1fr;">
+      <div class="hero-content" style="text-align: center; max-width: 850px; margin: 0 auto;">
+        <span class="section-tag" data-i18n="nav-services">Services</span>
+        <h1 class="hero-title" style="font-size: 3rem;" data-i18n="services-title">Our Core Services</h1>
+        <p class="hero-desc" data-i18n="services-desc">At CRS Central, we do not simply offer outsourced services. We become part of your hotel's commercial team — bringing the same discipline, data intelligence, and hospitality expertise that power the world's leading hotel chains, and making it work for your independent property.</p>
+        <p class="hero-desc" style="font-weight: 600; color: var(--accent-color);" data-i18n="services-subtitle">Every service we offer is designed around one central idea: helping you earn more from what you already have.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service 1: Revenue Management -->
+  <section class="section service-detail-section">
+    <div class="section-container clearfix">
+      <div class="service-media-flow align-left">
+        <img src="assets/images/revenue_manager_screens.png" alt="Revenue manager working with rates and occupancies">
+      </div>
+      <h2 class="section-title" style="font-size: 1.8rem;" data-i18n="services-rm-title">1. Revenue Management – Turning Data into Strategy, and Strategy into Profit</h2>
+      <p data-i18n="services-rm-desc1">Revenue management is not simply about adjusting room rates. Done correctly, it is the science of selling the right room, to the right guest, at the right price, through the right channel — every single day. It is the difference between a hotel that is always chasing bookings and a hotel that consistently earns more from the same inventory.</p>
+      <p data-i18n="services-rm-desc2">Our revenue management service combines advanced analytics, real-time market intelligence, and the intuition that only comes from years inside five-star hotel operations. We continuously monitor demand patterns, competitor pricing, local events, and booking pace — translating that data into pricing decisions that protect your rates while driving occupancy.</p>
+      <p data-i18n="services-rm-desc3">We integrate directly with your Property Management System (PMS), Channel Manager, and OTA platforms, ensuring every rate and inventory update is live and consistent across all booking touchpoints.</p>
+      
+      <h3 style="margin-top: 1.5rem;" data-i18n="services-rm-include-title">What This Includes:</h3>
+      <ul class="bullet-list">
+        <li data-i18n="services-rm-li-1">Dynamic Pricing & Yield Optimization: Real-time rate adjustments based on demand signals, occupancy forecasts, and competitive set analysis — maximizing both ADR and RevPAR.</li>
+        <li data-i18n="services-rm-li-2">Market & Competitor Intelligence: Continuous tracking of competitor pricing, local events, market demand trends, and city-wide compression nights — so your property is always one step ahead.</li>
+        <li data-i18n="services-rm-li-3">Forecasting & Demand Analysis: Accurate forward-looking projections for revenue, occupancy, and booking pace — enabling smarter operational and staffing decisions.</li>
+        <li data-i18n="services-rm-li-4">Channel & Segment Mix Optimization: Balancing your distribution between OTAs, direct bookings, and corporate accounts to reduce commission costs and maximize net revenue.</li>
+        <li data-i18n="services-rm-li-5">Promotions & Campaign Management: Targeted, time-sensitive offers designed to drive conversions during low-demand periods without eroding rate integrity.</li>
+        <li data-i18n="services-rm-li-6">Performance Reporting: Clear monthly reports with trend analysis, market benchmarking, and actionable recommendations — so you always know what is working and what to adjust.</li>
+      </ul>
+      
+      <p style="margin-top: 1.5rem; font-style: italic; color: var(--text-muted);" data-i18n="services-rm-footer">By partnering with CRS Central for revenue management, you gain access to the expertise of a full in-house revenue department — at a fraction of the cost, and without the operational complexity. At CRS Central, we do not just manage rates — we engineer profitability.</p>
+      <a href="audit.html" class="btn btn-primary" style="margin-top: 1.5rem;" data-i18n="services-rm-btn">Get a Free Revenue Audit →</a>
+    </div>
+  </section>
+
+  <!-- Service 2: OTA Management -->
+  <section class="section service-detail-section section-light">
+    <div class="section-container clearfix">
+      <div class="service-media-flow align-right">
+        <img src="assets/images/booking_mockup.png" alt="OTA channel dashboard and booking page optimization mockup">
+      </div>
+      <h2 class="section-title" style="font-size: 1.8rem;" data-i18n="services-ota-title">2. OTA Management – Amplifying Your Hotel's Online Visibility and Booking Power</h2>
+      <p data-i18n="services-ota-desc1">In today's travel landscape, your hotel's online presence is your most powerful sales tool. But being listed on Booking.com, Agoda, or Expedia is not enough. What matters is how you are listed, how you rank, and how effectively each channel converts a browser into a confirmed booking.</p>
+      <p data-i18n="services-ota-desc2">OTAs reward hotels that stay active, maintain content quality, manage pricing intelligently, and respond to guest feedback consistently. Our OTA management team handles all of this — every day — so you do not have to.</p>
+      <p data-i18n="services-ota-desc3">We manage your presence across Booking.com, Expedia, Agoda, Trip.com, Hotels.com, MakeMyTrip, and other major platforms, ensuring brand consistency, rate parity, top-tier content, and performance-driven optimization across every channel.</p>
+      
+      <h3 style="margin-top: 1.5rem;" data-i18n="services-ota-include-title">What This Includes:</h3>
+      <ul class="bullet-list">
+        <li data-i18n="services-ota-li-1">Comprehensive Content Management: Professionally written property descriptions, curated amenity listings, and photo gallery guidance that showcase your hotel's best features and convert lookers into bookers.</li>
+        <li data-i18n="services-ota-li-2">Rate Parity Monitoring: We monitor your rates across all channels in real time, maintaining consistency and preventing parity violations that damage guest trust and brand credibility.</li>
+        <li data-i18n="services-ota-li-3">OTA Performance Optimization: Detailed analysis of conversion rates, click-through data, and ranking signals — with ongoing improvements that boost your visibility and booking volumes.</li>
+        <li data-i18n="services-ota-li-4">Promotional Campaign Setup: We design and activate targeted promotions, seasonal offers, and OTA marketing programs that increase exposure while protecting profitability.</li>
+        <li data-i18n="services-ota-li-5">Review & Reputation Management: We monitor guest reviews across all platforms, flag concerns, and support your team in crafting professional responses that build trust and improve ranking.</li>
+        <li data-i18n="services-ota-li-6">Revenue Integration: All OTA decisions align with your broader revenue strategy — pricing, availability, and promotions work together, not in silos.</li>
+      </ul>
+      
+      <p style="margin-top: 1.5rem; font-style: italic; color: var(--text-muted);" data-i18n="services-ota-footer">At CRS Central, we do not just manage your OTA listings — we make them perform.</p>
+      <a href="contact.html" class="btn btn-primary" style="margin-top: 1.5rem;" data-i18n="services-ota-btn">Improve Your OTA Performance →</a>
+    </div>
+  </section>
+
+  <!-- Service 3: Reservations Management -->
+  <section class="section service-detail-section">
+    <div class="section-container clearfix">
+      <div class="service-media-flow align-left">
+        <img src="assets/images/reservations_split.png" alt="Reservations agent at computer and guest check-in desk">
+      </div>
+      <h2 class="section-title" style="font-size: 1.8rem;" data-i18n="services-res-title">3. Reservations Management – Precision, Efficiency, and a Seamless Guest Experience</h2>
+      <p data-i18n="services-res-desc1">Every booking your hotel receives is the beginning of a guest relationship. Managing that process with accuracy, warmth, and efficiency is not just an operational necessity — it is a brand statement.</p>
+      <p data-i18n="services-res-desc2">Our Reservations Management service takes complete ownership of your booking process. We work directly inside your PMS or preferred hotel software, handling every reservation, modification, and cancellation in real time — with the precision of a five-star trained team and the care of a true hospitality professional.</p>
+      
+      <h3 style="margin-top: 1.5rem;" data-i18n="services-res-include-title">What This Includes:</h3>
+      <ul class="bullet-list">
+        <li data-i18n="services-res-li-1">Booking Management: Confirming, updating, and verifying reservations promptly, with accurate communication to both guests and your internal team.</li>
+        <li data-i18n="services-res-li-2">Pre-Arrival Confirmations: Personal outreach to guests before their stay to confirm details, acknowledge special requests, and set the tone for an exceptional arrival.</li>
+        <li data-i18n="services-res-li-3">Cancellations & Amendments: Handled with professionalism and empathy — while protecting your hotel's yield through smart retention strategies.</li>
+        <li data-i18n="services-res-li-4">Guest Profiling & Data Accuracy: We capture preferences, travel habits, and stay history to enable personalized experiences and better future engagement.</li>
+        <li data-i18n="services-res-li-5">Front Office Coordination: Real-time information flow between reservations, revenue, and on-site teams for smooth, seamless operations.</li>
+      </ul>
+      
+      <p style="margin-top: 1.5rem; font-style: italic; color: var(--text-muted);" data-i18n="services-res-footer">With CRS Central, your reservations are more than entries in a system. They are the foundation of every remarkable guest journey.</p>
+    </div>
+  </section>
+
+  <!-- Service 4: Centralized Call Handling -->
+  <section class="section service-detail-section section-light">
+    <div class="section-container clearfix">
+      <div class="service-media-flow align-right">
+        <img src="assets/images/call_handling.png" alt="Smiling professional call handling reservation agent">
+      </div>
+      <h2 class="section-title" style="font-size: 1.8rem;" data-i18n="services-call-title">4. Centralized Call Handling – Professional, Brand-Aligned, and Always Available</h2>
+      <p data-i18n="services-call-desc1">Every call your hotel receives is a revenue opportunity — and a brand moment. How that call is answered shapes the guest's first impression of your property, and can be the difference between a confirmed booking and a missed one.</p>
+      <p data-i18n="services-call-desc2">Our Centralized Call Handling service ensures every inquiry is answered professionally, under your hotel's name, with the warmth and knowledge your guests expect. Our trained reservation specialists act as a seamless extension of your front office team — handling bookings, inquiries, and guest requests with precision and care.</p>
+      
+      <h3 style="margin-top: 1.5rem;" data-i18n="services-call-include-title">What This Includes:</h3>
+      <ul class="bullet-list">
+        <li data-i18n="services-call-li-1">Live Call Handling (8 a.m.–11 p.m.): With after-hours digital support so no inquiry ever goes unanswered.</li>
+        <li data-i18n="services-call-li-2">Multi-Language Capability: Supporting guests across language demographics for a more inclusive booking experience.</li>
+        <li data-i18n="services-call-li-3">Booking Conversion Support: Our team does not just take information — we actively guide callers toward confirmed reservations.</li>
+        <li data-i18n="services-call-li-4">Missed Call Follow-Up: Every missed call is returned proactively, capturing revenue that would otherwise walk away.</li>
+        <li data-i18n="services-call-li-5">PMS & CRS Integration: All call activity feeds directly into your booking and guest management systems.</li>
+      </ul>
+      
+      <p style="margin-top: 1.5rem; font-style: italic; color: var(--text-muted);" data-i18n="services-call-footer">We do not just answer calls — we create connections that convert.</p>
+    </div>
+  </section>
+
+  <!-- Service 5: Guest Support -->
+  <section class="section service-detail-section">
+    <div class="section-container clearfix">
+      <div class="service-media-flow align-left">
+        <img src="assets/images/confident_manager_working.png" alt="Hotel guest support manager addressing guest concerns">
+      </div>
+      <h2 class="section-title" style="font-size: 1.8rem;" data-i18n="services-guest-title">5. Guest Support – Extending Your Hospitality Beyond the Front Desk</h2>
+      <p data-i18n="services-guest-desc1">Great hospitality does not start at check-in and end at checkout. It begins the moment a guest first reaches out and continues long after they have left. Our Guest Support service ensures every touchpoint in that journey reflects your hotel's warmth, care, and professionalism.</p>
+      <p data-i18n="services-guest-desc2">We handle pre-arrival communications, real-time guest queries, issue resolution, local assistance, and post-stay follow-up — all in your hotel's brand voice, with the empathy and attention your guests deserve.</p>
+      
+      <h3 style="margin-top: 1.5rem;" data-i18n="services-guest-include-title">What This Includes:</h3>
+      <ul class="bullet-list">
+        <li data-i18n="services-guest-li-1">Pre-Arrival Assistance: Personalized outreach to confirm details, preferences, and special requests.</li>
+        <li data-i18n="services-guest-li-2">Real-Time Guest Communication: Handling calls, emails, and messages related to facilities, local attractions, and hotel services.</li>
+        <li data-i18n="services-guest-li-3">Issue Resolution & Escalation: Prompt, professional handling of guest concerns, with on-site coordination when needed.</li>
+        <li data-i18n="services-guest-li-4">Local Assistance & Concierge Support: Up-to-date recommendations for dining, activities, transport, and local experiences.</li>
+        <li data-i18n="services-guest-li-5">Post-Stay Engagement: Thank-you messages, feedback collection, and review responses that nurture loyalty and strengthen your online reputation.</li>
+      </ul>
+      
+      <p style="margin-top: 1.5rem; font-style: italic; color: var(--text-muted);" data-i18n="services-guest-footer">Guest Support at CRS Central is not just a service — it is a promise that every guest will feel valued from first contact to long after checkout.</p>
+    </div>
+  </section>
+
+  <!-- Service 6: Upselling & Cross-Selling -->
+  <section class="section service-detail-section section-light">
+    <div class="section-container">
+      <div class="split-layout">
+        <div class="split-content">
+          <h2 class="section-title" style="font-size: 1.8rem;" data-i18n="services-upsell-title">6. Upselling & Cross-Selling – Maximizing Every Guest Interaction</h2>
+          <p data-i18n="services-upsell-desc1">Every booking contains the potential for more. A guest who books a standard room might love a pool-view upgrade. One who travels for a special occasion could be delighted by a curated package. Our upselling and cross-selling service turns these moments into revenue — naturally, tastefully, and in a way that genuinely enhances the guest experience.</p>
+          <p data-i18n="services-upsell-desc2">Our team identifies the right opportunities at the right time — during reservation calls, pre-arrival communications, and throughout the stay cycle — making offers that feel like thoughtful recommendations, not sales pitches.</p>
+          
+          <h3 style="margin-top: 1.5rem;" data-i18n="services-upsell-include-title">What This Includes:</h3>
+          <ul class="bullet-list">
+            <li data-i18n="services-upsell-li-1">Personalized Room Upgrades: Data-driven suggestions based on guest profile, booking history, and room availability.</li>
+            <li data-i18n="services-upsell-li-2">Package & Experience Offers: Breakfast inclusions, spa credits, airport transfers, and curated local experiences.</li>
+            <li data-i18n="services-upsell-li-3">Dynamic Offer Management: Offers adapt based on seasonality, availability, and occupancy for maximum conversion.</li>
+            <li data-i18n="services-upsell-li-4">ADR Tracking & Reporting: We measure every upsell conversion so you can see exactly how much incremental revenue we generate.</li>
+          </ul>
+          
+          <p style="margin-top: 1.5rem; font-style: italic; color: var(--text-muted);" data-i18n="services-upsell-footer">Hotels that implement structured upselling programs consistently see improvements in both Average Daily Rate and guest satisfaction scores.</p>
+          <a href="contact.html" class="btn btn-primary" style="margin-top: 1.5rem;" data-i18n="services-upsell-btn">Contact Us About Our Full Service Suite →</a>
+        </div>
+        
+        <div class="split-media service-6-media">
+          <div class="split-image-container">
+            <img src="assets/images/employee_crs_central.jpg" alt="Upselling room service details and hotel experience setup">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo-desc">
+        <a href="index.html" class="logo-link">
+          <img src="assets/images/logo_globe_transparent.png" alt="CRS Central Logo" class="logo-img">
+        </a>
+        <p style="margin-top: 1.5rem;" data-i18n="footer-about-desc">Helping hotels grow revenue, improve profitability, and achieve sustainable success across Thailand, Laos, India, Nepal, and beyond. A Unit of CRS Chauhan Private Limited.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer-links-title">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html" data-i18n="nav-home">Home</a></li>
+          <li><a href="services.html" data-i18n="nav-services">Services</a></li>
+          <li><a href="thailand.html" data-i18n="nav-thailand">Thailand Presence</a></li>
+          <li><a href="laos.html" data-i18n="nav-laos">Laos Presence</a></li>
+          <li><a href="about.html" data-i18n="nav-about">Company Profile</a></li>
+          <li><a href="audit.html" data-i18n="nav-audit">Free Revenue Audit</a></li>
+          <li><a href="blog.html" data-i18n="nav-blog">Blog</a></li>
+          <li><a href="contact.html" data-i18n="nav-contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer-contact-title">Contact Details</h4>
+        <ul class="footer-contact">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+66 (0) 990 143 142</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:info@crscentral.com" data-i18n="contact-info-email">info@crscentral.com</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span style="font-size: 0.8rem;">Sri Sai Anurag New Town, Karimnagar–Hyderabad Highway, Secunderabad, Telangana 500078, India</span>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer-social-title">Connect With Us</h4>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/profile.php?id=61585761501503" class="social-icon" target="_blank" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/crscentral.rm/" class="social-icon" target="_blank" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/crs-central" class="social-icon" target="_blank" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="https://x.com/CRSCENTRAL" class="social-icon" target="_blank" aria-label="X (Twitter)">
+            <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="https://wa.me/66990143142" class="social-icon" target="_blank" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm5.835-3.339l.418.248c1.725 1.023 3.766 1.564 5.753 1.565 5.864 0 10.632-4.757 10.635-10.612.002-2.836-1.1-5.503-3.104-7.505C17.54 2.355 14.887 1.252 12.01 1.252c-5.873 0-10.641 4.758-10.645 10.613-.001 2.029.531 4.015 1.541 5.738l.264.448-.992 3.626 3.712-.964zm12.39-7.218c-.33-.165-1.951-.963-2.251-1.073-.3-.109-.518-.165-.736.165-.218.329-.84 1.057-1.03 1.277-.189.219-.379.247-.708.082-1.096-.549-1.817-.88-2.542-2.124-.192-.329-.192-.567-.027-.732.148-.148.33-.384.495-.577.165-.192.219-.329.329-.548.11-.219.055-.411-.028-.576-.082-.165-.736-1.771-1.009-2.43-.267-.641-.56-.553-.736-.562-.17-.008-.367-.01-.565-.01-.197 0-.518.073-.789.37-.27.297-1.03 1.007-1.03 2.457s1.045 2.846 1.191 3.038c.145.192 2.057 3.141 4.985 4.41.696.302 1.24.482 1.66.616.7.222 1.338.19 1.843.115.563-.083 1.95-.797 2.225-1.566.275-.769.275-1.43.193-1.566-.083-.138-.303-.22-.633-.385z"/></svg>
+          </a>
+          <a href="https://line.me/ti/p/~crscentral" class="social-icon" target="_blank" aria-label="Line">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LINE</title><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+          </a>
+          <a href="https://www.youtube.com/@CRS-Central" class="social-icon" target="_blank" aria-label="YouTube">
+            <svg viewBox="0 0 24 24"><path d="M23.498 6.163c-.272-1.021-1.026-1.824-2.009-2.093C19.721 3.7 12 3.7 12 3.7s-7.721 0-9.489.37c-.983.269-1.737 1.072-2.009 2.093C.13 7.91 0 12 0 12s0 4.09.512 5.837c.272 1.021 1.026 1.804 2.009 2.073C4.279 20.3 12 20.3 12 20.3s7.721 0 9.489-.37c.983-.269 1.737-1.052 2.009-2.073C23.87 16.09 24 12 24 12s0-4.09-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer-copyright">© 2025 CRS Central. All Rights Reserved. CRS Central is a brand owned and operated by CRS Chauhan Private Limited.</span>
+      <div class="footer-legal-links">
+        <a href="cancellation.html" data-i18n="footer-legal-cancellation">Cancellation Policy</a>
+        <a href="privacy.html" data-i18n="footer-legal-privacy">Privacy Policy</a>
+        <a href="refund.html" data-i18n="footer-legal-refund">Refund Policy</a>
+        <a href="terms.html" data-i18n="footer-legal-terms">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
