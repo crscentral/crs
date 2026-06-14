@@ -91,10 +91,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
   
-  // Close language selector when clicking outside
+  // Close language selector and nav dropdown when clicking outside
   document.addEventListener('click', () => {
     if (langSelector) {
       langSelector.classList.remove('open');
+    }
+    if (dropdownWrapper) {
+      dropdownWrapper.classList.remove('open');
     }
   });
 
@@ -158,14 +161,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Toggle dropdown on mobile
+  // Toggle dropdown on all devices (touch and click friendly)
   if (dropdownToggle && dropdownWrapper) {
     dropdownToggle.addEventListener('click', (e) => {
-      if (window.innerWidth <= 1024) {
-        e.preventDefault();
-        e.stopPropagation();
-        dropdownWrapper.classList.toggle('open');
-      }
+      e.preventDefault();
+      e.stopPropagation();
+      dropdownWrapper.classList.toggle('open');
     });
   }
 
