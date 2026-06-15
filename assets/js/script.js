@@ -15,7 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const labels = {
       'en': 'English',
       'th': 'ภาษาไทย',
-      'zh': '中文'
+      'zh': '中文',
+      'ar': 'العربية',
+      'vi': 'Tiếng Việt',
+      'km': 'ភាសាខ្មែរ'
     };
     langBtn.textContent = labels[lang] || 'English';
   }
@@ -27,6 +30,15 @@ document.addEventListener('DOMContentLoaded', () => {
     currentLang = lang;
     localStorage.setItem('crs_lang', lang);
     updateLangBtnLabel(lang);
+
+    // Dynamic RTL text direction support
+    if (lang === 'ar') {
+      document.documentElement.setAttribute('dir', 'rtl');
+      document.documentElement.setAttribute('lang', 'ar');
+    } else {
+      document.documentElement.setAttribute('dir', 'ltr');
+      document.documentElement.setAttribute('lang', lang);
+    }
     
     // Smooth transition
     const i18nElements = document.querySelectorAll('[data-i18n]');
