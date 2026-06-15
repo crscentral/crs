@@ -478,15 +478,8 @@ input, textarea, select {
 
 .hero-title span {
   color: var(--accent-color);
-  font-size: 0.8em;
   display: block;
   margin-top: 0.5rem;
-}
-
-@media (min-width: 768px) {
-  .hero-title span {
-    white-space: nowrap;
-  }
 }
 
 .hero-desc {
