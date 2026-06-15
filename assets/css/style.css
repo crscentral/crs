@@ -483,6 +483,12 @@ input, textarea, select {
   margin-top: 0.5rem;
 }
 
+@media (min-width: 768px) {
+  .hero-title span {
+    white-space: nowrap;
+  }
+}
+
 .hero-desc {
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.85);
