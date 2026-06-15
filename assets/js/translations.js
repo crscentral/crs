@@ -539,7 +539,18 @@ const translations = {
     "blog-5-title": "The Real Reason Pattaya Hotels Struggle During Low Season",
     "blog-5-desc": "Low season is not the enemy. Address correct demand forecasting and guest segmentation to maintain robust ADR in Pattaya.",
     "blog-7-title": "How Pattaya Hotels Can Increase Revenue by 18\u201330% With Proper Rate Fencing",
-    "blog-7-desc": "Implement logical fencing (booking conditions, non-refundable rates) to charge different prices to different segments."
+    "blog-7-desc": "Implement logical fencing (booking conditions, non-refundable rates) to charge different prices to different segments.",
+    "blog-back-hub": "← Back to Blog Hub",
+    "blog-recent-title": "Recent Articles",
+    "blog-sidebar-audit-title": "Free Revenue Audit",
+    "blog-sidebar-audit-desc": "Discover hidden revenue leaks and learn how to optimize your room rates. Get a professional report for your hotel.",
+    "blog-sidebar-audit-btn": "Request Free Audit",
+    "blog-cta-title": "Optimize Your Hotel's Commercial Performance",
+    "blog-cta-desc": "CRS Central (a Unit of CRS Chauhan Private Limited) is not just a consultant—we act as your extended revenue management partner. We work directly in your systems to optimize pricing, manage distribution, and maximize your profitability.",
+    "blog-cta-audit-btn": "Get a Free Revenue Audit Today",
+    "blog-cta-contact-btn": "Talk to our Experts",
+    "blog-nav-prev": "← Previous: ",
+    "blog-nav-next": "Next: "
   },
   
   th: {
@@ -1082,7 +1093,18 @@ const translations = {
     "blog-5-title": "สาเหตุที่แท้จริงที่โรงแรมในพัทยาต้องดิ้นรนในช่วงนอกฤดูกาลท่องเที่ยว",
     "blog-5-desc": "โลว์ซีซันไม่ใช่ศัตรู ปรับปรุงการคาดการณ์ความต้องการและการแบ่งส่วนตลาดลูกค้า เพื่อรักษาอัตรา ADR ที่เหมาะสมในพัทยา...",
     "blog-7-title": "วิธีการเพิ่มรายได้ 18-30% สำหรับโรงแรมในเมืองพัทยาด้วยระบบการจำกัดกลุ่มราคา",
-    "blog-7-desc": "เริ่มใช้งานการจำกัดกลุ่มราคาอย่างมีเหตุผล (เช่น เงื่อนไขการจอง, ราคาไม่คืนเงิน) เพื่อตั้งราคาสำหรับกลุ่มลูกค้าที่ต่างกัน..."
+    "blog-7-desc": "เริ่มใช้งานการจำกัดกลุ่มราคาอย่างมีเหตุผล (เช่น เงื่อนไขการจอง, ราคาไม่คืนเงิน) เพื่อตั้งราคาสำหรับกลุ่มลูกค้าที่ต่างกัน...",
+    "blog-back-hub": "← กลับไปยังหน้าบล็อก",
+    "blog-recent-title": "บทความล่าสุด",
+    "blog-sidebar-audit-title": "รับการตรวจสอบรายได้ฟรี",
+    "blog-sidebar-audit-desc": "ค้นหาจุดที่รายได้รั่วไหลและเรียนรู้วิธีเพิ่มประสิทธิภาพราคาห้องพักของคุณ รับรายงานระดับมืออาชีพสำหรับโรงแรมของคุณ",
+    "blog-sidebar-audit-btn": "ขอรับการตรวจสอบฟรี",
+    "blog-cta-title": "เพิ่มประสิทธิภาพการดำเนินงานเชิงพาณิชย์ของโรงแรมคุณ",
+    "blog-cta-desc": "CRS Central (หน่วยงานภายใต้ CRS Chauhan Private Limited) ไม่ใช่แค่ที่ปรึกษา แต่เราทำหน้าที่เป็นพันธมิตรด้านการบริหารรายได้ของคุณ เราทำงานโดยตรงในระบบของคุณเพื่อเพิ่มประสิทธิภาพการตั้งราคา จัดการการจำหน่ายช่องทางต่างๆ และเพิ่มผลกำไรสูงสุดให้กับคุณ",
+    "blog-cta-audit-btn": "รับการตรวจสอบรายได้ฟรีวันนี้",
+    "blog-cta-contact-btn": "พูดคุยกับผู้เชี่ยวชาญของเรา",
+    "blog-nav-prev": "← ก่อนหน้า: ",
+    "blog-nav-next": "ถัดไป: "
   },
   
   zh: {
@@ -1625,7 +1647,18 @@ const translations = {
     "blog-5-title": "芭提雅独立酒店淡季表现挣扎的深层根源及策略调整",
     "blog-5-desc": "淡季并非只有降价这一条绝路。学会预测细分商旅需求，通过合理套餐维系公开客房售价，才能保护好酒店的利润线。",
     "blog-7-title": "科学的价格限制如何让芭提雅酒店增收 18% 至 30%",
-    "blog-7-desc": "利用合理的隔离条件（预付不退款、连住天数、特定客源）隔离出不同消费特征的客户，拉开利润空间..."
+    "blog-7-desc": "利用合理的隔离条件（预付不退款、连住天数、特定客源）隔离出不同消费特征的客户，拉开利润空间...",
+    "blog-back-hub": "← 返回博客中心",
+    "blog-recent-title": "最新文章",
+    "blog-sidebar-audit-title": "免费收益审计",
+    "blog-sidebar-audit-desc": "发现隐藏的收益流失，并了解如何优化您的客房价格。为您的酒店获取专业报告。",
+    "blog-sidebar-audit-btn": "请求免费审计",
+    "blog-cta-title": "优化您酒店的商业业绩",
+    "blog-cta-desc": "CRS Central（CRS Chauhan Private Limited 旗下单位）不仅是顾问，我们还是您专属的收益管理合作伙伴。我们直接在您的系统中优化定价、分销并最大化您的利润。",
+    "blog-cta-audit-btn": "立即获取免费收益审计",
+    "blog-cta-contact-btn": "与我们的专家交流",
+    "blog-nav-prev": "← 上一篇: ",
+    "blog-nav-next": "下一篇: "
   },
 
 
@@ -2103,7 +2136,18 @@ const translations = {
     "blog-5-title": "السبب الحقيقي وراء معاناة فنادق باتايا خلال الموسم المنخفض",
     "blog-5-desc": "الموسم المنخفض ليس هو العدو. معالجة التنبؤ الصحيح بالطلب وتقسيم الضيوف للحفاظ على ADR قوي في باتايا.",
     "blog-7-title": "كيف يمكن لفنادق باتايا زيادة إيراداتها بنسبة 18\u201330% باستخدام سياج مناسب للمعدلات",
-    "blog-7-desc": "تنفيذ سياج منطقي (شروط الحجز، والأسعار غير القابلة للاسترداد) لفرض أسعار مختلفة على شرائح مختلفة."
+    "blog-7-desc": "تنفيذ سياج منطقي (شروط الحجز، والأسعار غير القابلة للاسترداد) لفرض أسعار مختلفة على شرائح مختلفة.",
+    "blog-back-hub": "← العودة إلى مركز المدونة",
+    "blog-recent-title": "المقالات الأخيرة",
+    "blog-sidebar-audit-title": "تدقيق مجاني للإيرادات",
+    "blog-sidebar-audit-desc": "اكتشف تسريبات الإيرادات الخفية وتعلم كيفية تحسين أسعار غرفك. احصل على تقرير احترافي لفندقك.",
+    "blog-sidebar-audit-btn": "طلب تدقيق مجاني",
+    "blog-cta-title": "تحسين الأداء التجاري لفندقك",
+    "blog-cta-desc": "إن CRS Central (التابعة لشركة CRS Chauhan Private Limited) ليست مجرد استشاري، بل نعمل كشريك ممتد لإدارة إيراداتك. نحن نعمل مباشرة في أنظمتك لتحسين التسعير وإدارة التوزيع وزيادة ربحيتك إلى أقصى حد.",
+    "blog-cta-audit-btn": "احصل على تدقيق مجاني للإيرادات اليوم",
+    "blog-cta-contact-btn": "تحدث إلى خبرائنا",
+    "blog-nav-prev": "← السابق: ",
+    "blog-nav-next": "التالي: "
   },
 
   vi: {
@@ -2580,7 +2624,18 @@ const translations = {
     "blog-5-title": "Lý do thực sự khiến khách sạn Pattaya gặp khó khăn trong mùa thấp điểm",
     "blog-5-desc": "Mùa thấp điểm không phải là kẻ thù. Giải quyết vấn đề dự báo nhu cầu và phân khúc khách một cách chính xác để duy trì ADR mạnh mẽ ở Pattaya.",
     "blog-7-title": "Làm thế nào các khách sạn ở Pattaya có thể tăng doanh thu lên 18\u201330% với hàng rào tỷ lệ phù hợp",
-    "blog-7-desc": "Triển khai các rào cản hợp lý (điều kiện đặt phòng, giá không hoàn tiền) để tính các mức giá khác nhau cho các phân khúc khác nhau."
+    "blog-7-desc": "Triển khai các rào cản hợp lý (điều kiện đặt phòng, giá không hoàn tiền) để tính các mức giá khác nhau cho các phân khúc khác nhau.",
+    "blog-back-hub": "← Quay lại trang Blog",
+    "blog-recent-title": "Bài viết gần đây",
+    "blog-sidebar-audit-title": "Đánh giá doanh thu miễn phí",
+    "blog-sidebar-audit-desc": "Khám phá các rò rỉ doanh thu ẩn và tìm hiểu cách tối ưu hóa giá phòng của bạn. Nhận báo cáo chuyên nghiệp cho khách sạn của bạn.",
+    "blog-sidebar-audit-btn": "Yêu cầu đánh giá miễn phí",
+    "blog-cta-title": "Tối ưu hóa hiệu suất thương mại của khách sạn",
+    "blog-cta-desc": "CRS Central (một đơn vị thuộc CRS Chauhan Private Limited) không chỉ là một nhà tư vấn—chúng tôi hoạt động như đối tác quản lý doanh thu mở rộng của bạn. Chúng tôi làm việc trực tiếp trong hệ thống của bạn để tối ưu hóa giá cả, quản lý phân phối và tối đa hóa lợi nhuận của bạn.",
+    "blog-cta-audit-btn": "Nhận đánh giá doanh thu miễn phí ngay hôm nay",
+    "blog-cta-contact-btn": "Trò chuyện với chuyên gia của chúng tôi",
+    "blog-nav-prev": "← Trước: ",
+    "blog-nav-next": "Tiếp theo: "
   },
 
   km: {
@@ -3057,6 +3112,17 @@ const translations = {
     "blog-5-title": "ហេតុផលពិតប្រាកដ សណ្ឋាគារប៉ាតាយ៉ាមានការតស៊ូក្នុងរដូវទាប",
     "blog-5-desc": "រដូវទាបមិនមែនជាសត្រូវទេ។ ដោះស្រាយការព្យាករណ៍តម្រូវការត្រឹមត្រូវ និងការបែងចែកភ្ញៀវដើម្បីរក្សា ADR ដ៏រឹងមាំនៅប៉ាតាយ៉ា។",
     "blog-7-title": "របៀបដែលសណ្ឋាគារប៉ាតាយ៉ាអាចបង្កើនប្រាក់ចំណូល 18\u201330% ជាមួយនឹងអត្រាសមរម្យ",
-    "blog-7-desc": "អនុវត្តការហ៊ុមព័ទ្ធបែបឡូជីខល (លក្ខខណ្ឌនៃការកក់ អត្រាមិនអាចដកវិញបាន) ដើម្បីគិតថ្លៃផ្សេងៗគ្នាទៅផ្នែកផ្សេងៗ។"
+    "blog-7-desc": "អនុវត្តការហ៊ុមព័ទ្ធបែបឡូជីខល (លក្ខខណ្ឌនៃការកក់ អត្រាមិនអាចដកវិញបាន) ដើម្បីគិតថ្លៃផ្សេងៗគ្នាទៅផ្នែកផ្សេងៗ។",
+    "blog-back-hub": "← ត្រឡប់ទៅប្លុកវិញ",
+    "blog-recent-title": "អត្ថបទថ្មីៗ",
+    "blog-sidebar-audit-title": "សវនកម្មចំណូលឥតគិតថ្លៃ",
+    "blog-sidebar-audit-desc": "ស្វែងរកការលេចធ្លាយចំណូលដែលលាក់កំបាំង និងស្វែងយល់ពីរបៀបបង្កើនប្រសិទ្ធភាពតម្លៃបន្ទប់របស់អ្នក។ ទទួលបានរបាយការណ៍វិជ្ជាជីវៈសម្រាប់សណ្ឋាគាររបស់អ្នក។",
+    "blog-sidebar-audit-btn": "ស្នើសុំសវនកម្មឥតគិតថ្លៃ",
+    "blog-cta-title": "បង្កើនប្រសិទ្ធភាពការងារពាណិជ្ជកម្មសណ្ឋាគាររបស់អ្នក",
+    "blog-cta-desc": "CRS Central (ជាផ្នែកមួយនៃ CRS Chauhan Private Limited) មិនមែនគ្រាន់តែជាអ្នកប្រឹក្សាយោបល់នោះទេ—យើងដើរតួជាដៃគូគ្រប់គ្រងចំណូលបន្ថែមរបស់អ្នក។ យើងធ្វើការដោយផ្ទាល់នៅក្នុងប្រព័ន្ធរបស់អ្នកដើម្បីបង្កើនប្រសិទ្ធភាពតម្លៃ គ្រប់គ្រងការចែកចាយ និងបង្កើនប្រាក់ចំណេញរបស់អ្នក។",
+    "blog-cta-audit-btn": "ទទួលបានសវនកម្មចំណូលឥតគិតថ្លៃថ្ងៃនេះ",
+    "blog-cta-contact-btn": "ពិភាក្សាជាមួយអ្នកជំនាញរបស់យើង",
+    "blog-nav-prev": "← មុន: ",
+    "blog-nav-next": "បន្ទាប់: "
   },
 };

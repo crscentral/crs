@@ -70,6 +70,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
 
+      // Dynamic page title translation for articles
+      const blogArticleTitleEl = document.querySelector('article h1[data-i18n]');
+      if (blogArticleTitleEl) {
+        const key = blogArticleTitleEl.getAttribute('data-i18n');
+        if (translations[lang][key]) {
+          document.title = translations[lang][key] + " — CRS Central";
+        }
+      }
+
       // Refresh calculator text outputs with translated period indicators
       if (typeof calculateUplift === 'function') {
         calculateUplift();
