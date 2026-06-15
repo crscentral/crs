@@ -122,6 +122,141 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  // ==========================================================================
+  // 1.5. Dynamic Elements Injection (WhatsApp & Cookie Consent)
+  // ==========================================================================
+  
+  // A. Prominent Floating WhatsApp Button
+  const whatsappFloat = document.createElement('a');
+  whatsappFloat.href = 'https://wa.me/66990143142';
+  whatsappFloat.target = '_blank';
+  whatsappFloat.rel = 'noopener noreferrer';
+  whatsappFloat.className = 'whatsapp-float';
+  whatsappFloat.setAttribute('aria-label', 'Chat on WhatsApp');
+  whatsappFloat.innerHTML = `
+    <span class="whatsapp-badge" data-i18n="whatsapp-badge">
+      Chat with us!
+    </span>
+    <svg viewBox="0 0 24 24" class="whatsapp-icon">
+      <path fill="#ffffff" d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.964 9.964 0 0 0 1.333 4.993L2 22l5.233-1.371a9.936 9.936 0 0 0 4.777 1.216h.005c5.505 0 9.989-4.478 9.99-9.984 0-2.669-1.037-5.176-2.922-7.062C17.198 2.914 14.69 2.003 12.012 2zm5.726 14.126c-.253.712-1.256 1.309-1.72 1.414-.465.105-.91.147-2.812-.605-2.433-.962-3.99-3.43-4.11-3.593-.122-.162-1.002-1.332-1.002-2.54 0-1.21.632-1.804.856-2.046.225-.242.49-.302.653-.302.164 0 .328.001.47.009.15.008.354-.057.555.424.201.483.693 1.688.754 1.808.06.12.101.26.02.422-.08.162-.122.262-.243.402-.12.14-.256.312-.366.42-.12.116-.246.242-.106.483.14.241.623 1.026 1.335 1.66.918.816 1.69 1.07 1.936 1.19.246.12.39.102.533-.06.143-.162.613-.714.777-.957.164-.241.328-.201.554-.117.227.085 1.432.677 1.678.799.246.122.41.18.47.288.061.108.061.624-.192 1.336z"/>
+    </svg>
+  `;
+  document.body.appendChild(whatsappFloat);
+
+  // B. Cookie Consent Banner Dynamic Creation
+  const hasCookieConsent = localStorage.getItem('crs_cookies_accepted');
+  if (!hasCookieConsent) {
+    const cookieBanner = document.createElement('div');
+    cookieBanner.className = 'cookie-banner';
+    cookieBanner.id = 'cookieBanner';
+    cookieBanner.innerHTML = `
+      <div class="cookie-content">
+        <div class="cookie-header">
+          <svg class="cookie-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5Z"/>
+            <circle cx="12" cy="12" r="1" fill="currentColor"/>
+            <circle cx="16" cy="16" r="1" fill="currentColor"/>
+            <circle cx="8" cy="16" r="1" fill="currentColor"/>
+            <circle cx="9" cy="9" r="1" fill="currentColor"/>
+          </svg>
+          <h4 data-i18n="cookie-title">We use cookies</h4>
+        </div>
+        <p class="cookie-text" data-i18n="cookie-desc">This website uses cookies to ensure you get the best experience.</p>
+        
+        <div class="cookie-preferences" id="cookiePreferences" style="display: none;">
+          <div class="cookie-pref-item">
+            <div class="cookie-pref-info">
+              <span class="cookie-pref-name" data-i18n="cookie-pref-necessary">Necessary Cookies</span>
+              <span class="cookie-pref-desc" data-i18n="cookie-pref-necessary-desc">Required for core website functionality like language settings.</span>
+            </div>
+            <label class="cookie-switch">
+              <input type="checkbox" checked disabled>
+              <span class="cookie-slider"></span>
+            </label>
+          </div>
+          <div class="cookie-pref-item">
+            <div class="cookie-pref-info">
+              <span class="cookie-pref-name" data-i18n="cookie-pref-analytics">Analytics & Performance</span>
+              <span class="cookie-pref-desc" data-i18n="cookie-pref-analytics-desc">Help us understand website traffic and usage.</span>
+            </div>
+            <label class="cookie-switch">
+              <input type="checkbox" id="cookiePrefAnalytics" checked>
+              <span class="cookie-slider"></span>
+            </label>
+          </div>
+          <div class="cookie-pref-item">
+            <div class="cookie-pref-info">
+              <span class="cookie-pref-name" data-i18n="cookie-pref-marketing">Marketing & Ads</span>
+              <span class="cookie-pref-desc" data-i18n="cookie-pref-marketing-desc">Used to deliver relevant advertisements.</span>
+            </div>
+            <label class="cookie-switch">
+              <input type="checkbox" id="cookiePrefMarketing" checked>
+              <span class="cookie-slider"></span>
+            </label>
+          </div>
+          <button class="cookie-btn cookie-btn-save" id="cookieSaveBtn" data-i18n="cookie-save">Save Settings</button>
+        </div>
+
+        <div class="cookie-actions" id="cookieMainActions">
+          <button class="cookie-btn cookie-btn-accept" id="cookieAcceptBtn" data-i18n="cookie-accept">Accept All</button>
+          <button class="cookie-btn cookie-btn-reject" id="cookieRejectBtn" data-i18n="cookie-reject">Reject All</button>
+          <button class="cookie-btn cookie-btn-manage" id="cookieManageBtn" data-i18n="cookie-manage">Manage Preferences</button>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(cookieBanner);
+
+    // Event Listeners for Cookie Banner
+    const acceptBtn = document.getElementById('cookieAcceptBtn');
+    const rejectBtn = document.getElementById('cookieRejectBtn');
+    const manageBtn = document.getElementById('cookieManageBtn');
+    const saveBtn = document.getElementById('cookieSaveBtn');
+    const prefDiv = document.getElementById('cookiePreferences');
+
+    const closeBanner = (consentType, analyticsConsent, marketingConsent) => {
+      localStorage.setItem('crs_cookies_accepted', consentType);
+      localStorage.setItem('crs_cookie_consent_analytics', analyticsConsent);
+      localStorage.setItem('crs_cookie_consent_marketing', marketingConsent);
+      cookieBanner.classList.remove('show');
+      setTimeout(() => {
+        cookieBanner.remove();
+      }, 400);
+    };
+
+    if (acceptBtn) {
+      acceptBtn.addEventListener('click', () => {
+        closeBanner('all', 'true', 'true');
+      });
+    }
+
+    if (rejectBtn) {
+      rejectBtn.addEventListener('click', () => {
+        closeBanner('essential', 'false', 'false');
+      });
+    }
+
+    if (manageBtn) {
+      manageBtn.addEventListener('click', () => {
+        prefDiv.style.display = 'flex';
+        manageBtn.style.display = 'none';
+      });
+    }
+
+    if (saveBtn) {
+      saveBtn.addEventListener('click', () => {
+        const analytics = document.getElementById('cookiePrefAnalytics').checked ? 'true' : 'false';
+        const marketing = document.getElementById('cookiePrefMarketing').checked ? 'true' : 'false';
+        const type = (analytics === 'true' && marketing === 'true') ? 'all' : 'custom';
+        closeBanner(type, analytics, marketing);
+      });
+    }
+
+    // Show banner with delay
+    setTimeout(() => {
+      cookieBanner.classList.add('show');
+    }, 1500);
+  }
+
   // Apply default language on load
   if (typeof translations !== 'undefined') {
     setLanguage(currentLang);
@@ -664,21 +799,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial rates load & setup
     fetchLiveExchangeRates();
   }
-
-  // ==========================================================================
-  // 7. Floating WhatsApp Button
-  // ==========================================================================
-  const whatsappBtn = document.createElement('a');
-  whatsappBtn.href = 'https://wa.me/66990143142';
-  whatsappBtn.target = '_blank';
-  whatsappBtn.rel = 'noopener noreferrer';
-  whatsappBtn.className = 'whatsapp-float';
-  whatsappBtn.setAttribute('aria-label', 'Chat on WhatsApp');
-  whatsappBtn.innerHTML = `
-    <svg viewBox="0 0 24 24" class="whatsapp-icon">
-      <path fill="#ffffff" d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.964 9.964 0 0 0 1.333 4.993L2 22l5.233-1.371a9.936 9.936 0 0 0 4.777 1.216h.005c5.505 0 9.989-4.478 9.99-9.984 0-2.669-1.037-5.176-2.922-7.062C17.198 2.914 14.69 2.003 12.012 2zm5.726 14.126c-.253.712-1.256 1.309-1.72 1.414-.465.105-.91.147-2.812-.605-2.433-.962-3.99-3.43-4.11-3.593-.122-.162-1.002-1.332-1.002-2.54 0-1.21.632-1.804.856-2.046.225-.242.49-.302.653-.302.164 0 .328.001.47.009.15.008.354-.057.555.424.201.483.693 1.688.754 1.808.06.12.101.26.02.422-.08.162-.122.262-.243.402-.12.14-.256.312-.366.42-.12.116-.246.242-.106.483.14.241.623 1.026 1.335 1.66.918.816 1.69 1.07 1.936 1.19.246.12.39.102.533-.06.143-.162.613-.714.777-.957.164-.241.328-.201.554-.117.227.085 1.432.677 1.678.799.246.122.41.18.47.288.061.108.061.624-.192 1.336z"/>
-    </svg>
-    <span class="whatsapp-tooltip">Chat on WhatsApp</span>
-  `;
-  document.body.appendChild(whatsappBtn);
 });

@@ -550,7 +550,20 @@ const translations = {
     "blog-cta-audit-btn": "Get a Free Revenue Audit Today",
     "blog-cta-contact-btn": "Talk to our Experts",
     "blog-nav-prev": "← Previous: ",
-    "blog-nav-next": "Next: "
+    "blog-nav-next": "Next: ",
+    "cookie-title": "We use cookies",
+    "cookie-desc": "This website uses cookies to ensure you get the best experience.",
+    "cookie-accept": "Accept All",
+    "cookie-reject": "Reject All",
+    "cookie-manage": "Manage Preferences",
+    "cookie-pref-necessary": "Necessary Cookies",
+    "cookie-pref-necessary-desc": "Required for core website functionality like language settings.",
+    "cookie-pref-analytics": "Analytics & Performance",
+    "cookie-pref-analytics-desc": "Help us understand website traffic and usage.",
+    "cookie-pref-marketing": "Marketing & Ads",
+    "cookie-pref-marketing-desc": "Used to deliver relevant advertisements.",
+    "cookie-save": "Save Settings",
+    "whatsapp-badge": "Chat with us!"
   },
   
   th: {
@@ -1104,7 +1117,20 @@ const translations = {
     "blog-cta-audit-btn": "รับการตรวจสอบรายได้ฟรีวันนี้",
     "blog-cta-contact-btn": "พูดคุยกับผู้เชี่ยวชาญของเรา",
     "blog-nav-prev": "← ก่อนหน้า: ",
-    "blog-nav-next": "ถัดไป: "
+    "blog-nav-next": "ถัดไป: ",
+    "cookie-title": "เราใช้คุกกี้",
+    "cookie-desc": "เว็บไซต์นี้ใช้คุกกี้เพื่อรับประกันว่าคุณจะได้รับประสบการณ์ที่ดีที่สุดในการใช้งาน",
+    "cookie-accept": "ยอมรับทั้งหมด",
+    "cookie-reject": "ปฏิเสธทั้งหมด",
+    "cookie-manage": "จัดการการตั้งค่า",
+    "cookie-pref-necessary": "คุกกี้ที่จำเป็น",
+    "cookie-pref-necessary-desc": "จำเป็นสำหรับการทำงานหลักของเว็บไซต์ เช่น การตั้งค่าภาษาและแบบฟอร์ม",
+    "cookie-pref-analytics": "คุกกี้เพื่อการวิเคราะห์และประสิทธิภาพ",
+    "cookie-pref-analytics-desc": "ช่วยให้เราเข้าใจจำนวนผู้เข้าชมและการใช้งานเว็บไซต์เพื่อนำไปปรับปรุงประสิทธิภาพ",
+    "cookie-pref-marketing": "คุกกี้การตลาดและโฆษณา",
+    "cookie-pref-marketing-desc": "ใช้เพื่อนำเสนอโฆษณาที่เกี่ยวข้องกับความสนใจของคุณ",
+    "cookie-save": "บันทึกการตั้งค่า",
+    "whatsapp-badge": "คุยกับเรา!"
   },
   
   zh: {
@@ -1658,7 +1684,20 @@ const translations = {
     "blog-cta-audit-btn": "立即获取免费收益审计",
     "blog-cta-contact-btn": "与我们的专家交流",
     "blog-nav-prev": "← 上一篇: ",
-    "blog-nav-next": "下一篇: "
+    "blog-nav-next": "下一篇: ",
+    "cookie-title": "我们使用 Cookie",
+    "cookie-desc": "本网站使用 Cookie 以确保您获得最佳的浏览体验。",
+    "cookie-accept": "接受全部",
+    "cookie-reject": "拒绝全部",
+    "cookie-manage": "管理偏好设置",
+    "cookie-pref-necessary": "必要 Cookie",
+    "cookie-pref-necessary-desc": "网站核心功能（如语言设置和表单）所必需。",
+    "cookie-pref-analytics": "分析与性能 Cookie",
+    "cookie-pref-analytics-desc": "帮助我们了解网站流量和使用情况，以改进网站性能。",
+    "cookie-pref-marketing": "营销与广告 Cookie",
+    "cookie-pref-marketing-desc": "用于向您投放相关的广告。",
+    "cookie-save": "保存设置",
+    "whatsapp-badge": "在线咨询!"
   },
 
 
@@ -2147,7 +2186,20 @@ const translations = {
     "blog-cta-audit-btn": "احصل على تدقيق مجاني للإيرادات اليوم",
     "blog-cta-contact-btn": "تحدث إلى خبرائنا",
     "blog-nav-prev": "← السابق: ",
-    "blog-nav-next": "التالي: "
+    "blog-nav-next": "التالي: ",
+    "cookie-title": "نحن نستخدم ملفات تعريف الارتباط",
+    "cookie-desc": "يستخدم هذا الموقع ملفات تعريف الارتباط (Cookies) لضمان حصولك على أفضل تجربة تصفح.",
+    "cookie-accept": "قبول الكل",
+    "cookie-reject": "رفض الكل",
+    "cookie-manage": "إدارة التفضيلات",
+    "cookie-pref-necessary": "ملفات تعريف الارتباط الضرورية",
+    "cookie-pref-necessary-desc": "مطلوبة لتشغيل الوظائف الأساسية للموقع مثل إعدادات اللغة والنماذج.",
+    "cookie-pref-analytics": "ملفات تعريف الارتباط للتحليل والأداء",
+    "cookie-pref-analytics-desc": "تساعدنا في فهم حركة المرور على الموقع وكيفية استخدامه لتحسين الأداء.",
+    "cookie-pref-marketing": "ملفات تعريف الارتباط للتسويق والإعلانات",
+    "cookie-pref-marketing-desc": "تُستخدم لتقديم إعلانات مخصصة وملائمة لاهتماماتك.",
+    "cookie-save": "حفظ الإعدادات",
+    "whatsapp-badge": "تواصل معنا!"
   },
 
   vi: {
@@ -2635,7 +2687,20 @@ const translations = {
     "blog-cta-audit-btn": "Nhận đánh giá doanh thu miễn phí ngay hôm nay",
     "blog-cta-contact-btn": "Trò chuyện với chuyên gia của chúng tôi",
     "blog-nav-prev": "← Trước: ",
-    "blog-nav-next": "Tiếp theo: "
+    "blog-nav-next": "Tiếp theo: ",
+    "cookie-title": "Chúng tôi sử dụng cookie",
+    "cookie-desc": "Trang web này sử dụng cookie để đảm bảo bạn có được trải nghiệm tốt nhất trên trang web của chúng tôi.",
+    "cookie-accept": "Chấp nhận tất cả",
+    "cookie-reject": "Từ chối tất cả",
+    "cookie-manage": "Quản lý tùy chọn",
+    "cookie-pref-necessary": "Cookie cần thiết",
+    "cookie-pref-necessary-desc": "Cần thiết cho các chức năng cốt lõi của trang web như cài đặt ngôn ngữ và gửi biểu mẫu.",
+    "cookie-pref-analytics": "Cookie phân tích & hiệu suất",
+    "cookie-pref-analytics-desc": "Giúp chúng tôi hiểu lưu lượng truy cập và cách người dùng tương tác với trang web để cải thiện hiệu suất.",
+    "cookie-pref-marketing": "Cookie tiếp thị & quảng cáo",
+    "cookie-pref-marketing-desc": "Được sử dụng để hiển thị các quảng cáo phù hợp hơn với sở thích của bạn.",
+    "cookie-save": "Lưu cài đặt",
+    "whatsapp-badge": "Trò chuyện với chúng tôi!"
   },
 
   km: {
@@ -3123,6 +3188,19 @@ const translations = {
     "blog-cta-audit-btn": "ទទួលបានសវនកម្មចំណូលឥតគិតថ្លៃថ្ងៃនេះ",
     "blog-cta-contact-btn": "ពិភាក្សាជាមួយអ្នកជំនាញរបស់យើង",
     "blog-nav-prev": "← មុន: ",
-    "blog-nav-next": "បន្ទាប់: "
+    "blog-nav-next": "បន្ទាប់: ",
+    "cookie-title": "យើងប្រើប្រាស់ Cookies",
+    "cookie-desc": "គេហទំព័រនេះប្រើប្រាស់ cookies ដើម្បីធានាថាអ្នកទទួលបានបទពិសោធន៍ល្អបំផុត។",
+    "cookie-accept": "យល់ព្រមទាំងអស់",
+    "cookie-reject": "បដិសេធទាំងអស់",
+    "cookie-manage": "គ្រប់គ្រងចំណូលចិត្ត",
+    "cookie-pref-necessary": "Cookies ចាំបាច់",
+    "cookie-pref-necessary-desc": "តម្រូវឱ្យមានសម្រាប់មុខងារស្នូលនៃគេហទំព័រ ដូចជាការកំណត់ភាសា និងការផ្ញើទម្រង់ជាដើម។",
+    "cookie-pref-analytics": "Cookies វិភាគ និងការអនុវត្ត",
+    "cookie-pref-analytics-desc": "ជួយយើងឱ្យយល់ពីចរាចរណ៍គេហទំព័រ និងរបៀបដែលអ្នកប្រើប្រាស់ធ្វើអន្តរកម្មជាមួយគេហទំព័រដើម្បីកែលម្អការអនុវត្ត។",
+    "cookie-pref-marketing": "Cookies ទីផ្សារ និងការផ្សាយពาណិជ្ជកម្ម",
+    "cookie-pref-marketing-desc": "ប្រើដើម្បីបង្ហាញការផ្សាយពាណិជ្ជកម្មដែលពាក់ព័ន្ធទៅនឹងចំណាប់អារម្មណ៍របស់អ្នក។",
+    "cookie-save": "រក្សាទុកការកំណត់",
+    "whatsapp-badge": "ជជែកជាមួយយើង!"
   },
 };
