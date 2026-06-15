@@ -279,6 +279,35 @@ document.addEventListener('DOMContentLoaded', () => {
     homeAuditForm.addEventListener('submit', (e) => handleFormSubmit(e, homeAuditForm));
   }
 
+  // Auto-fill https:// for Hotel Website input field
+  const hotelWebsiteInput = document.getElementById('hotelWebsite');
+  if (hotelWebsiteInput) {
+    hotelWebsiteInput.addEventListener('focus', function() {
+      if (!this.value.trim()) {
+        this.value = 'https://';
+      }
+    });
+
+    hotelWebsiteInput.addEventListener('input', function() {
+      const val = this.value.trim();
+      if (!val) return;
+
+      const hasProtocol = /^https?:\/\//i.test(val);
+      const isPrefix = 'https://'.startsWith(val.toLowerCase()) || 'http://'.startsWith(val.toLowerCase());
+
+      if (!hasProtocol && !isPrefix) {
+        this.value = 'https://' + val;
+      }
+    });
+
+    hotelWebsiteInput.addEventListener('blur', function() {
+      const val = this.value.trim();
+      if (val === 'https://' || val === 'http://') {
+        this.value = '';
+      }
+    });
+  }
+
   // ==========================================================================
   // 6.5. Revenue Growth Calculator Integration with Live Currency Rates
   // ==========================================================================
