@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://chauhanshideaway.com/sitemap.xml
+Sitemap: https://crscentral.com/sitemap.xml
