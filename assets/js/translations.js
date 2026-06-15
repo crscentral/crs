@@ -32,7 +32,7 @@ const translations = {
     "form-success-desc": "Your request has been received. Our specialists will review your details and get back to you within 24 hours.",
     
     // Page: Home
-    "home-hero-title": "Hotel Revenue Management Consultancy <span>— Thailand, Laos & <br>Southeast Asia.</span>",
+    "home-hero-title": "Hotel Revenue <br> Management Consultancy <span>— Thailand, Laos & <br>Southeast Asia.</span>",
     "home-hero-desc": "CRS Central delivers expert hotel revenue management in Thailand, Laos & Southeast Asia — dynamic pricing, OTA optimization & reservations outsourcing for Independent hotels.",
     "home-hero-sub": "We bring the revenue intelligence of five-star hotel chains directly to your independent property — at a fraction of the cost, and without the hassle of hiring a full team. We are your Central Revenue & Reservations Partner for Smarter Pricing and Higher Profitability.",
     "home-hero-cta1": "Book Your FREE Revenue Audit →",
@@ -599,7 +599,7 @@ const translations = {
     "form-success-desc": "เราได้รับคำขอของคุณเรียบร้อยแล้ว เจ้าหน้าที่ผู้เชี่ยวชาญจะติดต่อกลับหาคุณภายใน 24 ชั่วโมง",
     
     // Page: Home
-    "home-hero-title": "บริษัทที่ปรึกษาด้านการจัดการรายได้โรงแรม <span>— ไทย ลาว <br>และเอเชียตะวันออกเฉียงใต้</span>",
+    "home-hero-title": "บริษัทที่ปรึกษา <br> ด้านการจัดการรายได้โรงแรม <span>— ไทย ลาว <br>และเอเชียตะวันออกเฉียงใต้</span>",
     "home-hero-desc": "CRS Central มอบการจัดการรายได้โรงแรมโดยผู้เชี่ยวชาญในไทย ลาว และเอเชียตะวันออกเฉียงใต้ — ทั้งการกำหนดราคาแบบไดนามิก การเพิ่มประสิทธิภาพ OTA และการเอาท์ซอร์สการรับจองห้องพักสำหรับโรงแรมอิสระ",
     "home-hero-sub": "เรานำระบบวิเคราะห์ข้อมูลและเทคโนโลยีการบริหารรายได้ของโรงแรมห้าดาวมาสู่โรงแรมอิสระของคุณโดยตรง ในราคาที่ประหยัดกว่าการจ้างทีมงานเต็มเวลาด้วยตนเองอย่างมหาศาล เราคือพันธมิตรผู้ดูแลการจัดการรายได้และการจองห้องพักส่วนกลางของคุณ เพื่อการกำหนดราคาที่ชาญฉลาดและผลกำไรที่สูงขึ้น",
     "home-hero-cta1": "วิเคราะห์รายได้โรงแรมฟรี →",
@@ -1166,7 +1166,7 @@ const translations = {
     "form-success-desc": "我们已收到您的申请。我们的收益专家将评估您的酒店信息，并在24小时内与您联系。",
     
     // Page: Home
-    "home-hero-title": "酒店收益管理咨询公司 <span>— 泰国、老挝<br>和东南亚。</span>",
+    "home-hero-title": "酒店收益管理 <br> 咨询公司 <span>— 泰国、老挝<br>和东南亚。</span>",
     "home-hero-desc": "CRS Central 在泰国、老挝和东南亚提供专业的酒店收益管理服务 — 为独立酒店提供动态定价、OTA 优化和预订外包服务。",
     "home-hero-sub": "我们将五星级连锁酒店的收益智能直接带到您的独立酒店 — 费用仅为聘请全职团队的一小部分，且免去人员流失与培训的烦恼。我们是您的中央收益与预订合作伙伴，致力于实现更智能的定价和更高的利润率。",
     "home-hero-cta1": "立即申请免费收益审计 →",
@@ -1727,7 +1727,7 @@ const translations = {
     "form-audit-submit": "أرسل طلب التدقيق الخاص بك",
     "form-success-title": "شكرًا لك!",
     "form-success-desc": "لقد تم استلام طلبك. سيقوم المتخصصون لدينا بمراجعة التفاصيل الخاصة بك والرد عليك في غضون 24 ساعة.",
-    "home-hero-title": "شركة استشارات إدارة إيرادات الفنادق <span>— تايلاند ولاوس <br>وجنوب شرق آسيا.</span>",
+    "home-hero-title": "شركة استشارات <br> إدارة إيرادات الفنادق <span>— تايلاند ولاوس <br>وجنوب شرق آسيا.</span>",
     "home-hero-desc": "تقدم CRS Central إدارة احترافية لإيرادات الفنادق في تايلاند ولاوس وجنوب شرق آسيا — تسعير ديناميكي، وتحسين قنوات الحجز الإلكتروني (OTA)، وتعهيد الحجوزات للفنادق المستقلة.",
     "home-hero-sub": "نوفر المعلومات المتعلقة بإيرادات سلاسل الفنادق من فئة الخمس نجوم مباشرة إلى ممتلكاتك المستقلة - بجزء بسيط من التكلفة، ودون متاعب توظيف فريق كامل. نحن شريكك المركزي في الإيرادات والحجوزات للحصول على أسعار أكثر ذكاءً وربحية أعلى.",
     "home-hero-cta1": "احجز تدقيق الإيرادات المجاني الخاص بك →",
@@ -2228,7 +2228,7 @@ const translations = {
     "form-audit-submit": "Gửi yêu cầu kiểm tra của bạn",
     "form-success-title": "Cảm ơn!",
     "form-success-desc": "Yêu cầu của bạn đã được nhận. Các chuyên gia của chúng tôi sẽ xem xét thông tin chi tiết của bạn và liên hệ lại với bạn trong vòng 24 giờ.",
-    "home-hero-title": "Công ty Tư vấn Quản lý Doanh thu Khách sạn <span>— Thái Lan, Lào <br>& Đông Nam Á.</span>",
+    "home-hero-title": "Công ty Tư vấn <br> Quản lý Doanh thu Khách sạn <span>— Thái Lan, Lào <br>& Đông Nam Á.</span>",
     "home-hero-desc": "CRS Central cung cấp giải pháp quản lý doanh thu khách sạn chuyên nghiệp tại Thái Lan, Lào & Đông Nam Á — định giá linh hoạt, tối ưu hóa OTA & thuê ngoài dịch vụ đặt phòng cho các khách sạn độc lập.",
     "home-hero-sub": "Chúng tôi mang thông tin doanh thu của các chuỗi khách sạn 5 sao trực tiếp đến cơ sở kinh doanh độc lập của bạn — với chi phí thấp và không gặp rắc rối khi thuê cả nhóm. Chúng tôi là Đối tác đặt chỗ và doanh thu trung tâm của bạn để định giá thông minh hơn và mang lại lợi nhuận cao hơn.",
     "home-hero-cta1": "Đặt lịch kiểm tra doanh thu MIỄN PHÍ của bạn →",
@@ -2729,7 +2729,7 @@ const translations = {
     "form-audit-submit": "ដាក់ស្នើសំណើសវនកម្មរបស់អ្នក។",
     "form-success-title": "សូមអរគុណ!",
     "form-success-desc": "សំណើរបស់អ្នកត្រូវបានទទួល។ អ្នកឯកទេសរបស់យើងនឹងពិនិត្យមើលព័ត៌មានលម្អិតរបស់អ្នក ហើយត្រលប់មកអ្នកវិញក្នុងរយៈពេល 24 ម៉ោង។",
-    "home-hero-title": "ក្រុមហ៊ុនប្រឹក្សាយោបល់គ្រប់គ្រងចំណូលសណ្ឋាគារ <span>— ប្រទេសថៃ ឡាវ <br>និងអាស៊ីអាគ្នេយ៍។</span>",
+    "home-hero-title": "ក្រុមហ៊ុនប្រឹក្សាយោបល់ <br> គ្រប់គ្រងចំណូលសណ្ឋាគារ <span>— ប្រទេសថៃ ឡាវ <br>និងអាស៊ីអាគ្នេយ៍។</span>",
     "home-hero-desc": "CRS Central ផ្តល់ជូននូវการគ្រប់គ្រងចំណូលសណ្ឋាគារលំដាប់ជំនាញក្នុងប្រទេសថៃ ឡាវ និងអាស៊ីអាគ្នេយ៍ — ការកំណត់តម្លៃឌីណាមិក ការធ្វើឱ្យប្រសើរឡើងនូវ OTA និងការទទួលការកក់ពីក្រៅសម្រាប់សណ្ឋាគារឯករាជ្យ។",
     "home-hero-sub": "យើងនាំមកនូវភាពវៃឆ្លាតនៃប្រាក់ចំណូលនៃបណ្តាញសណ្ឋាគារលំដាប់ផ្កាយប្រាំដោយផ្ទាល់ទៅកាន់អចលនទ្រព្យឯករាជ្យរបស់អ្នក — ដោយប្រភាគនៃការចំណាយ និងដោយគ្មានការរំខានក្នុងការជួលក្រុមពេញលេញ។ យើងគឺជាដៃគូរចំណូល និងកក់កណ្តាលរបស់អ្នកសម្រាប់តម្លៃឆ្លាតវៃ និងប្រាក់ចំណេញខ្ពស់ជាង។",
     "home-hero-cta1": "កក់ សវនកម្មប្រាក់ចំណូលឥតគិតថ្លៃរបស់អ្នក →",
