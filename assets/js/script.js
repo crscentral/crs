@@ -285,6 +285,10 @@ document.addEventListener('DOMContentLoaded', () => {
     hotelWebsiteInput.addEventListener('focus', function() {
       if (!this.value.trim()) {
         this.value = 'https://';
+        // Place cursor at the end of "https://"
+        setTimeout(() => {
+          this.setSelectionRange(this.value.length, this.value.length);
+        }, 10);
       }
     });
 
@@ -297,6 +301,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (!hasProtocol && !isPrefix) {
         this.value = 'https://' + val;
+        // Keep the text cursor at the end of the input
+        this.setSelectionRange(this.value.length, this.value.length);
       }
     });
 
@@ -304,6 +310,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const val = this.value.trim();
       if (val === 'https://' || val === 'http://') {
         this.value = '';
+      } else if (val && !/^https?:\/\//i.test(val)) {
+        this.value = 'https://' + val;
       }
     });
   }
