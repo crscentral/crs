@@ -331,9 +331,13 @@ document.addEventListener('DOMContentLoaded', () => {
   // ==========================================================================
   const currentPath = window.location.pathname;
   const pageName = currentPath.substring(currentPath.lastIndexOf('/') + 1);
-  const activeLink = document.querySelector(`.nav-link[href="${pageName}"]`) || 
-                     document.querySelector(`.nav-dropdown-item[href="${pageName}"]`) ||
-                     (pageName === '' ? document.querySelector('.nav-link[href="index.html"]') : null);
+    let activePage = pageName;
+  if (pageName === 'index.html' || pageName === '') {
+    activePage = './';
+  }
+  const activeLink = document.querySelector(`.nav-link[href="${activePage}"]`) || 
+                     document.querySelector(`.nav-dropdown-item[href="${activePage}"]`) ||
+                     (activePage === './' ? document.querySelector('.nav-link[href="./"]') : null);
   
   if (activeLink) {
     activeLink.classList.add('active');
