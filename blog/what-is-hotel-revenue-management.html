@@ -1,6 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Consent Mode (GTM Integration) -->
+  <script>
+    (function() {
+      var analytics = localStorage.getItem('crs_cookie_consent_analytics') === 'true';
+      var marketing = localStorage.getItem('crs_cookie_consent_marketing') === 'true';
+      var accepted = localStorage.getItem('crs_cookies_accepted');
+      var analyticsStatus = (accepted === 'all' || (accepted === 'custom' && analytics)) ? 'granted' : 'denied';
+      var marketingStatus = (accepted === 'all' || (accepted === 'custom' && marketing)) ? 'granted' : 'denied';
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('consent', 'default', {
+        'analytics_storage': analyticsStatus,
+        'ad_storage': marketingStatus,
+        'ad_user_data': marketingStatus,
+        'ad_personalization': marketingStatus
+      });
+      if (accepted) {
+        gtag('consent', 'update', {
+          'analytics_storage': analyticsStatus,
+          'ad_storage': marketingStatus,
+          'ad_user_data': marketingStatus,
+          'ad_personalization': marketingStatus
+        });
+        window.dataLayer.push({
+          'event': 'cookie_consent_loaded',
+          'consent_analytics': analyticsStatus,
+          'consent_marketing': marketingStatus
+        });
+      }
+    })();
+  </script>
+  <!-- End Google Consent Mode -->
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

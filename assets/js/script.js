@@ -217,6 +217,25 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.setItem('crs_cookies_accepted', consentType);
       localStorage.setItem('crs_cookie_consent_analytics', analyticsConsent);
       localStorage.setItem('crs_cookie_consent_marketing', marketingConsent);
+      
+      const analyticsStatus = (analyticsConsent === 'true') ? 'granted' : 'denied';
+      const marketingStatus = (marketingConsent === 'true') ? 'granted' : 'denied';
+      
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { window.dataLayer.push(arguments); }
+      gtag('consent', 'update', {
+        'analytics_storage': analyticsStatus,
+        'ad_storage': marketingStatus,
+        'ad_user_data': marketingStatus,
+        'ad_personalization': marketingStatus
+      });
+      
+      window.dataLayer.push({
+        'event': 'cookie_consent_update',
+        'consent_analytics': analyticsStatus,
+        'consent_marketing': marketingStatus
+      });
+      
       cookieBanner.classList.remove('show');
       setTimeout(() => {
         cookieBanner.remove();
