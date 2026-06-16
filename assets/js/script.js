@@ -510,8 +510,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const currencyConfigs = {
     THB: { symbol: '฿', min: 300, max: 15000, step: 100, default: 2500 },
     USD: { symbol: '$', min: 10, max: 500, step: 5, default: 80 },
+    AED: { symbol: 'AED ', min: 40, max: 2000, step: 10, default: 300 },
+    SAR: { symbol: 'SR ', min: 40, max: 2000, step: 10, default: 300 },
     LAK: { symbol: '₭', min: 200000, max: 10000000, step: 50000, default: 1800000 },
     INR: { symbol: '₹', min: 500, max: 25000, step: 100, default: 6000 },
+    VND: { symbol: '₫', min: 250000, max: 12000000, step: 50000, default: 2000000 },
+    MYR: { symbol: 'RM ', min: 50, max: 2500, step: 10, default: 380 },
+    NPR: { symbol: '₨ ', min: 1300, max: 65000, step: 500, default: 10000 },
     GBP: { symbol: '£', min: 10, max: 400, step: 5, default: 65 },
     EUR: { symbol: '€', min: 10, max: 450, step: 5, default: 75 },
     AUD: { symbol: 'A$', min: 20, max: 700, step: 10, default: 120 },
@@ -527,8 +532,13 @@ document.addEventListener('DOMContentLoaded', () => {
   let exchangeRates = {
     THB: 36.75,
     USD: 1.0,
+    AED: 3.67,
+    SAR: 3.75,
     LAK: 21850.0,
     INR: 83.50,
+    VND: 25450.0,
+    MYR: 4.70,
+    NPR: 133.00,
     GBP: 0.785,
     EUR: 0.912,
     AUD: 1.494,
@@ -537,6 +547,95 @@ document.addEventListener('DOMContentLoaded', () => {
     SGD: 1.345,
     HKD: 7.812
   };
+
+  // Detect user's currency based on IP address with multi-API fallback and language sensing
+  async function detectUserCurrency() {
+    // 1. Try ipapi.co (primary)
+    try {
+      const response = await fetch('https://ipapi.co/json/');
+      if (response.ok) {
+        const data = await response.json();
+        if (data && data.currency) {
+          const detectedCode = data.currency.toUpperCase();
+          if (currencyConfigs[detectedCode]) {
+            console.log('Detected user currency via ipapi.co:', detectedCode);
+            return detectedCode;
+          }
+        }
+      }
+    } catch (e) {
+      console.warn('ipapi.co failed, trying backup API...');
+    }
+
+    // 2. Try ipwho.is (backup)
+    try {
+      const response = await fetch('https://ipwho.is/');
+      if (response.ok) {
+        const data = await response.json();
+        if (data && data.success && data.currency && data.currency.code) {
+          const detectedCode = data.currency.code.toUpperCase();
+          if (currencyConfigs[detectedCode]) {
+            console.log('Detected user currency via ipwho.is:', detectedCode);
+            return detectedCode;
+          }
+        }
+      }
+    } catch (e) {
+      console.warn('ipwho.is backup API failed...');
+    }
+
+    // 3. Browser language fallback
+    const userLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+    if (userLang.includes('th')) return 'THB';
+    if (userLang.includes('lo')) return 'LAK';
+    if (userLang.includes('in') || userLang.includes('hi')) return 'INR';
+    if (userLang.includes('vn')) return 'VND';
+    if (userLang.includes('zh') || userLang.includes('cn')) return 'CNY';
+    if (userLang.includes('ja') || userLang.includes('jp')) return 'JPY';
+    if (userLang.includes('ae')) return 'AED';
+    if (userLang.includes('sa')) return 'SAR';
+    if (userLang.includes('my')) return 'MYR';
+    if (userLang.includes('np')) return 'NPR';
+    if (userLang.includes('gb')) return 'GBP';
+    if (userLang.includes('eu')) return 'EUR';
+    if (userLang.includes('au')) return 'AUD';
+    if (userLang.includes('sg')) return 'SGD';
+    if (userLang.includes('hk')) return 'HKD';
+    
+    // Default fallback
+    return 'THB';
+  }
+
+  // Initialize calculator to a specific currency with its defaults
+  function initializeCurrency(newCurrency) {
+    currentCurrency = newCurrency;
+    
+    // Update label suffix
+    if (calcCurrencyCode) {
+      calcCurrencyCode.textContent = newCurrency;
+    }
+    
+    // Update dropdown selection
+    if (calcCurrency) {
+      calcCurrency.value = newCurrency;
+    }
+    
+    // Set ADR slider and input attributes
+    const config = currencyConfigs[newCurrency];
+    if (config) {
+      calcADR.min = config.min;
+      calcADR.max = config.max;
+      calcADRRange.min = config.min;
+      calcADRRange.max = config.max;
+      calcADRRange.step = config.step;
+      
+      calcADR.value = config.default;
+      calcADRRange.value = config.default;
+    }
+    
+    updateExchangeRateIndicator();
+    calculateUplift();
+  }
 
   // Fetch live exchange rates from public API
   async function fetchLiveExchangeRates() {
@@ -800,7 +899,10 @@ document.addEventListener('DOMContentLoaded', () => {
     bindSliderSync(calcOccupancy, calcOccupancyRange, () => syncInventoryOccupancy('occupancy'));
     bindSliderSync(calcADR, calcADRRange, null);
     
-    // Initial rates load & setup
-    fetchLiveExchangeRates();
+    // Detect currency and initialize calculator, then fetch live exchange rates
+    detectUserCurrency().then(detectedCode => {
+      initializeCurrency(detectedCode);
+      fetchLiveExchangeRates();
+    });
   }
 });
