@@ -514,6 +514,7 @@ document.addEventListener('DOMContentLoaded', () => {
     SAR: { symbol: 'SR ', min: 40, max: 2000, step: 10, default: 300 },
     LAK: { symbol: '₭', min: 200000, max: 10000000, step: 50000, default: 1800000 },
     INR: { symbol: '₹', min: 500, max: 25000, step: 100, default: 6000 },
+    MVR: { symbol: 'Rf ', min: 150, max: 7500, step: 50, default: 1200 },
     VND: { symbol: '₫', min: 250000, max: 12000000, step: 50000, default: 2000000 },
     MYR: { symbol: 'RM ', min: 50, max: 2500, step: 10, default: 380 },
     NPR: { symbol: '₨ ', min: 1300, max: 65000, step: 500, default: 10000 },
@@ -536,6 +537,7 @@ document.addEventListener('DOMContentLoaded', () => {
     SAR: 3.75,
     LAK: 21850.0,
     INR: 83.50,
+    MVR: 15.42,
     VND: 25450.0,
     MYR: 4.70,
     NPR: 133.00,
@@ -560,6 +562,9 @@ document.addEventListener('DOMContentLoaded', () => {
           if (currencyConfigs[detectedCode]) {
             console.log('Detected user currency via ipapi.co:', detectedCode);
             return detectedCode;
+          } else {
+            console.log('Currency detected via ipapi.co (' + detectedCode + ') is not supported, defaulting to USD');
+            return 'USD';
           }
         }
       }
@@ -577,6 +582,9 @@ document.addEventListener('DOMContentLoaded', () => {
           if (currencyConfigs[detectedCode]) {
             console.log('Detected user currency via ipwho.is:', detectedCode);
             return detectedCode;
+          } else {
+            console.log('Currency detected via ipwho.is (' + detectedCode + ') is not supported, defaulting to USD');
+            return 'USD';
           }
         }
       }
@@ -589,6 +597,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (userLang.includes('th')) return 'THB';
     if (userLang.includes('lo')) return 'LAK';
     if (userLang.includes('in') || userLang.includes('hi')) return 'INR';
+    if (userLang.includes('mv')) return 'MVR';
     if (userLang.includes('vn')) return 'VND';
     if (userLang.includes('zh') || userLang.includes('cn')) return 'CNY';
     if (userLang.includes('ja') || userLang.includes('jp')) return 'JPY';
@@ -602,8 +611,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (userLang.includes('sg')) return 'SGD';
     if (userLang.includes('hk')) return 'HKD';
     
-    // Default fallback
-    return 'THB';
+    // Default fallback (USD if matching geo details/languages are not resolved)
+    return 'USD';
   }
 
   // Initialize calculator to a specific currency with its defaults
