@@ -56,7 +56,11 @@
   <meta name="description" content="CRS Central delivers expert hotel revenue management in Thailand, Laos & Southeast Asia — dynamic pricing, OTA optimization & reservations outsourcing for Independent hotels.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap">
+  </noscript>
   <link rel="preload" fetchpriority="high" as="image" href="assets/images/manager_revenue_laptop.webp" type="image/webp">
 <link rel="stylesheet" href="assets/css/style.min.css">
 <!-- Meta Pixel Code -->
@@ -197,7 +201,7 @@ src="https://facebook.com"
         <div class="calc-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem;">
           <div style="display: flex; gap: 1.25rem; align-items: center;">
             <div class="calc-header-logo-wrapper">
-              <img src="assets/images/logo_globe_transparent.webp" alt="CRS Central Logo" class="calc-header-logo" width="350" height="181">
+              <img src="assets/images/logo_globe_transparent.webp" alt="CRS Central Logo" class="calc-header-logo" width="350" height="181" loading="lazy">
             </div>
             <div>
               <h3 class="calc-card-title" data-i18n="calc-title">Hotel Revenue Calculator</h3>
@@ -249,40 +253,40 @@ src="https://facebook.com"
             <!-- Room Inventory -->
             <div class="calc-group">
               <div class="calc-label-row">
-                <label class="calc-label" data-i18n="calc-inventory-label">Total Room Inventory</label>
+                <label id="lblCalcInventory" class="calc-label" for="calcInventory" data-i18n="calc-inventory-label">Total Room Inventory</label>
                 <input type="number" id="calcInventory" value="100" min="10" max="1000" class="calc-number-input">
               </div>
-              <input type="range" id="calcInventoryRange" min="10" max="1000" step="5" value="100" class="calc-range-slider">
+              <input type="range" id="calcInventoryRange" min="10" max="1000" step="5" value="100" class="calc-range-slider" aria-labelledby="lblCalcInventory">
               <span class="calc-subtext" data-i18n="calc-inventory-sub">Number of physical rooms in your hotel</span>
             </div>
 
             <!-- Occupied Rooms -->
             <div class="calc-group">
               <div class="calc-label-row">
-                <label class="calc-label" data-i18n="calc-occupied-label">Occupied Rooms (Daily)</label>
+                <label id="lblCalcOccupied" class="calc-label" for="calcOccupied" data-i18n="calc-occupied-label">Occupied Rooms (Daily)</label>
                 <input type="number" id="calcOccupied" value="65" min="1" max="100" class="calc-number-input">
               </div>
-              <input type="range" id="calcOccupiedRange" min="1" max="100" step="1" value="65" class="calc-range-slider">
+              <input type="range" id="calcOccupiedRange" min="1" max="100" step="1" value="65" class="calc-range-slider" aria-labelledby="lblCalcOccupied">
               <span class="calc-subtext" data-i18n="calc-occupied-sub">Average daily occupied rooms</span>
             </div>
 
             <!-- Occupancy -->
             <div class="calc-group">
               <div class="calc-label-row">
-                <label class="calc-label" data-i18n="calc-occ-label">Current Occupancy %</label>
+                <label id="lblCalcOccupancy" class="calc-label" for="calcOccupancy" data-i18n="calc-occ-label">Current Occupancy %</label>
                 <input type="number" id="calcOccupancy" value="65" min="10" max="100" step="0.1" class="calc-number-input">
               </div>
-              <input type="range" id="calcOccupancyRange" min="10" max="100" step="0.5" value="65" class="calc-range-slider">
+              <input type="range" id="calcOccupancyRange" min="10" max="100" step="0.5" value="65" class="calc-range-slider" aria-labelledby="lblCalcOccupancy">
               <span class="calc-subtext" data-i18n="calc-occ-sub">Your current occupancy percentage</span>
             </div>
 
             <!-- ADR -->
             <div class="calc-group">
               <div class="calc-label-row">
-                <label class="calc-label"><span data-i18n="calc-adr-label">Average Daily Rate — ADR</span> (<span id="calcCurrencyCode">THB</span>)</label>
+                <label id="lblCalcADR" class="calc-label" for="calcADR"><span data-i18n="calc-adr-label">Average Daily Rate — ADR</span> (<span id="calcCurrencyCode">THB</span>)</label>
                 <input type="number" id="calcADR" value="2500" min="300" max="15000" class="calc-number-input">
               </div>
-              <input type="range" id="calcADRRange" min="300" max="15000" step="100" value="2500" class="calc-range-slider">
+              <input type="range" id="calcADRRange" min="300" max="15000" step="100" value="2500" class="calc-range-slider" aria-labelledby="lblCalcADR">
               <span class="calc-subtext" data-i18n="calc-adr-sub">Your current average room rate</span>
             </div>
           </div>
@@ -399,7 +403,7 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
         </div>
         
         <div class="split-media">
-          <img src="assets/images/split_comparison.webp" alt="Split Comparison - Independent Hotel vs 5-Star Property" style="width: 100%; height: auto; border-radius: var(--radius-lg); box-shadow: var(--shadow-md); border: 1px solid var(--border-color);" width="1600" height="878">
+          <img src="assets/images/split_comparison.webp" alt="Split Comparison - Independent Hotel vs 5-Star Property" style="width: 100%; height: auto; border-radius: var(--radius-lg); box-shadow: var(--shadow-md); border: 1px solid var(--border-color);" width="1600" height="878" loading="lazy">
         </div>
       </div>
     </div>
@@ -506,7 +510,7 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
         
         <div class="split-media">
           <div class="infographic-box" style="padding: 1.5rem; display: flex; align-items: center; justify-content: center; background-color: var(--bg-light); border: 1px solid var(--border-color); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm);">
-            <img src="assets/images/with_vs_without_crs.webp" alt="Performance Comparison - Without CRS Central vs With CRS Central" style="width: 100%; height: auto; border-radius: var(--radius-md);" width="1000" height="666">
+            <img src="assets/images/with_vs_without_crs.webp" alt="Performance Comparison - Without CRS Central vs With CRS Central" style="width: 100%; height: auto; border-radius: var(--radius-md);" width="1000" height="666" loading="lazy">
           </div>
         </div>
       </div>
@@ -522,7 +526,7 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
       </div>
       
       <div class="testimonial-box">
-        <img src="assets/images/what_clients_say.webp" alt="What Our Clients Say" class="testimonial-media-bg" width="1536" height="1024">
+        <img src="assets/images/what_clients_say.webp" alt="What Our Clients Say" class="testimonial-media-bg" width="1536" height="1024" loading="lazy">
         <div class="testimonial-stars">★★★★★</div>
         <blockquote class="testimonial-quote" data-i18n="home-testimonial-quote">
           "Your daily analysis, market insights, and rate positioning recommendations have been extremely helpful in supporting our Revenue Management efforts. The reports and guidance are clear, timely, and professional. Personally, I have learned a great deal from working with your team, and I truly value the knowledge-sharing and proactive communication throughout this process."
@@ -552,7 +556,7 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
     <div class="footer-container">
       <div class="footer-logo-desc">
         <a href="./" class="logo-link">
-          <img src="assets/images/logo_globe_transparent.webp" alt="CRS Central Logo" class="logo-img" width="350" height="181">
+          <img src="assets/images/logo_globe_transparent.webp" alt="CRS Central Logo" class="logo-img" width="350" height="181" loading="lazy">
         </a>
         <p style="margin-top: 1.5rem;" data-i18n="footer-about-desc">Helping hotels grow revenue, improve profitability, and achieve sustainable success across Thailand, Laos, India, Nepal, and beyond. A Unit of CRS Chauhan Private Limited.</p>
       </div>
@@ -625,6 +629,6 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
   </footer>
 
   <script src="assets/js/translations.min.js" defer></script>
-  <script src="assets/js/script.min.js?v=202606151240" defer></script>
+  <script src="assets/js/script.min.js?v=202606171200" defer></script>
 </body>
 </html>

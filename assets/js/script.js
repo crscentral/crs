@@ -23,10 +23,39 @@ document.addEventListener('DOMContentLoaded', () => {
     langBtn.textContent = labels[lang] || 'English';
   }
 
-  // Set Language and Apply Translations
+  // Set Language and Apply Translations (Load dynamically if not loaded)
   function setLanguage(lang) {
-    if (!translations[lang]) return;
-    
+    if (window.translations && window.translations[lang]) {
+      applyLanguageTranslations(lang);
+    } else {
+      // Find the base path dynamically from script src (handles subdirectories like /blog/)
+      const scriptEl = document.querySelector('script[src*="assets/js/"]');
+      const basePath = scriptEl ? scriptEl.getAttribute('src').split('assets/js/')[0] : '';
+      const translationUrl = `${basePath}assets/locales/${lang}.json`;
+
+      fetch(translationUrl)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error(`Failed to load translation file: ${translationUrl}`);
+          }
+          return response.json();
+        })
+        .then(data => {
+          window.translations = window.translations || {};
+          window.translations[lang] = data;
+          applyLanguageTranslations(lang);
+        })
+        .catch(err => {
+          console.error('Error loading language file:', err);
+          // Fallback to English if translation loading fails
+          if (lang !== 'en' && window.translations && window.translations['en']) {
+            applyLanguageTranslations('en');
+          }
+        });
+    }
+  }
+
+  function applyLanguageTranslations(lang) {
     currentLang = lang;
     localStorage.setItem('crs_lang', lang);
     updateLangBtnLabel(lang);
@@ -50,12 +79,12 @@ document.addEventListener('DOMContentLoaded', () => {
       // Translate text/HTML contents
       i18nElements.forEach(el => {
         const key = el.getAttribute('data-i18n');
-        if (translations[lang][key]) {
+        if (window.translations[lang] && window.translations[lang][key]) {
           // Check if we should insert as HTML (e.g. for spans/breaks)
           if (el.tagName === 'SPAN' || el.getAttribute('data-i18n-html') === 'true' || el.innerHTML.includes('<span') || el.innerHTML.includes('<br')) {
-            el.innerHTML = translations[lang][key];
+            el.innerHTML = window.translations[lang][key];
           } else {
-            el.textContent = translations[lang][key];
+            el.textContent = window.translations[lang][key];
           }
         }
         el.classList.remove('translating');
@@ -65,8 +94,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const placeholderElements = document.querySelectorAll('[data-i18n-placeholder]');
       placeholderElements.forEach(el => {
         const key = el.getAttribute('data-i18n-placeholder');
-        if (translations[lang][key]) {
-          el.setAttribute('placeholder', translations[lang][key]);
+        if (window.translations[lang] && window.translations[lang][key]) {
+          el.setAttribute('placeholder', window.translations[lang][key]);
         }
       });
 
@@ -74,8 +103,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const blogArticleTitleEl = document.querySelector('article h1[data-i18n]');
       if (blogArticleTitleEl) {
         const key = blogArticleTitleEl.getAttribute('data-i18n');
-        if (translations[lang][key]) {
-          document.title = translations[lang][key] + " — CRS Central";
+        if (window.translations[lang] && window.translations[lang][key]) {
+          document.title = window.translations[lang][key] + " — CRS Central";
         }
       }
 
@@ -170,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <span class="cookie-pref-desc" data-i18n="cookie-pref-necessary-desc">Required for core website functionality like language settings.</span>
             </div>
             <label class="cookie-switch">
-              <input type="checkbox" checked disabled>
+              <input type="checkbox" checked disabled aria-label="Necessary Cookies">
               <span class="cookie-slider"></span>
             </label>
           </div>
@@ -180,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <span class="cookie-pref-desc" data-i18n="cookie-pref-analytics-desc">Help us understand website traffic and usage.</span>
             </div>
             <label class="cookie-switch">
-              <input type="checkbox" id="cookiePrefAnalytics" checked>
+              <input type="checkbox" id="cookiePrefAnalytics" checked aria-label="Analytics & Performance Cookies">
               <span class="cookie-slider"></span>
             </label>
           </div>
@@ -190,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <span class="cookie-pref-desc" data-i18n="cookie-pref-marketing-desc">Used to deliver relevant advertisements.</span>
             </div>
             <label class="cookie-switch">
-              <input type="checkbox" id="cookiePrefMarketing" checked>
+              <input type="checkbox" id="cookiePrefMarketing" checked aria-label="Marketing & Ads Cookies">
               <span class="cookie-slider"></span>
             </label>
           </div>
