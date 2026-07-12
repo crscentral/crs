@@ -159,7 +159,7 @@ src="https://facebook.com"
       </div>
 
       <!-- Form View -->
-      <div class="form-box" id="formSection">
+      <div class="form-box audit-form-box" id="formSection">
         <h2 style="font-size: 1.8rem; text-align: center; margin-bottom: 0.5rem;" data-i18n="audit-form-title">Request Your Free Revenue Audit</h2>
         <p style="text-align: center; color: var(--text-muted); margin-bottom: 2.5rem;" data-i18n="audit-form-subtitle">Please fill out the form below. * Fields are required.</p>
         
@@ -173,24 +173,24 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
           <input type="hidden" name="_next" class="formsubmit-next">
           <!-- Hotel Info -->
           <h3 style="font-size: 1.15rem; border-bottom: 2px solid var(--border-color); padding-bottom: 0.5rem; margin-bottom: 1.5rem; color: var(--secondary-color);" data-i18n="audit-f-hotel-info">Hotel Information</h3>
-          <div class="form-grid">
-            <div class="form-group span-2">
+          <div class="form-grid-4">
+            <div class="form-group span-2-desktop">
               <label class="form-label" for="hotelName" data-i18n="audit-f-hotel-name">Hotel Name *</label>
               <input type="text" id="hotelName" name="hotelName" class="form-input" required>
             </div>
-            <div class="form-group">
-              <label class="form-label" for="hotelAddress" data-i18n="audit-f-hotel-address">Hotel Address</label>
-              <input type="text" id="hotelAddress" name="hotelAddress" class="form-input">
-            </div>
-            <div class="form-group">
+            <div class="form-group span-2-desktop">
               <label class="form-label" for="hotelWebsite" data-i18n="audit-f-hotel-website">Hotel Website</label>
               <input type="url" id="hotelWebsite" name="hotelWebsite" class="form-input" placeholder="https://">
+            </div>
+            <div class="form-group span-4">
+              <label class="form-label" for="hotelAddress" data-i18n="audit-f-hotel-address">Hotel Address</label>
+              <input type="text" id="hotelAddress" name="hotelAddress" class="form-input">
             </div>
           </div>
 
           <!-- Contact Info -->
           <h3 style="font-size: 1.15rem; border-bottom: 2px solid var(--border-color); padding-bottom: 0.5rem; margin-top: 2rem; margin-bottom: 1.5rem; color: var(--secondary-color);" data-i18n="audit-f-contact-info">Contact Information</h3>
-          <div class="form-grid">
+          <div class="form-grid-4">
             <div class="form-group">
               <label class="form-label" for="contactName" data-i18n="audit-f-contact-name">Contact Name *</label>
               <input type="text" id="contactName" name="contactName" class="form-input" required>
@@ -211,7 +211,7 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 
           <!-- Additional Data -->
           <h3 style="font-size: 1.15rem; border-bottom: 2px solid var(--border-color); padding-bottom: 0.5rem; margin-top: 2rem; margin-bottom: 1.5rem; color: var(--secondary-color);" data-i18n="audit-f-opt-info">Optional Additional Information</h3>
-          <div class="form-grid">
+          <div class="form-grid-4">
             <div class="form-group">
               <label class="form-label" for="occupancy" data-i18n="audit-f-opt-occ">Current Average Occupancy (%)</label>
               <input type="number" id="occupancy" name="occupancy" min="0" max="100" class="form-input">
@@ -224,7 +224,7 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
               <label class="form-label" for="otasUsed" data-i18n="audit-f-opt-otas">Main OTA Channels Currently Used</label>
               <input type="text" id="otasUsed" name="otasUsed" class="form-input" placeholder="e.g. Booking.com, Agoda, Expedia">
             </div>
-            <div class="form-group span-2">
+            <div class="form-group span-4">
               <label class="form-label" for="challenge" data-i18n="audit-f-opt-chal">Biggest Revenue Challenge You Are Facing</label>
               <textarea id="challenge" name="challenge" class="form-input"></textarea>
             </div>
