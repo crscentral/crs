@@ -145,6 +145,110 @@ src="https://facebook.com"
     </div>
   </section>
 
+  <!-- Audit Request Form Section -->
+  <section class="section" id="audit-form-section">
+    <div class="section-container">
+      
+      <!-- Success View (hidden initially) -->
+      <div class="form-box" id="successSection" style="display: none;">
+        <div class="form-success-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <h2 class="form-success-title" data-i18n="form-success-title">Thank You!</h2>
+        <p class="form-success-desc" data-i18n="form-success-desc">Your request has been received. Our specialists will review your details and get back to you within 24 hours.</p>
+      </div>
+
+      <!-- Form View -->
+      <div class="form-box" id="formSection">
+        <h2 style="font-size: 1.8rem; text-align: center; margin-bottom: 0.5rem;" data-i18n="audit-form-title">Request Your Free Revenue Audit</h2>
+        <p style="text-align: center; color: var(--text-muted); margin-bottom: 2.5rem;" data-i18n="audit-form-subtitle">Please fill out the form below. * Fields are required.</p>
+        
+        <form action="https://formsubmit.co/info@crscentral.com" method="POST" id="auditForm">
+          <!-- FormSubmit Configuration -->
+          <input type="text" name="_honey" style="display:none" aria-label="Honey">
+          <input type="hidden" name="_subject" value="New Lead from CRS Central Website - Full Revenue Audit Request">
+          <textarea name="_autoresponse" style="display:none;">Thank you for contacting CRS Central, your trusted Hotel Revenue Management experts. Your inquiry has been received, and one of our specialists will be in touch with you within the next 24 hours.
+
+If you require immediate assistance, please reach us at info@crscentral.com or via WhatsApp at +66 990 143 142.</textarea>
+          <input type="hidden" name="_next" class="formsubmit-next">
+          <!-- Hotel Info -->
+          <h3 style="font-size: 1.15rem; border-bottom: 2px solid var(--border-color); padding-bottom: 0.5rem; margin-bottom: 1.5rem; color: var(--secondary-color);" data-i18n="audit-f-hotel-info">Hotel Information</h3>
+          <div class="form-grid">
+            <div class="form-group span-2">
+              <label class="form-label" for="hotelName" data-i18n="audit-f-hotel-name">Hotel Name *</label>
+              <input type="text" id="hotelName" name="hotelName" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="hotelAddress" data-i18n="audit-f-hotel-address">Hotel Address</label>
+              <input type="text" id="hotelAddress" name="hotelAddress" class="form-input">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="hotelWebsite" data-i18n="audit-f-hotel-website">Hotel Website</label>
+              <input type="url" id="hotelWebsite" name="hotelWebsite" class="form-input" placeholder="https://">
+            </div>
+          </div>
+
+          <!-- Contact Info -->
+          <h3 style="font-size: 1.15rem; border-bottom: 2px solid var(--border-color); padding-bottom: 0.5rem; margin-top: 2rem; margin-bottom: 1.5rem; color: var(--secondary-color);" data-i18n="audit-f-contact-info">Contact Information</h3>
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label" for="contactName" data-i18n="audit-f-contact-name">Contact Name *</label>
+              <input type="text" id="contactName" name="contactName" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contactRole" data-i18n="audit-f-contact-role">Your Role / Designation</label>
+              <input type="text" id="contactRole" name="contactRole" class="form-input">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contactEmail" data-i18n="audit-f-contact-email">Email Address *</label>
+              <input type="email" id="contactEmail" name="email" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contactPhone" data-i18n="audit-f-contact-phone">Phone Number *</label>
+              <input type="tel" id="contactPhone" name="contactPhone" class="form-input" required>
+            </div>
+          </div>
+
+          <!-- Additional Data -->
+          <h3 style="font-size: 1.15rem; border-bottom: 2px solid var(--border-color); padding-bottom: 0.5rem; margin-top: 2rem; margin-bottom: 1.5rem; color: var(--secondary-color);" data-i18n="audit-f-opt-info">Optional Additional Information</h3>
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label" for="occupancy" data-i18n="audit-f-opt-occ">Current Average Occupancy (%)</label>
+              <input type="number" id="occupancy" name="occupancy" min="0" max="100" class="form-input">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="roomsCount" data-i18n="audit-f-opt-rooms">Number of Rooms</label>
+              <input type="number" id="roomsCount" name="roomsCount" min="1" class="form-input">
+            </div>
+            <div class="form-group span-2">
+              <label class="form-label" for="otasUsed" data-i18n="audit-f-opt-otas">Main OTA Channels Currently Used</label>
+              <input type="text" id="otasUsed" name="otasUsed" class="form-input" placeholder="e.g. Booking.com, Agoda, Expedia">
+            </div>
+            <div class="form-group span-2">
+              <label class="form-label" for="challenge" data-i18n="audit-f-opt-chal">Biggest Revenue Challenge You Are Facing</label>
+              <textarea id="challenge" name="challenge" class="form-input"></textarea>
+            </div>
+          </div>
+
+          <div class="form-disclaimer" style="margin-top: 1.5rem;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-top: 3px;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <div>
+              <strong style="display:block; margin-bottom: 2px;" data-i18n="audit-privacy-title">Your Information Is Safe With Us</strong>
+              <span data-i18n="audit-privacy-desc1">Everything you share with us in connection with the free audit is treated with complete confidentiality. We use your information solely to prepare and deliver your audit findings. We do not share your data with any third parties, and there is no automatic enrollment into any service.</span>
+              <br><br>
+              <span data-i18n="audit-privacy-desc2">We only accept a limited number of complimentary audits per city each month, to ensure every hotel receives dedicated, high-quality attention. If you are considering requesting an audit, we encourage you to do so sooner rather than later.</span>
+            </div>
+          </div>
+
+          <div class="form-submit-container">
+            <button type="submit" class="btn btn-primary" data-i18n="form-audit-submit">Submit Your Audit Request</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
   <!-- The Problem & Funnel -->
   <section class="section">
     <div class="section-container">
@@ -304,110 +408,6 @@ src="https://facebook.com"
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Audit Request Form Section -->
-  <section class="section" id="audit-form-section">
-    <div class="section-container">
-      
-      <!-- Success View (hidden initially) -->
-      <div class="form-box" id="successSection" style="display: none;">
-        <div class="form-success-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
-        </div>
-        <h2 class="form-success-title" data-i18n="form-success-title">Thank You!</h2>
-        <p class="form-success-desc" data-i18n="form-success-desc">Your request has been received. Our specialists will review your details and get back to you within 24 hours.</p>
-      </div>
-
-      <!-- Form View -->
-      <div class="form-box" id="formSection">
-        <h2 style="font-size: 1.8rem; text-align: center; margin-bottom: 0.5rem;" data-i18n="audit-form-title">Request Your Free Revenue Audit</h2>
-        <p style="text-align: center; color: var(--text-muted); margin-bottom: 2.5rem;" data-i18n="audit-form-subtitle">Please fill out the form below. * Fields are required.</p>
-        
-        <form action="https://formsubmit.co/info@crscentral.com" method="POST" id="auditForm">
-          <!-- FormSubmit Configuration -->
-          <input type="text" name="_honey" style="display:none" aria-label="Honey">
-          <input type="hidden" name="_subject" value="New Lead from CRS Central Website - Full Revenue Audit Request">
-          <textarea name="_autoresponse" style="display:none;">Thank you for contacting CRS Central, your trusted Hotel Revenue Management experts. Your inquiry has been received, and one of our specialists will be in touch with you within the next 24 hours.
-
-If you require immediate assistance, please reach us at info@crscentral.com or via WhatsApp at +66 990 143 142.</textarea>
-          <input type="hidden" name="_next" class="formsubmit-next">
-          <!-- Hotel Info -->
-          <h3 style="font-size: 1.15rem; border-bottom: 2px solid var(--border-color); padding-bottom: 0.5rem; margin-bottom: 1.5rem; color: var(--secondary-color);" data-i18n="audit-f-hotel-info">Hotel Information</h3>
-          <div class="form-grid">
-            <div class="form-group span-2">
-              <label class="form-label" for="hotelName" data-i18n="audit-f-hotel-name">Hotel Name *</label>
-              <input type="text" id="hotelName" name="hotelName" class="form-input" required>
-            </div>
-            <div class="form-group">
-              <label class="form-label" for="hotelAddress" data-i18n="audit-f-hotel-address">Hotel Address</label>
-              <input type="text" id="hotelAddress" name="hotelAddress" class="form-input">
-            </div>
-            <div class="form-group">
-              <label class="form-label" for="hotelWebsite" data-i18n="audit-f-hotel-website">Hotel Website</label>
-              <input type="url" id="hotelWebsite" name="hotelWebsite" class="form-input" placeholder="https://">
-            </div>
-          </div>
-
-          <!-- Contact Info -->
-          <h3 style="font-size: 1.15rem; border-bottom: 2px solid var(--border-color); padding-bottom: 0.5rem; margin-top: 2rem; margin-bottom: 1.5rem; color: var(--secondary-color);" data-i18n="audit-f-contact-info">Contact Information</h3>
-          <div class="form-grid">
-            <div class="form-group">
-              <label class="form-label" for="contactName" data-i18n="audit-f-contact-name">Contact Name *</label>
-              <input type="text" id="contactName" name="contactName" class="form-input" required>
-            </div>
-            <div class="form-group">
-              <label class="form-label" for="contactRole" data-i18n="audit-f-contact-role">Your Role / Designation</label>
-              <input type="text" id="contactRole" name="contactRole" class="form-input">
-            </div>
-            <div class="form-group">
-              <label class="form-label" for="contactEmail" data-i18n="audit-f-contact-email">Email Address *</label>
-              <input type="email" id="contactEmail" name="email" class="form-input" required>
-            </div>
-            <div class="form-group">
-              <label class="form-label" for="contactPhone" data-i18n="audit-f-contact-phone">Phone Number *</label>
-              <input type="tel" id="contactPhone" name="contactPhone" class="form-input" required>
-            </div>
-          </div>
-
-          <!-- Additional Data -->
-          <h3 style="font-size: 1.15rem; border-bottom: 2px solid var(--border-color); padding-bottom: 0.5rem; margin-top: 2rem; margin-bottom: 1.5rem; color: var(--secondary-color);" data-i18n="audit-f-opt-info">Optional Additional Information</h3>
-          <div class="form-grid">
-            <div class="form-group">
-              <label class="form-label" for="occupancy" data-i18n="audit-f-opt-occ">Current Average Occupancy (%)</label>
-              <input type="number" id="occupancy" name="occupancy" min="0" max="100" class="form-input">
-            </div>
-            <div class="form-group">
-              <label class="form-label" for="roomsCount" data-i18n="audit-f-opt-rooms">Number of Rooms</label>
-              <input type="number" id="roomsCount" name="roomsCount" min="1" class="form-input">
-            </div>
-            <div class="form-group span-2">
-              <label class="form-label" for="otasUsed" data-i18n="audit-f-opt-otas">Main OTA Channels Currently Used</label>
-              <input type="text" id="otasUsed" name="otasUsed" class="form-input" placeholder="e.g. Booking.com, Agoda, Expedia">
-            </div>
-            <div class="form-group span-2">
-              <label class="form-label" for="challenge" data-i18n="audit-f-opt-chal">Biggest Revenue Challenge You Are Facing</label>
-              <textarea id="challenge" name="challenge" class="form-input"></textarea>
-            </div>
-          </div>
-
-          <div class="form-disclaimer" style="margin-top: 1.5rem;">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-top: 3px;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-            <div>
-              <strong style="display:block; margin-bottom: 2px;" data-i18n="audit-privacy-title">Your Information Is Safe With Us</strong>
-              <span data-i18n="audit-privacy-desc1">Everything you share with us in connection with the free audit is treated with complete confidentiality. We use your information solely to prepare and deliver your audit findings. We do not share your data with any third parties, and there is no automatic enrollment into any service.</span>
-              <br><br>
-              <span data-i18n="audit-privacy-desc2">We only accept a limited number of complimentary audits per city each month, to ensure every hotel receives dedicated, high-quality attention. If you are considering requesting an audit, we encourage you to do so sooner rather than later.</span>
-            </div>
-          </div>
-
-          <div class="form-submit-container">
-            <button type="submit" class="btn btn-primary" data-i18n="form-audit-submit">Submit Your Audit Request</button>
-          </div>
-        </form>
-      </div>
-
     </div>
   </section>
 
