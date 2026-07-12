@@ -2715,3 +2715,37 @@ textarea.form-input {
     grid-column: span 1;
   }
 }
+
+/* ==========================================================================
+   Responsive Funnel Styles
+   ========================================================================== */
+@media (max-width: 768px) {
+  .funnel-stage {
+    font-size: 0.8rem;
+    padding: 0 0.75rem;
+    height: auto;
+    min-height: 50px;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+    clip-path: polygon(0 0, 100% 0, 94% 100%, 6% 100%);
+  }
+  .funnel-2 {
+    width: 95%;
+  }
+  .funnel-3 {
+    width: 90%;
+  }
+  .funnel-4 {
+    width: 85%;
+  }
+  .funnel-5 {
+    width: 80%;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+  }
+  .leakage-tag {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.3rem;
+    margin-left: 0.25rem;
+  }
+}
+
