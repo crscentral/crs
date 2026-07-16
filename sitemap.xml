@@ -15,11 +15,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://crscentral.com/thailand.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+
   <url>
     <loc>https://crscentral.com/laos.html</loc>
     <changefreq>weekly</changefreq>
