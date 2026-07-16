@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Find the base path dynamically from script src (handles subdirectories like /blog/)
       const scriptEl = document.querySelector('script[src*="assets/js/"]');
       const basePath = scriptEl ? scriptEl.getAttribute('src').split('assets/js/')[0] : '';
-      const translationUrl = `${basePath}assets/locales/${lang}.json`;
+      const translationUrl = `${basePath}assets/locales/${lang}.json?v=2`;
 
       fetch(translationUrl)
         .then(response => {
