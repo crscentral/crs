@@ -32,6 +32,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://crscentral.com/malaysia.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crscentral.com/vietnam.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://crscentral.com/blog.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -167,17 +177,17 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://crscentral.com/blog/revenue-management-pattaya-independent-hotels.html</loc>
+    <loc>https://crscentral.com/blog/revenue-management-danang-independent-hotels.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://crscentral.com/blog/pattaya-hotels-boost-revenue-reduce-costs.html</loc>
+    <loc>https://crscentral.com/blog/danang-hotels-boost-revenue-reduce-costs.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://crscentral.com/blog/pattaya-hotels-lose-revenue-without-dynamic-pricing.html</loc>
+    <loc>https://crscentral.com/blog/danang-hotels-lose-revenue-without-dynamic-pricing.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -187,12 +197,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://crscentral.com/blog/pattaya-hotels-struggle-during-low-season.html</loc>
+    <loc>https://crscentral.com/blog/danang-hotels-struggle-during-low-season.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://crscentral.com/blog/pattaya-hotels-rate-fencing-increase-revenue.html</loc>
+    <loc>https://crscentral.com/blog/danang-hotels-rate-fencing-increase-revenue.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
