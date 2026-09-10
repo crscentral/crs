@@ -176,7 +176,7 @@ src="https://facebook.com"
         </div>
         <div class="split-media">
           <div class="split-image-container portrait">
-            <img src="assets/images/malaysia_batu_caves.jpg" alt="Batu Caves Malaysia" width="600" height="900" style="object-fit: cover;">
+            <img src="assets/images/malaysia_beach.jpg" alt="Batu Caves Malaysia" width="600" height="900" style="object-fit: cover;">
           </div>
         </div>
       </div>
@@ -217,7 +217,7 @@ src="https://facebook.com"
           <p>George Town's UNESCO heritage status makes Penang one of Malaysia's most visited leisure destinations — and one of its most seasonally extreme. Occupancy has been reported above 90% around Chinese New Year, while shoulder periods can be dramatically quieter. Independent boutique hotels here are competing for the same heritage-seeking travelers, often with flat, undifferentiated pricing that leaves peak-period revenue uncaptured.</p>
         </div>
         <div class="split-media">
-          <img src="assets/images/malaysia_hero.jpg" onerror="this.src='assets/images/malaysia_hero.jpg'" alt="Penang Heritage" style="width: 100%; height: auto; border-radius: var(--radius-lg); box-shadow: var(--shadow-md); aspect-ratio: 3/2; object-fit: cover;" width="1536" height="1024" loading="lazy">
+          <img src="assets/images/malaysia_batu_caves.jpg" onerror="this.src='assets/images/malaysia_hero.jpg'" alt="Penang Heritage" style="width: 100%; height: auto; border-radius: var(--radius-lg); box-shadow: var(--shadow-md); aspect-ratio: 3/2; object-fit: cover;" width="1536" height="1024" loading="lazy">
         </div>
       </div>
       <div style="margin-top: 3rem;">
@@ -262,10 +262,49 @@ src="https://facebook.com"
         </div>
         <div class="split-media" style="display: flex; justify-content: center; align-items: center;">
           <!-- Using the SVG map from laos for regional context, or simply text block -->
-          <div style="background-color: var(--bg-navy-card); border-radius: var(--radius-lg); padding: 3rem; text-align: center; border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy); width: 100%;">
-             <h3 style="color: #fff; font-size: 1.5rem; margin-bottom: 1rem;">Bangkok Hub</h3>
-             <p style="color: var(--accent-color);">Directing Strategy Across Malaysia</p>
-          </div>
+          <!-- Custom SVG Map Infographic showing regional proximity -->
+          <svg viewBox="0 0 400 400" width="100%" height="320" style="background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);">
+            <!-- Definitions for gradients and shadows -->
+            <defs>
+              <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+                <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.3"/>
+              </filter>
+              <linearGradient id="lineGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+                <feStop offset="0%" stop-color="var(--accent-color)"/>
+                <feStop offset="100%" stop-color="#ffffff"/>
+              </linearGradient>
+            </defs>
+            
+            <!-- Map Grid Gridlines -->
+            <path d="M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400" stroke="rgba(29, 62, 102, 0.3)" stroke-width="1" />
+            <path d="M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350" stroke="rgba(29, 62, 102, 0.3)" stroke-width="1" />
+            
+            <!-- Connection Line (Bangkok to Malaysia) -->
+            <path d="M 180,120 Q 240,190 220,260" fill="none" stroke="var(--accent-color)" stroke-dasharray="6,4" stroke-width="3" filter="url(#shadow)" />
+            
+            <!-- Bangkok Node -->
+            <circle cx="180" cy="120" r="10" fill="var(--accent-color)" stroke="#ffffff" stroke-width="2" />
+            <circle cx="180" cy="120" r="18" fill="none" stroke="var(--accent-color)" stroke-width="1" opacity="0.5">
+              <animate attributeName="r" values="10;24;10" dur="3s" repeatCount="indefinite" />
+              <animate attributeName="opacity" values="0.8;0;0.8" dur="3s" repeatCount="indefinite" />
+            </circle>
+            
+            <!-- Malaysia Node -->
+            <circle cx="220" cy="260" r="10" fill="var(--accent-color)" stroke="#ffffff" stroke-width="2" />
+            <circle cx="220" cy="260" r="18" fill="none" stroke="var(--accent-color)" stroke-width="1" opacity="0.5">
+              <animate attributeName="r" values="10;24;10" dur="3.5s" repeatCount="indefinite" />
+              <animate attributeName="opacity" values="0.8;0;0.8" dur="3.5s" repeatCount="indefinite" />
+            </circle>
+            
+            <!-- Node Labels -->
+            <text x="180" y="85" fill="#ffffff" font-family="var(--font-heading)" font-weight="700" font-size="14" text-anchor="middle" filter="url(#shadow)">BANGKOK BASE</text>
+            
+            <text x="220" y="295" fill="#ffffff" font-family="var(--font-heading)" font-weight="700" font-size="14" text-anchor="middle" filter="url(#shadow)">KUALA LUMPUR &amp; PENANG</text>
+            <text x="220" y="315" fill="var(--accent-color)" font-family="var(--font-body)" font-size="12" text-anchor="middle">Malaysia Presence</text>
+            
+            <!-- Info overlay text in map -->
+            <text x="20" y="375" fill="rgba(255,255,255,0.4)" font-family="var(--font-body)" font-size="10">CRS Central Regional Reach Map</text>
+          </svg>
         </div>
       </div>
       <div style="margin-top: 3rem;">
