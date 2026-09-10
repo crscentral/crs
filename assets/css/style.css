@@ -1577,6 +1577,9 @@ textarea.form-input {
 .social-icon {
   width: 44px;
   height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  flex-shrink: 0;
   background-color: var(--accent-color);
   border: 1px solid var(--accent-color);
   border-radius: var(--radius-full);
