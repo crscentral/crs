@@ -239,7 +239,7 @@ src="https://facebook.com"
   </section>
 
   <!-- Service 1: Revenue Management -->
-  <section class="section service-detail-section">
+  <section id="service-1" class="section service-detail-section">
     <div class="section-container clearfix">
       <div class="service-media-flow align-left">
         <img src="assets/images/revenue_manager_screens.webp" alt="Revenue manager working with rates and occupancies" width="1536" height="1024">
@@ -265,7 +265,7 @@ src="https://facebook.com"
   </section>
 
   <!-- Service 2: OTA Management -->
-  <section class="section service-detail-section section-light">
+  <section id="service-2" class="section service-detail-section section-light">
     <div class="section-container clearfix">
       <div class="service-media-flow align-right">
         <img src="assets/images/booking_mockup.webp" alt="OTA channel dashboard and booking page optimization mockup" width="1536" height="1024">
@@ -291,7 +291,7 @@ src="https://facebook.com"
   </section>
 
     <!-- Service 3: PMS & Channel Manager -->
-  <section class="section service-detail-section">
+  <section id="service-3" class="section service-detail-section">
     <div class="section-container clearfix">
       <div class="service-media-flow align-left">
         <img src="assets/images/service_pms.jpg" alt="PMS & Channel Manager" width="1536" height="1024" style="aspect-ratio: 3/2; object-fit: cover; border-radius: var(--radius-lg);">
@@ -316,7 +316,7 @@ src="https://facebook.com"
   </section>
 
   <!-- Service 4: Hotel Website Development -->
-  <section class="section service-detail-section section-light">
+  <section id="service-4" class="section service-detail-section section-light">
     <div class="section-container clearfix">
       <div class="service-media-flow align-right">
         <img src="assets/images/service_website.jpg" alt="Hotel Website Development" width="1536" height="1024" style="aspect-ratio: 3/2; object-fit: cover; border-radius: var(--radius-lg);">
@@ -341,7 +341,7 @@ src="https://facebook.com"
   </section>
 
   <!-- Service 5: Hotel Digital Marketing -->
-  <section class="section service-detail-section">
+  <section id="service-5" class="section service-detail-section">
     <div class="section-container clearfix">
       <div class="service-media-flow align-left">
         <img src="assets/images/service_marketing.jpg" alt="Hotel Digital Marketing" width="1536" height="1024" style="aspect-ratio: 3/2; object-fit: cover; border-radius: var(--radius-lg);">
@@ -366,7 +366,7 @@ src="https://facebook.com"
   </section>
 
 <!-- Service 6: Reservations Management -->
-  <section class="section service-detail-section section-light">
+  <section id="service-6" class="section service-detail-section section-light">
     <div class="section-container clearfix">
       <div class="service-media-flow align-right">
         <img src="assets/images/reservations_split.webp" alt="Reservations agent at computer and guest check-in desk" width="1600" height="800">
@@ -389,7 +389,7 @@ src="https://facebook.com"
   </section>
 
   <!-- Service 7: Centralized Call Handling -->
-  <section class="section service-detail-section">
+  <section id="service-7" class="section service-detail-section">
     <div class="section-container clearfix">
       <div class="service-media-flow align-left">
         <img src="assets/images/call_handling.webp" alt="Smiling professional call handling reservation agent" width="1000" height="666">
@@ -412,7 +412,7 @@ src="https://facebook.com"
   </section>
 
   <!-- Service 8: Guest Support -->
-  <section class="section service-detail-section section-light">
+  <section id="service-8" class="section service-detail-section section-light">
     <div class="section-container clearfix">
       <div class="service-media-flow align-right">
         <img src="assets/images/confident_manager_working.webp" alt="Hotel guest support manager addressing guest concerns" width="1536" height="1024">
@@ -435,7 +435,7 @@ src="https://facebook.com"
   </section>
 
   <!-- Service 9: Upselling & Cross-Selling -->
-  <section class="section service-detail-section">
+  <section id="service-9" class="section service-detail-section">
     <div class="section-container">
       <div class="split-layout">
         <div class="split-content">
@@ -473,19 +473,34 @@ src="https://facebook.com"
         </a>
         <p style="margin-top: 1.5rem;" data-i18n="footer-about-desc">Helping hotels grow revenue, improve profitability, and achieve sustainable success across Laos, India, Nepal, Malaysia and Vietnam. A Unit of CRS Chauhan Private Limited.</p>
       </div>
-      <div>
+            <div>
         <h3 data-i18n="footer-links-title">Quick Links</h3>
-        <ul class="footer-links">
-          <li><a href="https://crscentral.com/" data-i18n="nav-home">Home</a></li>
-          <li><a href="services.html" data-i18n="nav-services">Services</a></li>
+        <ul class="footer-links" style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem 1rem;">
+          <li><a href="./" data-i18n="nav-home">Home</a></li>
+          <li><a href="about.html" data-i18n="nav-about">Company Profile</a></li>
           <li><a href="laos.html">Laos Market Expertise</a></li>
           <li><a href="malaysia.html">Malaysia Market Expertise</a></li>
           <li><a href="vietnam.html">Vietnam Market Expertise</a></li>
-          <li><a href="about.html" data-i18n="nav-about">Company Profile</a></li>
+          <li><a href="india.html">India Market Expertise</a></li>
+          <li><a href="nepal.html">Nepal Market Expertise</a></li>
           <li><a href="audit.html" data-i18n="nav-audit">Free Revenue Audit</a></li>
           <li><a href="blog.html" data-i18n="nav-blog">Blog</a></li>
           <li><a href="contact.html" data-i18n="nav-contact">Contact Us</a></li>
-          <li><a href="https://crscentral.com/#faq">FAQs</a></li>
+          <li style="grid-column: span 2;"><a href="https://crscentral.com/#faq">FAQs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Our Services</h3>
+        <ul class="footer-links">
+          <li><a href="services.html#service-1" style="font-size: 0.85rem;">Revenue Management</a></li>
+          <li><a href="services.html#service-2" style="font-size: 0.85rem;">OTA Management</a></li>
+          <li><a href="services.html#service-3" style="font-size: 0.85rem;">PMS &amp; Channel Manager</a></li>
+          <li><a href="services.html#service-4" style="font-size: 0.85rem;">Hotel Website Development</a></li>
+          <li><a href="services.html#service-5" style="font-size: 0.85rem;">Hotel Digital Marketing</a></li>
+          <li><a href="services.html#service-6" style="font-size: 0.85rem;">Reservations Management</a></li>
+          <li><a href="services.html#service-7" style="font-size: 0.85rem;">Centralized Call Handling</a></li>
+          <li><a href="services.html#service-8" style="font-size: 0.85rem;">Guest Support</a></li>
+          <li><a href="services.html#service-9" style="font-size: 0.85rem;">Upselling &amp; Cross-Selling</a></li>
         </ul>
       </div>
       <div>
