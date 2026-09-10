@@ -596,7 +596,6 @@ input, textarea, select {
 
 .pillars-list .pillar-card .pillar-icon {
   margin: 0;
-  flex-shrink: 0;
 }
 
 .pillars-list .pillar-card .pillar-content {
@@ -1188,7 +1187,6 @@ textarea.form-input {
 }
 
 .form-disclaimer svg {
-  flex-shrink: 0;
   margin-top: 2px;
   color: var(--accent-color);
 }
@@ -1521,7 +1519,7 @@ textarea.form-input {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1.2fr 1fr 0.8fr 1.2fr 1fr;
+  grid-template-columns: 1.5fr 0.8fr 0.8fr 1.1fr 1.1fr;
   gap: 3rem;
   margin-bottom: 4rem;
 }
@@ -1565,7 +1563,6 @@ textarea.form-input {
   color: var(--accent-color);
   width: 18px;
   height: 18px;
-  flex-shrink: 0;
   margin-top: 3px;
 }
 
@@ -1589,6 +1586,7 @@ textarea.form-input {
   color: #ffffff;
   transition: var(--transition);
   box-shadow: 0 4px 8px rgba(0, 136, 204, 0.15);
+  flex-shrink: 0;
 }
 
 .social-icon:hover {
@@ -2497,7 +2495,6 @@ textarea.form-input {
   width: 24px;
   height: 24px;
   color: var(--accent-color);
-  flex-shrink: 0;
 }
 
 .cookie-header h4 {
@@ -2603,7 +2600,6 @@ textarea.form-input {
   display: inline-block;
   width: 44px;
   height: 22px;
-  flex-shrink: 0;
 }
 
 .cookie-switch input {
