@@ -143,10 +143,11 @@ input, textarea, select {
 
 .logo-img {
   height: 48px;
-  width: 140px;
+  width: auto;
   object-fit: contain;
   transition: var(--transition);
   display: block;
+  filter: none !important;
   background-color: #ffffff;
   -webkit-mask-image: url('../images/logo_globe_transparent.webp');
   -webkit-mask-size: contain;
@@ -156,6 +157,8 @@ input, textarea, select {
   mask-size: contain;
   mask-repeat: no-repeat;
   mask-position: center left;
+  object-position: -99999px; /* Hides original black image data */
+  color: transparent;
 }
 
 .header.scrolled .logo-img {
@@ -471,10 +474,10 @@ input, textarea, select {
 
 .hero-logo-img {
   height: 160px;
-  width: 350px;
-  max-width: 100%;
+  width: auto;
+  object-fit: contain;
   display: block;
-  margin: 0 auto;
+  filter: none !important;
   background-color: #ffffff;
   -webkit-mask-image: url('../images/logo_globe_transparent.webp');
   -webkit-mask-size: contain;
@@ -484,6 +487,8 @@ input, textarea, select {
   mask-size: contain;
   mask-repeat: no-repeat;
   mask-position: center;
+  object-position: -99999px;
+  color: transparent;
 }
 
 .hero-title {
@@ -1551,8 +1556,9 @@ textarea.form-input {
 
 .footer .logo-img {
   height: 52px;
-  width: 150px;
+  width: auto;
   object-fit: contain;
+  filter: none !important;
   background-color: #ffffff;
   -webkit-mask-image: url('../images/logo_globe_transparent.webp');
   -webkit-mask-size: contain;
@@ -1562,6 +1568,8 @@ textarea.form-input {
   mask-size: contain;
   mask-repeat: no-repeat;
   mask-position: center left;
+  object-position: -99999px;
+  color: transparent;
 }
 
 .footer-logo-desc p {
@@ -2105,8 +2113,9 @@ textarea.form-input {
 .calc-header-logo {
   display: block;
   height: 38px;
-  width: 120px;
+  width: auto;
   object-fit: contain;
+  filter: none !important;
   background-color: #ffffff;
   -webkit-mask-image: url('../images/logo_globe_transparent.webp');
   -webkit-mask-size: contain;
@@ -2116,11 +2125,13 @@ textarea.form-input {
   mask-size: contain;
   mask-repeat: no-repeat;
   mask-position: center left;
+  object-position: -99999px;
+  color: transparent;
   transition: filter var(--transition), transform var(--transition);
 }
 
 .calc-header-logo-wrapper:hover .calc-header-logo {
-  opacity: 0.85;
+  filter: brightness(0) invert(1) opacity(0.85); /* Premium hover feedback */
 }
 
 .calc-card-title {
@@ -2794,7 +2805,7 @@ textarea.form-input {
 
 
 /* Fix for dark mode auto-inversion breaking the logo filters */
-.logo-img, .hero-logo-img, .footer .logo-img, .calc-header-logo {
+img.logo-img, img.hero-logo-img, img.calc-header-logo, .footer img.logo-img {
     color-scheme: light !important;
-    isolation: isolate;
+    isolation: isolate !important;
 }

@@ -1,14 +1,14 @@
 with open('assets/css/style.css', 'r', encoding='utf-8') as f:
     css = f.read()
 
-# Add color-scheme: light; to the logos
 addition = """
 /* Fix for dark mode auto-inversion breaking the logo filters */
-.logo-img, .hero-logo-img, .footer .logo-img, .calc-header-logo {
+img.logo-img, img.hero-logo-img, img.calc-header-logo, .footer img.logo-img {
     color-scheme: light !important;
-    isolation: isolate;
+    isolation: isolate !important;
 }
 """
+
 with open('assets/css/style.css', 'w', encoding='utf-8') as f:
     f.write(css + "\n" + addition)
-print("Updated style.css")
+print("Added fix to style.css")
