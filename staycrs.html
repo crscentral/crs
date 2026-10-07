@@ -117,6 +117,23 @@ footer a:hover{color:#fff}
 <a data-i18n="Revenue Management" href="#revenue-management">Revenue Management</a>
 <a data-i18n="CRS Central" href="https://crscentral.com" target="_blank">CRS Central</a>
 <a class="btn" data-i18n="Get a Demo" href="#demo">Get a Demo</a>
+
+
+<div class="lang-selector" style="position: relative; margin-left: auto;">
+<button class="lang-btn" style="background: transparent; border: 1px solid var(--navy); border-radius: 4px; padding: 6px 12px; color: var(--navy); font-size: 0.9rem; cursor: pointer; font-weight: 600;">English ▼</button>
+<div class="lang-dropdown" style="display: none; position: absolute; right: 0; top: 100%; background: #fff; border: 1px solid #ccc; border-radius: 4px; width: 140px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 100;">
+<div class="lang-option active" data-lang="en" style="padding: 8px 16px; cursor: pointer; color: var(--navy); font-size: 0.9rem; border-bottom: 1px solid #eee;">English</div>
+<div class="lang-option" data-lang="th" style="padding: 8px 16px; cursor: pointer; color: var(--navy); font-size: 0.9rem; border-bottom: 1px solid #eee;">ภาษาไทย</div>
+<div class="lang-option" data-lang="zh-CN" style="padding: 8px 16px; cursor: pointer; color: var(--navy); font-size: 0.9rem; border-bottom: 1px solid #eee;">中文(简体)</div>
+<div class="lang-option" data-lang="ar" style="padding: 8px 16px; cursor: pointer; color: var(--navy); font-size: 0.9rem; border-bottom: 1px solid #eee;">العربية</div>
+<div class="lang-option" data-lang="vi" style="padding: 8px 16px; cursor: pointer; color: var(--navy); font-size: 0.9rem; border-bottom: 1px solid #eee;">Tiếng Việt</div>
+<div class="lang-option" data-lang="km" style="padding: 8px 16px; cursor: pointer; color: var(--navy); font-size: 0.9rem;">ភាសាខ្មែរ</div>
+</div>
+</div>
+<style>
+.lang-selector:hover .lang-dropdown, .lang-selector.open .lang-dropdown { display: block !important; }
+.lang-option:hover { background: var(--tint); }
+</style>
 </nav>
 </div>
 </header>
@@ -239,12 +256,12 @@ footer a:hover{color:#fff}
 <h2 data-i18n="See StayCRS in action">See StayCRS in action</h2>
 <p class="lead" data-i18n="Request a demo and we will respond within 24 hours.">Request a demo and we will respond within 24 hours.</p>
 <form id="demoForm">
-<div data-i18n='&lt;label for="n"&gt;Contact name&lt;/label&gt;&lt;input id="n" required=""/&gt;'><label for="n">Contact name</label><input id="n" required=""/></div>
-<div data-i18n='&lt;label for="h"&gt;Hotel name&lt;/label&gt;&lt;input id="h" required=""/&gt;'><label for="h">Hotel name</label><input id="h" required=""/></div>
-<div data-i18n='&lt;label for="e"&gt;Email&lt;/label&gt;&lt;input id="e" required="" type="email"/&gt;'><label for="e">Email</label><input id="e" required="" type="email"/></div>
-<div data-i18n='&lt;label for="p"&gt;Phone / WhatsApp&lt;/label&gt;&lt;input id="p" required="" type="tel"/&gt;'><label for="p">Phone / WhatsApp</label><input id="p" required="" type="tel"/></div>
-<div data-i18n='&lt;label for="r"&gt;Number of rooms&lt;/label&gt;&lt;input id="r" min="1" type="number"/&gt;'><label for="r">Number of rooms</label><input id="r" min="1" type="number"/></div>
-<div data-i18n='&lt;label for="i"&gt;Interested in&lt;/label&gt; &lt;select id="i"&gt;&lt;option&gt;All three&lt;/option&gt;&lt;option&gt;PMS&lt;/option&gt;&lt;option&gt;Channel Manager&lt;/option&gt;&lt;option&gt;Booking Engine&lt;/option&gt;&lt;/select&gt;'><label for="i">Interested in</label>
+<div data-i18n='&lt;label for="n"&gt;Contact name&lt;/label&gt;&lt;input id="n" required=""/&gt;'><label data-i18n="staycrs-auto-0" for="n">Contact name</label><input id="n" required=""/></div>
+<div data-i18n='&lt;label for="h"&gt;Hotel name&lt;/label&gt;&lt;input id="h" required=""/&gt;'><label data-i18n="staycrs-auto-1" for="h">Hotel name</label><input id="h" required=""/></div>
+<div data-i18n='&lt;label for="e"&gt;Email&lt;/label&gt;&lt;input id="e" required="" type="email"/&gt;'><label data-i18n="staycrs-auto-2" for="e">Email</label><input id="e" required="" type="email"/></div>
+<div data-i18n='&lt;label for="p"&gt;Phone / WhatsApp&lt;/label&gt;&lt;input id="p" required="" type="tel"/&gt;'><label data-i18n="staycrs-auto-3" for="p">Phone / WhatsApp</label><input id="p" required="" type="tel"/></div>
+<div data-i18n='&lt;label for="r"&gt;Number of rooms&lt;/label&gt;&lt;input id="r" min="1" type="number"/&gt;'><label data-i18n="staycrs-auto-4" for="r">Number of rooms</label><input id="r" min="1" type="number"/></div>
+<div data-i18n='&lt;label for="i"&gt;Interested in&lt;/label&gt; &lt;select id="i"&gt;&lt;option&gt;All three&lt;/option&gt;&lt;option&gt;PMS&lt;/option&gt;&lt;option&gt;Channel Manager&lt;/option&gt;&lt;option&gt;Booking Engine&lt;/option&gt;&lt;/select&gt;'><label data-i18n="staycrs-auto-5" for="i">Interested in</label>
 <select id="i"><option>All three</option><option>PMS</option><option>Channel Manager</option><option>Booking Engine</option></select></div>
 <div class="full actions">
 <button class="btn" data-i18n="Request a Demo" type="submit">Request a Demo</button>
@@ -269,7 +286,7 @@ footer a:hover{color:#fff}
 <div>
 <h4 data-i18n="Contact">Contact</h4>
 <a data-i18n="info@crscentral.com" href="mailto:info@crscentral.com">info@crscentral.com</a>
-<a href="tel:+66990143142">+66 990 143 142</a>
+<a data-i18n="staycrs-auto-6" href="tel:+66990143142">+66 990 143 142</a>
 <span data-i18n="Mon-Sun, 8:00 a.m.-7:00 p.m.">Mon-Sun, 8:00 a.m.-7:00 p.m.</span>
 </div>
 </div>
@@ -297,5 +314,5 @@ document.getElementById('wa').addEventListener('click',function(){
   this.href="https://wa.me/66990143142?text="+encodeURIComponent(msg());
 });
 </script>
-</body>
+<script defer="" src="assets/js/script-v2.js"></script></body>
 </html>
