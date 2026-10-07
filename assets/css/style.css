@@ -122,7 +122,7 @@ input, textarea, select {
 }
 
 .header-container {
-  max-width: 1440px;
+  max-width: 1200px;
   height: 100%;
   margin: 0 auto;
   padding: 0 1rem;
@@ -130,6 +130,22 @@ input, textarea, select {
   align-items: center;
   justify-content: space-between;
 }
+/* Vietnamese language specific overrides to prevent horizontal overflow */
+@media (min-width: 1301px) {
+  html[lang="vi"] .header-container {
+    max-width: 1440px;
+  }
+  html[lang="vi"] .nav-menu {
+    gap: 0.8rem !important;
+    margin-right: 1rem !important;
+  }
+  html[lang="vi"] .nav-link,
+  html[lang="vi"] .dropdown-toggle,
+  html[lang="vi"] .lang-btn {
+    font-size: 0.85rem !important;
+  }
+}
+
 
 .logo-link {
   display: flex;
