@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Find the base path dynamically from script src (handles subdirectories like /blog/)
       const scriptEl = document.querySelector('script[src*="assets/js/"]');
       const basePath = scriptEl ? scriptEl.getAttribute('src').split('assets/js/')[0] : '';
-      const translationUrl = `${basePath}assets/locales/${lang}.json?v=4`;
+      const translationUrl = `${basePath}assets/locales/${lang}.json?v=5`;
 
       fetch(translationUrl)
         .then(response => {
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const key = el.getAttribute('data-i18n');
         if (window.translations[lang] && window.translations[lang][key]) {
           // Check if we should insert as HTML (e.g. for spans/breaks)
-          if (el.tagName === 'SPAN' || el.getAttribute('data-i18n-html') === 'true' || el.innerHTML.includes('<span') || el.innerHTML.includes('<br')) {
+          if (el.tagName === 'SPAN' || el.getAttribute('data-i18n-html') === 'true' || el.innerHTML.includes('<span') || el.innerHTML.includes('<br') || window.translations[lang][key].includes('&') || window.translations[lang][key].includes('<')) {
             el.innerHTML = window.translations[lang][key];
           } else {
             el.textContent = window.translations[lang][key];
