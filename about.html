@@ -168,6 +168,37 @@ src="https://facebook.com"
         <span class="section-tag" data-i18n="nav-about">About Us</span>
         <h1 class="hero-title" style="font-size: 3rem;" data-i18n="about-title">CRS Central — Company Profile</h1>
         <p class="hero-desc" style="font-weight: 600; color: var(--accent-color);" data-i18n="about-subtitle">A Unit of CRS Chauhan Private Limited</p>
+        <style>
+          .dl-dropdown { position: relative; display: inline-block; margin-top: 2rem; }
+          .dl-menu {
+            position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+            background: #fff; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            padding: 0.5rem; min-width: 220px; opacity: 0; visibility: hidden;
+            transition: all 0.2s ease; z-index: 100; margin-top: 15px;
+          }
+          .dl-dropdown:hover .dl-menu, .dl-dropdown:focus-within .dl-menu {
+            opacity: 1; visibility: visible; margin-top: 5px;
+          }
+          .dl-item {
+            display: block; padding: 0.75rem 1rem; color: #1e293b; text-decoration: none;
+            text-align: center; font-size: 0.95rem; font-weight: 600; border-radius: 4px;
+            transition: background 0.2s;
+          }
+          .dl-item:hover { background: #f1f5f9; color: #0ea5e9; }
+          .dl-item:not(:last-child) { border-bottom: 1px solid #e2e8f0; border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+        </style>
+        <div class="dl-dropdown">
+          <button class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.6rem; cursor: pointer;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download Company Profile
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 0.2rem;"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="dl-menu">
+            <a href="assets/docs/CRS_Central_Company_Profile_EN.pdf" target="_blank" class="dl-item">Company Profile - EN</a>
+            <a href="assets/docs/CRS_Central_Company_Profile_TH.pdf" target="_blank" class="dl-item">Company Profile - TH</a>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
