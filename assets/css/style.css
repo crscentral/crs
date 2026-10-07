@@ -143,11 +143,19 @@ input, textarea, select {
 
 .logo-img {
   height: 48px;
-  width: auto;
+  width: 140px;
   object-fit: contain;
   transition: var(--transition);
   display: block;
-  filter: brightness(0) invert(1); /* White fonts logo on dark background */
+  background-color: #ffffff;
+  -webkit-mask-image: url('../images/logo_globe_transparent.webp');
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center left;
+  mask-image: url('../images/logo_globe_transparent.webp');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center left;
 }
 
 .header.scrolled .logo-img {
@@ -463,10 +471,19 @@ input, textarea, select {
 
 .hero-logo-img {
   height: 160px;
-  width: auto;
-  object-fit: contain;
+  width: 350px;
+  max-width: 100%;
   display: block;
-  filter: brightness(0) invert(1); /* White fonts logo on dark background */
+  margin: 0 auto;
+  background-color: #ffffff;
+  -webkit-mask-image: url('../images/logo_globe_transparent.webp');
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-image: url('../images/logo_globe_transparent.webp');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
 }
 
 .hero-title {
@@ -1534,9 +1551,17 @@ textarea.form-input {
 
 .footer .logo-img {
   height: 52px;
-  width: auto;
+  width: 150px;
   object-fit: contain;
-  filter: brightness(0) invert(1); /* White fonts logo in dark footer */
+  background-color: #ffffff;
+  -webkit-mask-image: url('../images/logo_globe_transparent.webp');
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center left;
+  mask-image: url('../images/logo_globe_transparent.webp');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center left;
 }
 
 .footer-logo-desc p {
@@ -2080,14 +2105,22 @@ textarea.form-input {
 .calc-header-logo {
   display: block;
   height: 38px;
-  width: auto;
+  width: 120px;
   object-fit: contain;
-  filter: brightness(0) invert(1); /* Forces logo color to solid white */
+  background-color: #ffffff;
+  -webkit-mask-image: url('../images/logo_globe_transparent.webp');
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center left;
+  mask-image: url('../images/logo_globe_transparent.webp');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center left;
   transition: filter var(--transition), transform var(--transition);
 }
 
 .calc-header-logo-wrapper:hover .calc-header-logo {
-  filter: brightness(0) invert(1) opacity(0.85); /* Premium hover feedback */
+  opacity: 0.85;
 }
 
 .calc-card-title {
@@ -2757,4 +2790,11 @@ textarea.form-input {
     flex-wrap: wrap !important;
     gap: 0.8rem !important;
   }
+}
+
+
+/* Fix for dark mode auto-inversion breaking the logo filters */
+.logo-img, .hero-logo-img, .footer .logo-img, .calc-header-logo {
+    color-scheme: light !important;
+    isolation: isolate;
 }
