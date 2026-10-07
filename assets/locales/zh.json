@@ -639,5 +639,22 @@
   "thailand-hh-title": "Hua Hin: The Royal Seaside Escape",
   "thailand-pty-title": "Pattaya: High-Volume Leisure Next to the Capital",
   "thailand-hkt-title": "Phuket: International Beach and Villa Travel",
-  "thailand-audit-btn": "Book a Free Revenue Audit in Thailand →"
+  "thailand-audit-btn": "Book a Free Revenue Audit in Thailand →",
+  "auto-gen-0": "<a data-i18n=\"FAQs\" href=\"https://crscentral.com/#faq\">FAQs</a>",
+  "auto-gen-1": "<a data-i18n=\"Laos\" href=\"laos.html\">Laos</a>",
+  "auto-gen-2": "<a data-i18n=\"Malaysia\" href=\"malaysia.html\">Malaysia</a>",
+  "auto-gen-3": "<a data-i18n=\"Vietnam\" href=\"vietnam.html\">Vietnam</a>",
+  "auto-gen-4": "<a data-i18n=\"India\" href=\"india.html\">India</a>",
+  "auto-gen-5": "<a data-i18n=\"Nepal\" href=\"nepal.html\">Nepal</a>",
+  "auto-gen-6": "<a data-i18n=\"Revenue Management\" href=\"services.html#service-1\" style=\"font-size: 0.85rem;\">Revenue Management</a>",
+  "auto-gen-7": "<a data-i18n=\"OTA Management\" href=\"services.html#service-2\" style=\"font-size: 0.85rem;\">OTA Management</a>",
+  "auto-gen-8": "<a data-i18n=\"PMS &amp;amp; Channel Manager\" href=\"services.html#service-3\" style=\"font-size: 0.85rem;\">PMS &amp; Channel Manager</a>",
+  "auto-gen-9": "<a data-i18n=\"Hotel Website Development\" href=\"services.html#service-4\" style=\"font-size: 0.85rem;\">Hotel Website Development</a>",
+  "auto-gen-10": "<a data-i18n=\"Hotel Digital Marketing\" href=\"services.html#service-5\" style=\"font-size: 0.85rem;\">Hotel Digital Marketing</a>",
+  "auto-gen-11": "<a data-i18n=\"Guest Support\" href=\"services.html#service-8\" style=\"font-size: 0.85rem;\">Guest Support</a>",
+  "auto-gen-12": "<a data-i18n=\"Upselling &amp;amp; Cross-Selling\" href=\"services.html#service-9\" style=\"font-size: 0.85rem;\">Upselling &amp; Cross-Selling</a>",
+  "auto-gen-13": "<svg fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewbox=\"0 0 24 24\"><path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle></svg>\n<span data-i18n=\"Sri Sai Anurag New Town, Karimnagar–Hyderabad Highway, Secunderabad, Telangana 500078, India\" style=\"font-size: 0.8rem;\">Sri Sai Anurag New Town, Karimnagar–Hyderabad Highway, Secunderabad, Telangana 500078, India</span>",
+  "auto-gen-14": "<b data-i18n=\"Commission you pay\">Commission you pay</b>",
+  "auto-gen-15": "<b data-i18n=\"On a USD 1,000 booking\">On a USD 1,000 booking</b>",
+  "auto-gen-16": "<b data-i18n=\"You keep more\">You keep more</b>"
 }
