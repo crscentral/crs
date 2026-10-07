@@ -122,7 +122,7 @@ input, textarea, select {
 }
 
 .header-container {
-  max-width: 1350px;
+  max-width: 1440px;
   height: 100%;
   margin: 0 auto;
   padding: 0 1rem;
@@ -180,7 +180,7 @@ input, textarea, select {
   color: rgba(255, 255, 255, 0.85);
   font-family: var(--font-body);
   font-weight: 500;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   padding: 0.5rem 0;
   cursor: pointer;
   display: flex;
@@ -256,15 +256,15 @@ input, textarea, select {
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  gap: 1.5rem;
   margin-left: auto;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 .nav-link {
   color: rgba(255, 255, 255, 0.85);
   font-weight: 500;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   position: relative;
   padding: 0.5rem 0;
   white-space: nowrap;
@@ -297,7 +297,7 @@ input, textarea, select {
 
 .lang-btn {
   white-space: nowrap;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   background: transparent;
   border: 1px solid var(--border-navy);
   color: var(--text-white);
@@ -1741,7 +1741,7 @@ textarea.form-input {
 /* ==========================================================================
    Responsive Breakpoints
    ========================================================================== */
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   :root {
     --header-height: 70px;
   }
@@ -1872,7 +1872,7 @@ textarea.form-input {
   }
   
   .nav-link, .dropdown-toggle {
-    font-size: 0.85rem;
+    font-size:  1.2rem;
   }
   
   .logo-link {
@@ -1886,7 +1886,7 @@ textarea.form-input {
   .lang-btn {
   font-size: 0.85rem;
     padding: 0.4rem 0.8rem;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
   }
 }
 
@@ -2750,7 +2750,7 @@ textarea.form-input {
   grid-column: span 4;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .form-grid-4 {
     grid-template-columns: repeat(2, 1fr);
   }
