@@ -148,7 +148,7 @@ input, textarea, select {
   transition: var(--transition);
   display: block;
   filter: none !important;
-  background-color: #ffffff;
+  background-image: linear-gradient(#ffffff, #ffffff) !important; background-color: transparent;
   -webkit-mask-image: url('../images/logo_globe_transparent.webp');
   -webkit-mask-size: contain;
   -webkit-mask-repeat: no-repeat;
@@ -478,7 +478,7 @@ input, textarea, select {
   object-fit: contain;
   display: block;
   filter: none !important;
-  background-color: #ffffff;
+  background-image: linear-gradient(#ffffff, #ffffff) !important; background-color: transparent;
   -webkit-mask-image: url('../images/logo_globe_transparent.webp');
   -webkit-mask-size: contain;
   -webkit-mask-repeat: no-repeat;
@@ -1559,7 +1559,7 @@ textarea.form-input {
   width: auto;
   object-fit: contain;
   filter: none !important;
-  background-color: #ffffff;
+  background-image: linear-gradient(#ffffff, #ffffff) !important; background-color: transparent;
   -webkit-mask-image: url('../images/logo_globe_transparent.webp');
   -webkit-mask-size: contain;
   -webkit-mask-repeat: no-repeat;
@@ -2116,7 +2116,7 @@ textarea.form-input {
   width: auto;
   object-fit: contain;
   filter: none !important;
-  background-color: #ffffff;
+  background-image: linear-gradient(#ffffff, #ffffff) !important; background-color: transparent;
   -webkit-mask-image: url('../images/logo_globe_transparent.webp');
   -webkit-mask-size: contain;
   -webkit-mask-repeat: no-repeat;
