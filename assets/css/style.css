@@ -243,7 +243,9 @@ input, textarea, select {
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
+  margin-left: auto;
+  margin-right: 2rem;
 }
 
 .nav-link {
@@ -576,7 +578,7 @@ input, textarea, select {
 .pillars-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .pillars-list {
@@ -655,7 +657,7 @@ input, textarea, select {
 .card-grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .card-grid-2 {
@@ -896,7 +898,7 @@ input, textarea, select {
 .service-icon-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1.5rem;
   margin-top: 2rem;
 }
 
@@ -998,7 +1000,7 @@ input, textarea, select {
 .process-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  gap: 1.5rem;
   margin-top: 2rem;
   position: relative;
 }
@@ -1287,7 +1289,7 @@ textarea.form-input {
 .blog-list-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .blog-card {
@@ -1734,7 +1736,8 @@ textarea.form-input {
     background-color: var(--primary-color);
     flex-direction: column;
     padding: 3rem 2rem;
-    gap: 2rem;
+    gap: 1.5rem;
+  margin-left: 2rem;
     transition: left 0.3s ease;
     z-index: 999;
     align-items: flex-start;
@@ -1922,7 +1925,7 @@ textarea.form-input {
   
   .footer-container {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
   }
   
   .footer-bottom {
