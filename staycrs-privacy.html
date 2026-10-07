@@ -143,9 +143,26 @@ footer a:hover{color:#fff}
 }
 
 
-/* Fix Logo Squishing and Nav Width */
-.nav.wrap { max-width: 1440px !important; padding-left: 30px; padding-right: 30px; }
-.logo, .logo-link { flex-shrink: 0 !important; }
+/* Final StayCRS Fixes */
+.nav.wrap { max-width: 1440px !important; gap: 2rem; padding: 0 20px; }
+.logo { direction: ltr; flex-shrink: 0 !important; }
+header .nav > a { flex-shrink: 0; }
+@media (max-width: 1300px) {
+  .links { gap: 14px !important; }
+  .links a { font-size: 0.85rem !important; }
+}
+@media (max-width: 900px) {
+  .links { gap: 8px !important; }
+  .links a { font-size: 0.75rem !important; }
+  .links .btn { padding: 6px 12px !important; }
+}
+@media (max-width: 620px) {
+  .nav.wrap { padding: 0 10px !important; gap: 10px !important; }
+  .logo { height: 32px !important; }
+  .links { gap: 8px !important; }
+  .links .btn { padding: 6px 10px !important; font-size: 0.8rem !important; }
+  .lang-btn { font-size: 0.8rem !important; padding: 4px 6px !important; }
+}
 
 </style>
 </head>
@@ -233,9 +250,26 @@ footer a:hover{color:#fff}
 }
 
 
-/* Fix Logo Squishing and Nav Width */
-.nav.wrap { max-width: 1440px !important; padding-left: 30px; padding-right: 30px; }
-.logo, .logo-link { flex-shrink: 0 !important; }
+/* Final StayCRS Fixes */
+.nav.wrap { max-width: 1440px !important; gap: 2rem; padding: 0 20px; }
+.logo { direction: ltr; flex-shrink: 0 !important; }
+header .nav > a { flex-shrink: 0; }
+@media (max-width: 1300px) {
+  .links { gap: 14px !important; }
+  .links a { font-size: 0.85rem !important; }
+}
+@media (max-width: 900px) {
+  .links { gap: 8px !important; }
+  .links a { font-size: 0.75rem !important; }
+  .links .btn { padding: 6px 12px !important; }
+}
+@media (max-width: 620px) {
+  .nav.wrap { padding: 0 10px !important; gap: 10px !important; }
+  .logo { height: 32px !important; }
+  .links { gap: 8px !important; }
+  .links .btn { padding: 6px 10px !important; font-size: 0.8rem !important; }
+  .lang-btn { font-size: 0.8rem !important; padding: 4px 6px !important; }
+}
 
 </style>
 </nav>
