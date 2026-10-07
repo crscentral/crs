@@ -1,32 +1,47 @@
-import re
+import json
+import os
+from deep_translator import GoogleTranslator
 
-with open('thailand.html', 'r', encoding='utf-8') as f:
-    content = f.read()
+LANGUAGES = {
+    'th': 'th',
+    'zh': 'zh-CN',
+    'ar': 'ar',
+    'vi': 'vi',
+    'km': 'km'
+}
 
-# Fix Thai mix in hero
-content = content.replace('ความเชี่ยวชาญด้านตลาดThailand', 'Thailand Market Expertise')
-content = content.replace("Thailandเป็นหนึ่งในตลาดโรงแรมที่มีผู้เยี่ยมชมมากที่สุดและแข่งขันสูงที่สุดของเอเชีย กรุงเทพฯ หัวหิน พัทยา และภูเก็ต ต่างขับเคลื่อนด้วยกลุ่มลูกค้า ฤดูกาล และพฤติกรรมการจองที่แตกต่างกัน", "Thailand is one of Asia's most visited hotel markets, and one of its most competitive. Bangkok, Hua Hin, Pattaya and Phuket each run on a different demand engine, with their own guests, seasons and booking habits.")
-content = content.replace('จองการตรวจสอบรายได้ฟรีสำหรับโรงแรมในThailand &rarr;', 'Book a Free Revenue Audit in Thailand &rarr;')
+keys_to_translate = [
+    "thailand-intro2",
+    "thailand-choose",
+    "thailand-btn-bkk",
+    "thailand-btn-hh",
+    "thailand-btn-pty",
+    "thailand-btn-hkt"
+]
 
-# Fix advantage section image
-# Look for <h2 class="section-title" style="font-size: 1.8rem;">The CRS Central Advantage in Thailand</h2>
-adv_title = '<h2 class="section-title" style="font-size: 1.8rem;">The CRS Central Advantage in Thailand</h2>'
-img_adv = '<img src="assets/images/thailand_advantage.webp" alt="Thailand historical park" class="float-img-right" loading="lazy" onerror="this.style.display=\'none\'">'
+def load_json(filepath):
+    if not os.path.exists(filepath): return {}
+    with open(filepath, 'r', encoding='utf-8') as f:
+        return json.load(f)
 
-if adv_title in content and img_adv not in content:
-    content = content.replace(adv_title, img_adv + '\n          ' + adv_title)
+def save_json(filepath, data):
+    with open(filepath, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+en_locales = load_json('assets/locales/en.json')
+
+for lang_code, trans_code in LANGUAGES.items():
+    locales = load_json(f'assets/locales/{lang_code}.json')
+    translator = GoogleTranslator(source='en', target=trans_code)
     
-# Remove split-layout from Advantage section so it wraps properly
-# Find the start of The CRS Central Advantage in Thailand block
-# It's currently in a split-layout.
-#   <div class="split-layout">
-#     <div class="split-content" style="width: 100%;">
-#       <img src="assets/images/thailand_advantage...
-# Let's replace the <div class="split-layout"> wrapper right before Advantage.
-content = content.replace('<div class="split-layout">\n        <div class="split-content" style="width: 100%;">\n          <img src="assets/images/thailand_advantage.webp"',
-                          '<div style="display: block; overflow: hidden; margin-top: 3rem;">\n          <img src="assets/images/thailand_advantage.webp"')
-content = content.replace('<div class="split-layout">\n        <div class="split-content" style="width: 100%;">\n          <h2 class="section-title" style="font-size: 1.8rem;">The CRS Central Advantage in Thailand</h2>',
-                          '<div style="display: block; overflow: hidden; margin-top: 3rem;">\n          <h2 class="section-title" style="font-size: 1.8rem;">The CRS Central Advantage in Thailand</h2>')
+    for key in keys_to_translate:
+        if key in en_locales:
+            original = en_locales[key]
+            # Translate it
+            translated = translator.translate(original)
+            print(f"[{lang_code}] {key}: {translated}")
+            locales[key] = translated
+            
+    save_json(f'assets/locales/{lang_code}.json', locales)
 
-with open('thailand.html', 'w', encoding='utf-8') as f:
-    f.write(content)
+print("Finished translating thailand hero keys.")

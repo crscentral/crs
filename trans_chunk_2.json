@@ -1,0 +1,401 @@
+{
+  "What is included in CRS Central's Hotel Revenue Management Services?": {
+    "vi": "Dịch vụ Quản lý Doanh thu Khách sạn của CRS Central bao gồm những gì?",
+    "zh-CN": "CRS Central的酒店收益管理服务包括哪些内容？",
+    "th": "บริการจัดการรายได้โรงแรมของ CRS Central มีอะไรบ้าง?",
+    "km": "តើសេវាកម្មគ្រប់គ្រងប្រាក់ចំណូលសណ្ឋាគាររបស់ CRS Central រួមបញ្ចូលអ្វីខ្លះ?",
+    "ar": "ما الذي تتضمنه خدمات إدارة إيرادات الفنادق من CRS Central؟"
+  },
+  "USD ($)": {
+    "vi": "USD ($)",
+    "zh-CN": "美元 ($)",
+    "th": "ดอลลาร์สหรัฐ ($)",
+    "km": "ដុល្លារអាមេរិក ($)",
+    "ar": "دولار أمريكي ($)"
+  },
+  "<label for=\"n\">Contact name</label><input id=\"n\" required=\"\"/>": {
+    "vi": "<label for=\"n\">Tên liên hệ</label><input id=\"n\" required=\"\"/>",
+    "zh-CN": "<label for=\"n\">联系人姓名</label><input id=\"n\" required=\"\"/>",
+    "th": "<label for=\"n\">ชื่อผู้ติดต่อ</label><input id=\"n\" required=\"\"/>",
+    "km": "<label for=\"n\">ឈ្មោះទំនាក់ទំនង</label><input id=\"n\" required=\"\"/>",
+    "ar": "<label for=\"n\">اسم جهة الاتصال</label><input id=\"n\" required=\"\"/>"
+  },
+  "Vietnam Expertise": {
+    "vi": "Chuyên môn tại Việt Nam",
+    "zh-CN": "越南专长",
+    "th": "ความเชี่ยวชาญในเวียดนาม",
+    "km": "ជំនាញនៅវៀតណាម",
+    "ar": "خبرة فيتنام"
+  },
+  "<label for=\"p\">Phone / WhatsApp</label><input id=\"p\" required=\"\" type=\"tel\"/>": {
+    "vi": "<label for=\"p\">Điện thoại / WhatsApp</label><input id=\"p\" required=\"\" type=\"tel\"/>",
+    "zh-CN": "<label for=\"p\">电话 / WhatsApp</label><input id=\"p\" required=\"\" type=\"tel\"/>",
+    "th": "<label for=\"p\">โทรศัพท์ / WhatsApp</label><input id=\"p\" required=\"\" type=\"tel\"/>",
+    "km": "<label for=\"p\">ទូរស័ព្ទ / WhatsApp</label><input id=\"p\" required=\"\" type=\"tel\"/>",
+    "ar": "<label for=\"p\">الهاتف / واتساب</label><input id=\"p\" required=\"\" type=\"tel\"/>"
+  },
+  "Vientiane and Luang Prabang are two of Southeast Asia's most distinctive hospitality markets — a growing capital-city business hub and a UNESCO World Heritage luxury and boutique resort town. Both are evolving quickly, and both are underserved by structured revenue management.": {
+    "vi": "Viêng Chăn và Luang Prabang là hai trong số những thị trường khách sạn đặc biệt nhất Đông Nam Á — một trung tâm kinh doanh thủ đô đang phát triển và một thị trấn nghỉ dưỡng boutique và sang trọng được UNESCO công nhận là Di sản Thế giới. Cả hai đều đang phát triển nhanh chóng và đều chưa được phục vụ đầy đủ bởi quản lý doanh thu có cấu trúc.",
+    "zh-CN": "万象和琅勃拉邦是东南亚最具特色的两个酒店市场——一个是不断发展的首都商业中心，另一个是联合国教科文组织世界遗产豪华和精品度假小镇。两者都在快速发展，且都缺乏结构化的收益管理服务。",
+    "th": "เวียงจันทน์และหลวงพระบางเป็นสองตลาดการบริการที่โดดเด่นที่สุดของเอเชียตะวันออกเฉียงใต้ — ศูนย์กลางธุรกิจเมืองหลวงที่กำลังเติบโต และเมืองรีสอร์ทบูติกและหรูหรามรดกโลกของยูเนสโก ทั้งสองกำลังพัฒนาอย่างรวดเร็วและยังขาดบริการจัดการรายได้ที่มีโครงสร้าง",
+    "km": "ទីក្រុងវៀងចន្ទន៍ និងហ្លួងប្រាបាង គឺជាទីផ្សារបដិសណ្ឋារកិច្ចដ៏លេចធ្លោបំផុតពីរនៅអាស៊ីអាគ្នេយ៍ — មជ្ឈមណ្ឌលពាណិជ្ជកម្មរដ្ឋធានីដែលកំពុងរីកចម្រើន និងទីក្រុងរមណីយដ្ឋានប្រណិត និងប៊ូទិកដែលជាបេតិកភណ្ឌពិភពលោករបស់អង្គការយូណេស្កូ។ ទាំងពីរកំពុងវិវឌ្ឍយ៉ាងឆាប់រហ័ស ហើយទាំងពីរនេះនៅមិនទាន់ទទួលបានសេវាកម្មគ្រប់គ្រងប្រាក់ចំណូលដែលមានរចនាសម្ព័ន្ធនៅឡើយទេ។",
+    "ar": "فينتيان ولوانغ برابانغ هما من أكثر أسواق الضيافة تميزًا في جنوب شرق آسيا — مركز أعمال في العاصمة ينمو بسرعة، ومدينة منتجعات فاخرة وبوتيك مدرجة في التراث العالمي لليونسكو. كلاهما يتطور بسرعة، وكلاهما يعاني من نقص في خدمات إدارة الإيرادات المهيكلة."
+  },
+  "Heritage &amp; Leisure Segment Targeting:": {
+    "vi": "Nhắm mục tiêu phân khúc Di sản &amp; Giải trí:",
+    "zh-CN": "遗产与休闲细分市场定位：",
+    "th": "การกำหนดเป้าหมายกลุ่มมรดกและการพักผ่อน:",
+    "km": "ការកំណត់គោលដៅផ្នែកបេតិកភណ្ឌ &amp; ការកម្សាន្ត៖",
+    "ar": "استهداف قطاع التراث والترفيه:"
+  },
+  "What are the charges for Hotel Revenue Management?": {
+    "vi": "Chi phí cho Quản lý Doanh thu Khách sạn là bao nhiêu?",
+    "zh-CN": "酒店收益管理的收费是多少？",
+    "th": "ค่าบริการสำหรับการจัดการรายได้โรงแรมคือเท่าไหร่?",
+    "km": "តើថ្លៃសេវាសម្រាប់ការគ្រប់គ្រងប្រាក់ចំណូលសណ្ឋាគារមានអ្វីខ្លះ?",
+    "ar": "ما هي رسوم إدارة إيرادات الفندق؟"
+  },
+  "Is there a long-term contract, or can I cancel anytime?": {
+    "vi": "Có hợp đồng dài hạn không, hay tôi có thể hủy bất cứ lúc nào?",
+    "zh-CN": "有长期合同吗，还是我可以随时取消？",
+    "th": "มีสัญญาระยะยาวหรือไม่ หรือสามารถยกเลิกได้ตลอดเวลา?",
+    "km": "តើមានកិច្ចសន្យារយៈពេលវែងដែរឬទេ ឬតើខ្ញុំអាចលុបចោលនៅពេលណាក៏បាន?",
+    "ar": "هل يوجد عقد طويل الأجل، أم يمكنني الإلغاء في أي وقت؟"
+  },
+  "Rapid Execution:": {
+    "vi": "Thực thi nhanh chóng:",
+    "zh-CN": "快速执行：",
+    "th": "การดำเนินการอย่างรวดเร็ว:",
+    "km": "ការអនុវត្តយ៉ាងឆាប់រហ័ស៖",
+    "ar": "تنفيذ سريع:"
+  },
+  "Services": {
+    "vi": "Dịch vụ",
+    "zh-CN": "服务",
+    "th": "บริการ",
+    "km": "សេវាកម្ម",
+    "ar": "الخدمات"
+  },
+  "<strong style=\"color: var(--primary-color);\">OTA Content &amp; Parity:</strong> Optimization across Booking.com, Agoda, Trip.com, and Expedia, the dominant inbound channels.": {
+    "vi": "<strong style=\"color: var(--primary-color);\">Nội dung OTA &amp; Tính đồng nhất:</strong> Tối ưu hóa trên Booking.com, Agoda, Trip.com và Expedia, các kênh thu hút khách quốc tế thống trị.",
+    "zh-CN": "<strong style=\"color: var(--primary-color);\">OTA内容与平价：</strong> 在Booking.com、Agoda、Trip.com和Expedia这些主导入境渠道上进行优化。",
+    "th": "<strong style=\"color: var(--primary-color);\">เนื้อหา OTA และความเท่าเทียม:</strong> การเพิ่มประสิทธิภาพใน Booking.com, Agoda, Trip.com และ Expedia ซึ่งเป็นช่องทางขาเข้าหลัก",
+    "km": "<strong style=\"color: var(--primary-color);\">ខ្លឹមសារ OTA &amp; ភាពស្មើគ្នា៖</strong> ការបង្កើនប្រសិទ្ធភាពនៅលើ Booking.com, Agoda, Trip.com និង Expedia ដែលជាបណ្តាញទាក់ទាញភ្ញៀវអន្តរជាតិលេចធ្លោ។",
+    "ar": "<strong style=\"color: var(--primary-color);\">محتوى وتكافؤ وكالات السفر عبر الإنترنت (OTA):</strong> تحسين عبر Booking.com، وAgoda، وTrip.com، وExpedia، وهي القنوات الرئيسية للوافدين."
+  },
+  "SGD (S$)": {
+    "vi": "SGD (S$)",
+    "zh-CN": "新加坡元 (S$)",
+    "th": "ดอลลาร์สิงคโปร์ (S$)",
+    "km": "ដុល្លារសិង្ហបុរី (S$)",
+    "ar": "دولار سنغافوري (S$)"
+  },
+  "Hotel name": {
+    "vi": "Tên khách sạn",
+    "zh-CN": "酒店名称",
+    "th": "ชื่อโรงแรม",
+    "km": "ឈ្មោះសណ្ឋាគារ",
+    "ar": "اسم الفندق"
+  },
+  "Pricing": {
+    "vi": "Bảng giá",
+    "zh-CN": "定价",
+    "th": "ราคา",
+    "km": "តម្លៃ",
+    "ar": "التسعير"
+  },
+  "<strong style=\"color: var(--accent-color);\">Regional Fluency:</strong> Direct experience across Southeast Asia's hospitality markets, applied specifically to Malaysia's demand patterns and OTA landscape.": {
+    "vi": "<strong style=\"color: var(--accent-color);\">Sự am hiểu khu vực:</strong> Kinh nghiệm trực tiếp trên các thị trường khách sạn Đông Nam Á, được áp dụng cụ thể vào các mô hình nhu cầu và bối cảnh OTA của Malaysia.",
+    "zh-CN": "<strong style=\"color: var(--accent-color);\">区域流利度：</strong> 在东南亚酒店市场的直接经验，特别应用于马来西亚的需求模式和OTA格局。",
+    "th": "<strong style=\"color: var(--accent-color);\">ความเชี่ยวชาญระดับภูมิภาค:</strong> ประสบการณ์ตรงในตลาดการบริการของเอเชียตะวันออกเฉียงใต้ ซึ่งนำมาใช้โดยเฉพาะกับรูปแบบความต้องการและภูมิทัศน์ OTA ของมาเลเซีย",
+    "km": "<strong style=\"color: var(--accent-color);\">ភាពស្ទាត់ជំនាញក្នុងតំបន់៖</strong> បទពិសោធន៍ផ្ទាល់នៅទូទាំងទីផ្សារបដិសណ្ឋារកិច្ចនៅអាស៊ីអាគ្នេយ៍ ដែលអនុវត្តជាពិសេសចំពោះគំរូតម្រូវការ និងទិដ្ឋភាព OTA របស់ប្រទេសម៉ាឡេស៊ី។",
+    "ar": "<strong style=\"color: var(--accent-color);\">الطلاقة الإقليمية:</strong> خبرة مباشرة عبر أسواق الضيافة في جنوب شرق آسيا، مطبقة خصيصًا على أنماط الطلب ومشهد وكالات السفر عبر الإنترنت (OTA) في ماليزيا."
+  },
+  "Intensifying Competition in a Small-Hotel Market:": {
+    "vi": "Gia tăng Cạnh tranh trong Thị trường Khách sạn Nhỏ:",
+    "zh-CN": "小型酒店市场竞争加剧：",
+    "th": "การแข่งขันที่ทวีความรุนแรงในตลาดโรงแรมขนาดเล็ก:",
+    "km": "ការប្រកួតប្រជែងកាន់តែខ្លាំងនៅក្នុងទីផ្សារសណ្ឋាគារខ្នាតតូច៖",
+    "ar": "اشتداد المنافسة في سوق الفنادق الصغيرة:"
+  },
+  "Blog": {
+    "vi": "Blog",
+    "zh-CN": "博客",
+    "th": "บล็อก",
+    "km": "ប្លុក",
+    "ar": "المدونة"
+  },
+  "Free Revenue Audit": {
+    "vi": "Kiểm toán doanh thu miễn phí",
+    "zh-CN": "免费收益审计",
+    "th": "ตรวจสอบรายได้ฟรี",
+    "km": "សវនកម្មប្រាក់ចំណូលដោយឥតគិតថ្លៃ",
+    "ar": "تدقيق إيرادات مجاني"
+  },
+  "<div class=\"service-card-icon\"> <svg viewbox=\"0 0 24 24\"><path d=\"M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z\"></path></svg> </div> <h3 class=\"service-card-title\">Guest Support Services</h3> <p class=\"service-card-text\">Pre-arrival, in-stay, and post-stay communications that build loyalty and boost your online reputation.</p>": {
+    "vi": "<div class=\"service-card-icon\"> <svg viewbox=\"0 0 24 24\"><path d=\"M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z\"></path></svg> </div> <h3 class=\"service-card-title\">Dịch vụ Hỗ trợ Khách hàng</h3> <p class=\"service-card-text\">Giao tiếp trước khi đến, trong thời gian lưu trú và sau khi lưu trú giúp xây dựng lòng trung thành và tăng cường danh tiếng trực tuyến của bạn.</p>",
+    "zh-CN": "<div class=\"service-card-icon\"> <svg viewbox=\"0 0 24 24\"><path d=\"M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z\"></path></svg> </div> <h3 class=\"service-card-title\">宾客支持服务</h3> <p class=\"service-card-text\">到达前、入住期间和入住后的沟通可建立忠诚度并提升您的在线声誉。</p>",
+    "th": "<div class=\"service-card-icon\"> <svg viewbox=\"0 0 24 24\"><path d=\"M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z\"></path></svg> </div> <h3 class=\"service-card-title\">บริการสนับสนุนผู้เข้าพัก</h3> <p class=\"service-card-text\">การสื่อสารก่อนมาถึง ระหว่างเข้าพัก และหลังการเข้าพักเพื่อสร้างความภักดีและส่งเสริมชื่อเสียงออนไลน์ของคุณ</p>",
+    "km": "<div class=\"service-card-icon\"> <svg viewbox=\"0 0 24 24\"><path d=\"M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z\"></path></svg> </div> <h3 class=\"service-card-title\">សេវាកម្មគាំទ្រភ្ញៀវ</h3> <p class=\"service-card-text\">ការទំនាក់ទំនងមុនពេលមកដល់ អំឡុងពេលស្នាក់នៅ និងក្រោយពេលស្នាក់នៅ ដែលកសាងភាពស្មោះត្រង់ និងពង្រឹងកេរ្តិ៍ឈ្មោះលើអ៊ីនធឺណិតរបស់អ្នក។</p>",
+    "ar": "<div class=\"service-card-icon\"> <svg viewbox=\"0 0 24 24\"><path d=\"M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z\"></path></svg> </div> <h3 class=\"service-card-title\">خدمات دعم الضيوف</h3> <p class=\"service-card-text\">التواصل قبل الوصول، وأثناء الإقامة، وبعد الإقامة يبني الولاء ويعزز سمعتك عبر الإنترنت.</p>"
+  },
+  "Refund Policy": {
+    "vi": "Chính sách Hoàn tiền",
+    "zh-CN": "退款政策",
+    "th": "นโยบายการคืนเงิน",
+    "km": "គោលការណ៍បង្វិលសងប្រាក់វិញ",
+    "ar": "سياسة الاسترداد"
+  },
+  "Source-Market Segmentation:": {
+    "vi": "Phân khúc Thị trường Nguồn:",
+    "zh-CN": "客源市场细分：",
+    "th": "การแบ่งส่วนตลาดต้นทาง:",
+    "km": "ការបែងចែកទីផ្សារប្រភព៖",
+    "ar": "تجزئة السوق المصدر:"
+  },
+  "<!-- Custom SVG Map Infographic showing regional proximity --> <svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Vietnam) --> <path d=\"M 120,200 Q 200,150 280,100 M 120,200 Q 220,240 300,250\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Bangkok Node --> <circle cx=\"120\" cy=\"200\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"120\" cy=\"200\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vietnam Node 1 (Hanoi) --> <circle cx=\"280\" cy=\"100\" fill=\"var(--accent-color)\" r=\"8\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"280\" cy=\"100\" fill=\"none\" opacity=\"0.5\" r=\"14\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"8;18;8\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vietnam Node 2 (Da Nang / HCM) --> <circle cx=\"300\" cy=\"250\" fill=\"var(--accent-color)\" r=\"8\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"300\" cy=\"250\" fill=\"none\" opacity=\"0.5\" r=\"14\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"4s\" repeatcount=\"indefinite\" values=\"8;18;8\"></animate> <animate attributename=\"opacity\" dur=\"4s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"120\" y=\"165\">BANGKOK BASE</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"280\" y=\"65\">HANOI</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"300\" y=\"285\">DA NANG &amp; HOI AN</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">CRS Central Regional Reach Map</text> </svg>": {
+    "vi": "<!-- Custom SVG Map Infographic showing regional proximity --> <svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Vietnam) --> <path d=\"M 120,200 Q 200,150 280,100 M 120,200 Q 220,240 300,250\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Bangkok Node --> <circle cx=\"120\" cy=\"200\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"120\" cy=\"200\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vietnam Node 1 (Hanoi) --> <circle cx=\"280\" cy=\"100\" fill=\"var(--accent-color)\" r=\"8\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"280\" cy=\"100\" fill=\"none\" opacity=\"0.5\" r=\"14\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"8;18;8\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vietnam Node 2 (Da Nang / HCM) --> <circle cx=\"300\" cy=\"250\" fill=\"var(--accent-color)\" r=\"8\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"300\" cy=\"250\" fill=\"none\" opacity=\"0.5\" r=\"14\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"4s\" repeatcount=\"indefinite\" values=\"8;18;8\"></animate> <animate attributename=\"opacity\" dur=\"4s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"120\" y=\"165\">CƠ SỞ BANGKOK</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"280\" y=\"65\">HÀ NỘI</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"300\" y=\"285\">ĐÀ NẴNG &amp; HỘI AN</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">Bản đồ Tiếp cận Khu vực CRS Central</text> </svg>",
+    "zh-CN": "<!-- Custom SVG Map Infographic showing regional proximity --> <svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Vietnam) --> <path d=\"M 120,200 Q 200,150 280,100 M 120,200 Q 220,240 300,250\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Bangkok Node --> <circle cx=\"120\" cy=\"200\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"120\" cy=\"200\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vietnam Node 1 (Hanoi) --> <circle cx=\"280\" cy=\"100\" fill=\"var(--accent-color)\" r=\"8\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"280\" cy=\"100\" fill=\"none\" opacity=\"0.5\" r=\"14\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"8;18;8\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vietnam Node 2 (Da Nang / HCM) --> <circle cx=\"300\" cy=\"250\" fill=\"var(--accent-color)\" r=\"8\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"300\" cy=\"250\" fill=\"none\" opacity=\"0.5\" r=\"14\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"4s\" repeatcount=\"indefinite\" values=\"8;18;8\"></animate> <animate attributename=\"opacity\" dur=\"4s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"120\" y=\"165\">曼谷基地</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"280\" y=\"65\">河内</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"300\" y=\"285\">岘港和会安</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">CRS Central 区域覆盖地图</text> </svg>",
+    "th": "<!-- Custom SVG Map Infographic showing regional proximity --> <svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Vietnam) --> <path d=\"M 120,200 Q 200,150 280,100 M 120,200 Q 220,240 300,250\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Bangkok Node --> <circle cx=\"120\" cy=\"200\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"120\" cy=\"200\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vietnam Node 1 (Hanoi) --> <circle cx=\"280\" cy=\"100\" fill=\"var(--accent-color)\" r=\"8\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"280\" cy=\"100\" fill=\"none\" opacity=\"0.5\" r=\"14\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"8;18;8\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vietnam Node 2 (Da Nang / HCM) --> <circle cx=\"300\" cy=\"250\" fill=\"var(--accent-color)\" r=\"8\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"300\" cy=\"250\" fill=\"none\" opacity=\"0.5\" r=\"14\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"4s\" repeatcount=\"indefinite\" values=\"8;18;8\"></animate> <animate attributename=\"opacity\" dur=\"4s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"120\" y=\"165\">ฐานบัญชาการกรุงเทพฯ</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"280\" y=\"65\">ฮานอย</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"300\" y=\"285\">ดานังและฮอยอัน</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">แผนที่การเข้าถึงระดับภูมิภาค CRS Central</text> </svg>",
+    "km": "<!-- Custom SVG Map Infographic showing regional proximity --> <svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Vietnam) --> <path d=\"M 120,200 Q 200,150 280,100 M 120,200 Q 220,240 300,250\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Bangkok Node --> <circle cx=\"120\" cy=\"200\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"120\" cy=\"200\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vietnam Node 1 (Hanoi) --> <circle cx=\"280\" cy=\"100\" fill=\"var(--accent-color)\" r=\"8\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"280\" cy=\"100\" fill=\"none\" opacity=\"0.5\" r=\"14\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"8;18;8\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vietnam Node 2 (Da Nang / HCM) --> <circle cx=\"300\" cy=\"250\" fill=\"var(--accent-color)\" r=\"8\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"300\" cy=\"250\" fill=\"none\" opacity=\"0.5\" r=\"14\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"4s\" repeatcount=\"indefinite\" values=\"8;18;8\"></animate> <animate attributename=\"opacity\" dur=\"4s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"120\" y=\"165\">មូលដ្ឋានបាងកក</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"280\" y=\"65\">ហាណូយ</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"300\" y=\"285\">ដាណាង និង ហូយអាន</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">ផែនទីតំបន់ឈានដល់ CRS Central</text> </svg>",
+    "ar": "<!-- Custom SVG Map Infographic showing regional proximity --> <svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Vietnam) --> <path d=\"M 120,200 Q 200,150 280,100 M 120,200 Q 220,240 300,250\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Bangkok Node --> <circle cx=\"120\" cy=\"200\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"120\" cy=\"200\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vietnam Node 1 (Hanoi) --> <circle cx=\"280\" cy=\"100\" fill=\"var(--accent-color)\" r=\"8\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"280\" cy=\"100\" fill=\"none\" opacity=\"0.5\" r=\"14\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"8;18;8\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vietnam Node 2 (Da Nang / HCM) --> <circle cx=\"300\" cy=\"250\" fill=\"var(--accent-color)\" r=\"8\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"300\" cy=\"250\" fill=\"none\" opacity=\"0.5\" r=\"14\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"4s\" repeatcount=\"indefinite\" values=\"8;18;8\"></animate> <animate attributename=\"opacity\" dur=\"4s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"120\" y=\"165\">قاعدة بانكوك</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"280\" y=\"65\">هانوي</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"300\" y=\"285\">دا نانغ وهوي آن</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">خريطة الوصول الإقليمي لـ CRS Central</text> </svg>"
+  },
+  "Is there a minimum contract period?": {
+    "vi": "Có thời hạn hợp đồng tối thiểu không?",
+    "zh-CN": "有最低合同期限吗？",
+    "th": "มีระยะเวลาสัญญาขั้นต่ำหรือไม่?",
+    "km": "តើមានកិច្ចសន្យារយៈពេលអប្បបរមាដែរឬទេ?",
+    "ar": "هل يوجد حد أدنى لفترة العقد؟"
+  },
+  "Resilience During New-Supply Pressure:": {
+    "vi": "Khả năng Phục hồi Trong Áp lực Nguồn cung Mới:",
+    "zh-CN": "在新供应压力下的韧性：",
+    "th": "ความยืดหยุ่นระหว่างแรงกดดันจากอุปทานใหม่:",
+    "km": "ភាពធន់ក្នុងអំឡុងពេលសម្ពាធផ្គត់ផ្គង់ថ្មី៖",
+    "ar": "المرونة أثناء ضغط الإمدادات الجديدة:"
+  },
+  "How is this different from hiring my own in-house Revenue Manager?": {
+    "vi": "Điều này khác gì so với việc thuê Quản lý Doanh thu nội bộ của riêng tôi?",
+    "zh-CN": "这与我自己聘请内部收益经理有什么不同？",
+    "th": "สิ่งนี้แตกต่างจากการจ้างผู้จัดการรายได้ภายในองค์กรของฉันเองอย่างไร?",
+    "km": "តើនេះខុសគ្នាពីការជួលអ្នកគ្រប់គ្រងប្រាក់ចំណូលក្នុងផ្ទះផ្ទាល់ខ្លួនរបស់ខ្ញុំយ៉ាងដូចម្តេច?",
+    "ar": "كيف يختلف هذا عن تعيين مدير إيرادات داخلي خاص بي؟"
+  },
+  "Lengthening Booking Windows:": {
+    "vi": "Kéo dài Thời gian Đặt phòng trước:",
+    "zh-CN": "延长预订窗口：",
+    "th": "การขยายกรอบเวลาการจอง:",
+    "km": "ការពង្រីកបង្អួចការកក់៖",
+    "ar": "إطالة فترات الحجز:"
+  },
+  "India Expertise": {
+    "vi": "Chuyên môn tại Ấn Độ",
+    "zh-CN": "印度专长",
+    "th": "ความเชี่ยวชาญในอินเดีย",
+    "km": "ជំនាញនៅឥណ្ឌា",
+    "ar": "خبرة الهند"
+  },
+  "<svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Vientiane) --> <path d=\"M 180,260 Q 240,190 220,120\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Regional Hub nodes --> <!-- Bangkok Node --> <circle cx=\"180\" cy=\"260\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"180\" cy=\"260\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vientiane Node --> <circle cx=\"220\" cy=\"120\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"220\" cy=\"120\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"180\" y=\"295\">BANGKOK BASE</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"220\" y=\"85\">VIENTIANE &amp; LUANG PRABANG</text> <text fill=\"var(--accent-color)\" font-family=\"var(--font-body)\" font-size=\"12\" text-anchor=\"middle\" x=\"220\" y=\"102\">Laos Presence</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">CRS Central Regional Reach Map</text> </svg>": {
+    "vi": "<svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Vientiane) --> <path d=\"M 180,260 Q 240,190 220,120\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Regional Hub nodes --> <!-- Bangkok Node --> <circle cx=\"180\" cy=\"260\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"180\" cy=\"260\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vientiane Node --> <circle cx=\"220\" cy=\"120\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"220\" cy=\"120\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"180\" y=\"295\">CƠ SỞ BANGKOK</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"220\" y=\"85\">VIÊNG CHĂN &amp; LUANG PRABANG</text> <text fill=\"var(--accent-color)\" font-family=\"var(--font-body)\" font-size=\"12\" text-anchor=\"middle\" x=\"220\" y=\"102\">Hiện diện tại Lào</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">Bản đồ Tiếp cận Khu vực CRS Central</text> </svg>",
+    "zh-CN": "<svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Vientiane) --> <path d=\"M 180,260 Q 240,190 220,120\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Regional Hub nodes --> <!-- Bangkok Node --> <circle cx=\"180\" cy=\"260\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"180\" cy=\"260\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vientiane Node --> <circle cx=\"220\" cy=\"120\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"220\" cy=\"120\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"180\" y=\"295\">曼谷基地</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"220\" y=\"85\">万象和琅勃拉邦</text> <text fill=\"var(--accent-color)\" font-family=\"var(--font-body)\" font-size=\"12\" text-anchor=\"middle\" x=\"220\" y=\"102\">老挝业务</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">CRS Central 区域覆盖地图</text> </svg>",
+    "th": "<svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Vientiane) --> <path d=\"M 180,260 Q 240,190 220,120\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Regional Hub nodes --> <!-- Bangkok Node --> <circle cx=\"180\" cy=\"260\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"180\" cy=\"260\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vientiane Node --> <circle cx=\"220\" cy=\"120\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"220\" cy=\"120\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"180\" y=\"295\">ฐานบัญชาการกรุงเทพฯ</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"220\" y=\"85\">เวียงจันทน์และหลวงพระบาง</text> <text fill=\"var(--accent-color)\" font-family=\"var(--font-body)\" font-size=\"12\" text-anchor=\"middle\" x=\"220\" y=\"102\">การดำเนินงานในลาว</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">แผนที่การเข้าถึงระดับภูมิภาค CRS Central</text> </svg>",
+    "km": "<svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Vientiane) --> <path d=\"M 180,260 Q 240,190 220,120\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Regional Hub nodes --> <!-- Bangkok Node --> <circle cx=\"180\" cy=\"260\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"180\" cy=\"260\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vientiane Node --> <circle cx=\"220\" cy=\"120\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"220\" cy=\"120\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"180\" y=\"295\">មូលដ្ឋានបាងកក</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"220\" y=\"85\">វៀងចន្ទន៍ និង ហ្លួងប្រាបាង</text> <text fill=\"var(--accent-color)\" font-family=\"var(--font-body)\" font-size=\"12\" text-anchor=\"middle\" x=\"220\" y=\"102\">វត្តមាននៅឡាវ</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">ផែនទីតំបន់ឈានដល់ CRS Central</text> </svg>",
+    "ar": "<svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Vientiane) --> <path d=\"M 180,260 Q 240,190 220,120\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Regional Hub nodes --> <!-- Bangkok Node --> <circle cx=\"180\" cy=\"260\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"180\" cy=\"260\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Vientiane Node --> <circle cx=\"220\" cy=\"120\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"220\" cy=\"120\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"180\" y=\"295\">قاعدة بانكوك</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"220\" y=\"85\">فينتيان ولوانغ برابانغ</text> <text fill=\"var(--accent-color)\" font-family=\"var(--font-body)\" font-size=\"12\" text-anchor=\"middle\" x=\"220\" y=\"102\">الحضور في لاوس</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">خريطة الوصول الإقليمي لـ CRS Central</text> </svg>"
+  },
+  "AUD (A$)": {
+    "vi": "AUD (A$)",
+    "zh-CN": "澳元 (A$)",
+    "th": "ดอลลาร์ออสเตรเลีย (A$)",
+    "km": "ដុល្លារអូស្ត្រាលី (A$)",
+    "ar": "دولار أسترالي (A$)"
+  },
+  "<strong>Yield Captured During Peaks:</strong> Rates that flex upward ahead of known high-demand periods, instead of discovering the missed opportunity after the fact.": {
+    "vi": "<strong>Lợi nhuận Thu được Trong Mùa cao điểm:</strong> Giá cả linh hoạt tăng trước các giai đoạn nhu cầu cao đã biết, thay vì nhận ra cơ hội bị bỏ lỡ sau khi sự việc đã xảy ra.",
+    "zh-CN": "<strong>高峰期收益捕获：</strong> 在已知的需求高峰期之前灵活上调价格，而不是事后才发现错失良机。",
+    "th": "<strong>ผลตอบแทนที่ได้รับในช่วงพีค:</strong> อัตราที่ปรับเพิ่มขึ้นล่วงหน้าในช่วงที่มีความต้องการสูงซึ่งทราบล่วงหน้า แทนที่จะมาพบว่าพลาดโอกาสไปแล้วในภายหลัง",
+    "km": "<strong>ទិន្នផលដែលទទួលបានក្នុងអំឡុងពេលកំពូល៖</strong> អត្រាដែលបត់បែនឡើងលើនៅមុនពេលដែលមានតម្រូវការខ្ពស់ដែលគេស្គាល់ ជាជាងការរកឃើញឱកាសដែលខកខានបន្ទាប់ពីការពិត។",
+    "ar": "<strong>العائد الذي يتم التقاطه خلال فترات الذروة:</strong> الأسعار التي ترتفع بمرونة قبل فترات الطلب المرتفع المعروفة، بدلاً من اكتشاف الفرصة الضائعة بعد فوات الأوان."
+  },
+  "Around 18% to an OTA. <em>8%</em> with StayCRS.": {
+    "vi": "Khoảng 18% cho OTA. <em>8%</em> với StayCRS.",
+    "zh-CN": "OTA佣金约18%。使用StayCRS只需<em>8%</em>。",
+    "th": "ประมาณ 18% สำหรับ OTA เพียง <em>8%</em> กับ StayCRS",
+    "km": "ប្រហែល 18% ទៅ OTA ។ <em>8%</em> ជាមួយ StayCRS ។",
+    "ar": "حوالي 18% لوكالة سفر عبر الإنترنت. <em>8%</em> مع StayCRS."
+  },
+  "Interested in": {
+    "vi": "Quan tâm đến",
+    "zh-CN": "感兴趣的领域",
+    "th": "สนใจใน",
+    "km": "ចាប់អារម្មណ៍លើ",
+    "ar": "مهتم بـ"
+  },
+  "What you get": {
+    "vi": "Những gì bạn nhận được",
+    "zh-CN": "您将获得什么",
+    "th": "สิ่งที่คุณได้รับ",
+    "km": "អ្វីដែលអ្នកទទួលបាន",
+    "ar": "ما تحصل عليه"
+  },
+  "Segment-Smart Revenue:": {
+    "vi": "Doanh thu Thông minh theo Phân khúc:",
+    "zh-CN": "分众智能收益：",
+    "th": "รายได้อัจฉริยะตามกลุ่มเป้าหมาย:",
+    "km": "ប្រាក់ចំណូលឆ្លាតវៃតាមផ្នែក៖",
+    "ar": "الإيرادات الذكية حسب الشريحة:"
+  },
+  "<strong style=\"color: var(--accent-color);\">Source-Market Expertise:</strong> Pricing and channel strategy tuned to Vietnam's fast-shifting mix of Chinese, Korean, and domestic travelers.": {
+    "vi": "<strong style=\"color: var(--accent-color);\">Chuyên môn Thị trường Nguồn:</strong> Chiến lược giá cả và kênh được điều chỉnh theo sự pha trộn thay đổi nhanh chóng của du khách Trung Quốc, Hàn Quốc và nội địa tại Việt Nam.",
+    "zh-CN": "<strong style=\"color: var(--accent-color);\">客源市场专长：</strong> 针对越南快速变化的中国、韩国和国内旅客结构，量身定制的定价和渠道策略。",
+    "th": "<strong style=\"color: var(--accent-color);\">ความเชี่ยวชาญด้านตลาดต้นทาง:</strong> กลยุทธ์ด้านราคาและช่องทางที่ปรับให้เข้ากับการเปลี่ยนแปลงอย่างรวดเร็วของนักท่องเที่ยวชาวจีน เกาหลี และนักท่องเที่ยวในเวียดนาม",
+    "km": "<strong style=\"color: var(--accent-color);\">ជំនាញទីផ្សារប្រភព៖</strong> យុទ្ធសាស្រ្តតម្លៃ និងបណ្តាញដែលត្រូវបានកែសម្រួលទៅតាមការផ្លាស់ប្តូរយ៉ាងឆាប់រហ័សនៃអ្នកដំណើរចិន កូរ៉េ និងអ្នកដំណើរក្នុងស្រុករបស់វៀតណាម។",
+    "ar": "<strong style=\"color: var(--accent-color);\">خبرة السوق المصدر:</strong> استراتيجية التسعير والقنوات المضبوطة لتناسب المزيج السريع التغير للمسافرين الصينيين والكوريين والمحليين في فيتنام."
+  },
+  "<strong>Reduced Commission Drag:</strong> A healthier direct-to-OTA revenue mix over time.": {
+    "vi": "<strong>Giảm thiểu Gánh nặng Hoa hồng:</strong> Tỷ lệ doanh thu trực tiếp so với OTA lành mạnh hơn theo thời gian.",
+    "zh-CN": "<strong>降低佣金负担：</strong> 随着时间的推移，实现更健康的直接预订与OTA收益比例。",
+    "th": "<strong>ลดภาระค่าคอมมิชชั่น:</strong> สัดส่วนรายได้จากการจองโดยตรงต่อ OTA ที่ดีขึ้นเมื่อเวลาผ่านไป",
+    "km": "<strong>ការកាត់បន្ថយបន្ទុកកម្រៃជើងសារ៖</strong> ការលាយបញ្ចូលគ្នានៃប្រាក់ចំណូលដោយផ្ទាល់ទៅនឹង OTA ដែលមានសុខភាពល្អជាងមុនតាមពេលវេលា។",
+    "ar": "<strong>تقليل عبء العمولات:</strong> مزيج أكثر صحة من الإيرادات المباشرة مقارنة بوكالات السفر عبر الإنترنت بمرور الوقت."
+  },
+  "Book a Free Revenue Audit in Malaysia →": {
+    "vi": "Đặt lịch Kiểm toán Doanh thu Miễn phí tại Malaysia →",
+    "zh-CN": "预订马来西亚的免费收益审计 →",
+    "th": "จองการตรวจสอบรายได้ฟรีในมาเลเซีย →",
+    "km": "កក់សវនកម្មប្រាក់ចំណូលដោយឥតគិតថ្លៃនៅម៉ាឡេស៊ី →",
+    "ar": "احجز تدقيق إيرادات مجاني في ماليزيا →"
+  },
+  "<strong style=\"color: var(--primary-color);\">Heritage &amp; Beach Segment Packaging:</strong> Distinct positioning for Hoi An's cultural travelers versus Da Nang's beach-resort guests.": {
+    "vi": "<strong style=\"color: var(--primary-color);\">Đóng gói Phân khúc Di sản &amp; Bãi biển:</strong> Định vị khác biệt cho du khách văn hóa của Hội An so với khách nghỉ dưỡng bãi biển của Đà Nẵng.",
+    "zh-CN": "<strong style=\"color: var(--primary-color);\">遗产与海滩细分市场包装：</strong> 为会安的文化旅客与岘港的海滩度假客人提供差异化定位。",
+    "th": "<strong style=\"color: var(--primary-color);\">การจัดแพ็กเกจกลุ่มมรดกและชายหาด:</strong> การวางตำแหน่งที่แตกต่างสำหรับนักท่องเที่ยวเชิงวัฒนธรรมของฮอยอันเมื่อเทียบกับแขกของรีสอร์ทริมชายหาดในดานัง",
+    "km": "<strong style=\"color: var(--primary-color);\">ការវេចខ្ចប់ផ្នែកបេតិកភណ្ឌ &amp; ឆ្នេរ៖</strong> ការដាក់ទីតាំងខុសគ្នាសម្រាប់អ្នកធ្វើដំណើរវប្បធម៌របស់ហូយអានធៀបនឹងភ្ញៀវរមណីយដ្ឋានឆ្នេររបស់ដាណាង។",
+    "ar": "<strong style=\"color: var(--primary-color);\">تعبئة قطاع التراث والشواطئ:</strong> تموضع مميز للمسافرين الثقافيين في هوي آن مقابل ضيوف منتجعات الشاطئ في دا نانغ."
+  },
+  "Bringing Structured Revenue Management to a Market in Fast Growth": {
+    "vi": "Mang Quản lý Doanh thu Cấu trúc đến một Thị trường đang Phát triển Nhanh chóng",
+    "zh-CN": "将结构化收益管理引入快速增长的市场",
+    "th": "นำการจัดการรายได้แบบมีโครงสร้างเข้าสู่ตลาดที่เติบโตอย่างรวดเร็ว",
+    "km": "ការនាំយកការគ្រប់គ្រងប្រាក់ចំណូលដែលមានរចនាសម្ព័ន្ធទៅកាន់ទីផ្សារដែលកំពុងរីកចម្រើនយ៉ាងឆាប់រហ័ស",
+    "ar": "جلب إدارة الإيرادات المهيكلة إلى سوق يشهد نموًا سريعًا"
+  },
+  "<strong style=\"color: var(--primary-color);\">Shoulder-Season Strategy:</strong> Demand-building offers for the quieter monsoon months, protecting rate integrity rather than discounting broadly.": {
+    "vi": "<strong style=\"color: var(--primary-color);\">Chiến lược Mùa thấp điểm:</strong> Các ưu đãi kích cầu cho những tháng gió mùa yên tĩnh hơn, bảo vệ tính toàn vẹn của giá thay vì giảm giá hàng loạt.",
+    "zh-CN": "<strong style=\"color: var(--primary-color);\">平季策略：</strong> 针对较冷清的季风月份制定需求刺激优惠，保护价格体系，而不是全面打折。",
+    "th": "<strong style=\"color: var(--primary-color);\">กลยุทธ์ช่วงนอกฤดูกาลท่องเที่ยว:</strong> ข้อเสนอเพื่อสร้างความต้องการในช่วงฤดูมรสุมที่เงียบเหงา เพื่อรักษาความสมบูรณ์ของราคามากกว่าการลดราคาในวงกว้าง",
+    "km": "<strong style=\"color: var(--primary-color);\">យុទ្ធសាស្រ្តរដូវកាលទាប៖</strong> ការផ្តល់ជូនការកសាងតម្រូវការសម្រាប់ខែរដូវមូសុងដែលស្ងប់ស្ងាត់ ការពារសុចរិតភាពនៃអត្រាការប្រាក់ជាជាងការបញ្ចុះតម្លៃយ៉ាងទូលំទូលាយ។",
+    "ar": "<strong style=\"color: var(--primary-color);\">استراتيجية موسم الكتف (المواسم الانتقالية):</strong> عروض لبناء الطلب لأشهر الرياح الموسمية الأكثر هدوءًا، مع حماية سلامة الأسعار بدلاً من الخصومات الواسعة."
+  },
+  "<strong style=\"color: var(--primary-color);\">Shoulder-Season Demand Building:</strong> Targeted offers to smooth out Penang's sharp seasonal swings rather than deep discounting.": {
+    "vi": "<strong style=\"color: var(--primary-color);\">Kích cầu Mùa thấp điểm:</strong> Các ưu đãi có mục tiêu nhằm làm dịu đi những biến động mùa vụ lớn của Penang thay vì giảm giá sâu.",
+    "zh-CN": "<strong style=\"color: var(--primary-color);\">平季需求建设：</strong> 通过有针对性的优惠来平缓槟城急剧的季节性波动，而不是进行深度打折。",
+    "th": "<strong style=\"color: var(--primary-color);\">การสร้างความต้องการช่วงนอกฤดูกาลท่องเที่ยว:</strong> ข้อเสนอแบบกำหนดเป้าหมายเพื่อลดความผันผวนตามฤดูกาลที่รุนแรงของปีนังแทนการลดราคาอย่างหนัก",
+    "km": "<strong style=\"color: var(--primary-color);\">ការកសាងតម្រូវការរដូវកាលទាប៖</strong> ការផ្តល់ជូនដែលមានគោលដៅដើម្បីបន្ធូរបន្ថយការផ្លាស់ប្តូររដូវកាលដ៏មុតស្រួចរបស់ Penang ជាជាងការបញ្ចុះតម្លៃជ្រៅ។",
+    "ar": "<strong style=\"color: var(--primary-color);\">بناء الطلب في موسم الكتف:</strong> عروض مستهدفة لتخفيف التقلبات الموسمية الحادة في بينانغ بدلاً من الخصومات العميقة."
+  },
+  "<label for=\"h\">Hotel name</label><input id=\"h\" required=\"\"/>": {
+    "vi": "<label for=\"h\">Tên khách sạn</label><input id=\"h\" required=\"\"/>",
+    "zh-CN": "<label for=\"h\">酒店名称</label><input id=\"h\" required=\"\"/>",
+    "th": "<label for=\"h\">ชื่อโรงแรม</label><input id=\"h\" required=\"\"/>",
+    "km": "<label for=\"h\">ឈ្មោះសណ្ឋាគារ</label><input id=\"h\" required=\"\"/>",
+    "ar": "<label for=\"h\">اسم الفندق</label><input id=\"h\" required=\"\"/>"
+  },
+  "<strong style=\"color: var(--primary-color);\">Boutique OTA Optimization:</strong> Content and ranking improvements on Booking.com, Agoda, and Trip.com, where independent boutique properties compete directly against branded luxury listings.": {
+    "vi": "<strong style=\"color: var(--primary-color);\">Tối ưu hóa OTA cho Khách sạn Boutique:</strong> Cải thiện nội dung và thứ hạng trên Booking.com, Agoda và Trip.com, nơi các khách sạn boutique độc lập cạnh tranh trực tiếp với các cơ sở kinh doanh sang trọng có thương hiệu.",
+    "zh-CN": "<strong style=\"color: var(--primary-color);\">精品酒店OTA优化：</strong> 提升在Booking.com、Agoda和Trip.com上的内容和排名，使独立精品酒店能与品牌豪华酒店直接竞争。",
+    "th": "<strong style=\"color: var(--primary-color);\">การเพิ่มประสิทธิภาพ OTA บูติก:</strong> การปรับปรุงเนื้อหาและการจัดอันดับบน Booking.com, Agoda และ Trip.com ซึ่งที่พักบูติกอิสระต้องแข่งขันโดยตรงกับที่พักหรูหราที่มีแบรนด์",
+    "km": "<strong style=\"color: var(--primary-color);\">ការបង្កើនប្រសិទ្ធភាព OTA សម្រាប់សណ្ឋាគារប៊ូទិក៖</strong> ការកែលម្អខ្លឹមសារ និងចំណាត់ថ្នាក់នៅលើ Booking.com, Agoda និង Trip.com ជាកន្លែងដែលអចលនទ្រព្យប៊ូទិកឯករាជ្យប្រកួតប្រជែងដោយផ្ទាល់ប្រឆាំងនឹងការចុះបញ្ជីម៉ាកយីហោប្រណិត។",
+    "ar": "<strong style=\"color: var(--primary-color);\">تحسين OTA للفنادق البوتيك:</strong> تحسينات المحتوى والترتيب على Booking.com، وAgoda، وTrip.com، حيث تتنافس فنادق البوتيك المستقلة بشكل مباشر مع الفنادق الفاخرة ذات العلامات التجارية."
+  },
+  "Cancellation Policy": {
+    "vi": "Chính sách Hủy phòng",
+    "zh-CN": "取消政策",
+    "th": "นโยบายการยกเลิก",
+    "km": "គោលការណ៍លុបចោល",
+    "ar": "سياسة الإلغاء"
+  },
+  "New Supply Pressure:": {
+    "vi": "Áp lực Nguồn cung Mới:",
+    "zh-CN": "新供应压力：",
+    "th": "แรงกดดันจากอุปทานใหม่:",
+    "km": "សម្ពាធផ្គត់ផ្គង់ថ្មី៖",
+    "ar": "ضغط الإمدادات الجديدة:"
+  },
+  "OTA Content &amp; Parity:": {
+    "vi": "Nội dung OTA &amp; Tính đồng nhất:",
+    "zh-CN": "OTA内容与平价：",
+    "th": "เนื้อหา OTA และความเท่าเทียม:",
+    "km": "ខ្លឹមសារ OTA &amp; ភាពស្មើគ្នា៖",
+    "ar": "محتوى وتكافؤ وكالات السفر عبر الإنترنت (OTA):"
+  },
+  "LAK (₭)": {
+    "vi": "LAK (₭)",
+    "zh-CN": "老挝基普 (₭)",
+    "th": "กีบลาว (₭)",
+    "km": "គីបឡាវ (₭)",
+    "ar": "كيب لاوي (₭)"
+  },
+  "Our engagement terms are discussed individually based on your property's needs and goals. We offer flexible arrangements with a structured lock-in period as outlined in our service agreements.": {
+    "vi": "Các điều khoản tham gia của chúng tôi được thảo luận riêng lẻ dựa trên nhu cầu và mục tiêu của khách sạn bạn. Chúng tôi cung cấp các thỏa thuận linh hoạt với thời gian cam kết có cấu trúc như được nêu trong thỏa thuận dịch vụ của chúng tôi.",
+    "zh-CN": "我们的合作条款是根据您酒店的需求和目标单独讨论的。我们提供灵活的安排，并设有关服务协议中概述的结构化锁定期。",
+    "th": "เงื่อนไขการมีส่วนร่วมของเราได้รับการพิจารณาเป็นรายบุคคลตามความต้องการและเป้าหมายของที่พักของคุณ เราเสนอการจัดการที่ยืดหยุ่นโดยมีระยะเวลาผูกพันที่มีโครงสร้างตามที่ระบุไว้ในข้อตกลงการบริการของเรา",
+    "km": "លក្ខខណ្ឌនៃការចូលរួមរបស់យើងត្រូវបានពិភាក្សាជាលក្ខណៈបុគ្គលដោយផ្អែកលើតម្រូវការ និងគោលដៅនៃអចលនទ្រព្យរបស់អ្នក។ យើងផ្តល់ជូននូវការរៀបចំដែលអាចបត់បែនបានជាមួយនឹងរយៈពេលចាក់សោដែលមានរចនាសម្ព័ន្ធដូចដែលបានរៀបរាប់នៅក្នុងកិច្ចព្រមព្រៀងសេវាកម្មរបស់យើង។",
+    "ar": "تتم مناقشة شروط مشاركتنا بشكل فردي بناءً على احتياجات وأهداف فندقك. نحن نقدم ترتيبات مرنة مع فترة التزام مهيكلة كما هو موضح في اتفاقيات الخدمة الخاصة بنا."
+  },
+  "Heritage &amp; Boutique Positioning:": {
+    "vi": "Định vị Di sản &amp; Boutique:",
+    "zh-CN": "遗产与精品定位：",
+    "th": "การวางตำแหน่งมรดกและบูติก:",
+    "km": "ការដាក់ទីតាំងបេតិកភណ្ឌ &amp; ប៊ូទិក៖",
+    "ar": "تموضع التراث والبوتيك:"
+  },
+  "Malaysia Expertise": {
+    "vi": "Chuyên môn tại Malaysia",
+    "zh-CN": "马来西亚专长",
+    "th": "ความเชี่ยวชาญในมาเลเซีย",
+    "km": "ជំនាញនៅម៉ាឡេស៊ី",
+    "ar": "خبرة ماليزيا"
+  },
+  "<strong style=\"color: var(--primary-color);\">MICE &amp; Corporate Rate Strategy:</strong> Structured group and corporate rates that protect ADR instead of defaulting to blanket discounts.": {
+    "vi": "<strong style=\"color: var(--primary-color);\">Chiến lược Giá MICE &amp; Doanh nghiệp:</strong> Giá đoàn và doanh nghiệp có cấu trúc giúp bảo vệ ADR (Giá phòng trung bình hàng ngày) thay vì mặc định giảm giá toàn diện.",
+    "zh-CN": "<strong style=\"color: var(--primary-color);\">MICE和企业费率策略：</strong> 结构化的团体和企业费率，旨在保护平均每日房价(ADR)，而不是默认提供全面折扣。",
+    "th": "<strong style=\"color: var(--primary-color);\">กลยุทธ์ราคา MICE และองค์กร:</strong> อัตรากลุ่มและองค์กรที่มีโครงสร้างซึ่งปกป้อง ADR แทนที่จะใช้ส่วนลดแบบเหมารวมเป็นค่าเริ่มต้น",
+    "km": "<strong style=\"color: var(--primary-color);\">យុទ្ធសាស្រ្តអត្រា MICE &amp; សាជីវកម្ម៖</strong> អត្រាក្រុម និងសាជីវកម្មដែលមានរចនាសម្ព័ន្ធដែលការពារ ADR ជាជាងការកំណត់ការបញ្ចុះតម្លៃជាទូទៅ។",
+    "ar": "<strong style=\"color: var(--primary-color);\">استراتيجية أسعار المعارض والمؤتمرات (MICE) والشركات:</strong> أسعار المجموعات والشركات المهيكلة التي تحمي متوسط السعر اليومي (ADR) بدلاً من اللجوء للخصومات الشاملة."
+  },
+  "MYR (RM)": {
+    "vi": "MYR (RM)",
+    "zh-CN": "马来西亚林吉特 (RM)",
+    "th": "ริงกิตมาเลเซีย (RM)",
+    "km": "រីងហ្គីតម៉ាឡេស៊ី (RM)",
+    "ar": "رينغيت ماليزي (RM)"
+  },
+  "THB (฿)": {
+    "vi": "THB (฿)",
+    "zh-CN": "泰铢 (฿)",
+    "th": "บาทไทย (฿)",
+    "km": "បាតថៃ (฿)",
+    "ar": "بات تايلاندي (฿)"
+  },
+  "What We Achieve Together": {
+    "vi": "Những Gì Chúng Ta Đạt Được Cùng Nhau",
+    "zh-CN": "我们共同实现的成就",
+    "th": "สิ่งที่เราบรรลุร่วมกัน",
+    "km": "អ្វីដែលយើងសម្រេចបានរួមគ្នា",
+    "ar": "ما نحققه معًا"
+  },
+  "Our Kuala Lumpur Revenue Solutions:": {
+    "vi": "Giải pháp Doanh thu tại Kuala Lumpur của Chúng tôi:",
+    "zh-CN": "我们在吉隆坡的收益解决方案：",
+    "th": "โซลูชั่นด้านรายได้ในกัวลาลัมเปอร์ของเรา:",
+    "km": "ដំណោះស្រាយប្រាក់ចំណូលគូឡាឡាំពួររបស់យើង៖",
+    "ar": "حلولنا للإيرادات في كوالالمبور:"
+  },
+  "<strong style=\"color: var(--primary-color);\">Channel Mix Diversification:</strong> Balancing OTA dependency with direct bookings to protect net margins.": {
+    "vi": "<strong style=\"color: var(--primary-color);\">Đa dạng hóa Kênh bán hàng:</strong> Cân bằng sự phụ thuộc vào OTA với đặt phòng trực tiếp để bảo vệ biên lợi nhuận ròng.",
+    "zh-CN": "<strong style=\"color: var(--primary-color);\">渠道组合多元化：</strong> 平衡对OTA的依赖与直接预订，以保护净利润率。",
+    "th": "<strong style=\"color: var(--primary-color);\">การกระจายช่องทาง:</strong> การสร้างสมดุลระหว่างการพึ่งพา OTA กับการจองโดยตรงเพื่อปกป้องอัตรากำไรสุทธิ",
+    "km": "<strong style=\"color: var(--primary-color);\">ការធ្វើពិពិធកម្មចម្រុះបណ្តាញ៖</strong> តុល្យភាពភាពអាស្រ័យ OTA ជាមួយនឹងការកក់ដោយផ្ទាល់ ដើម្បីការពារប្រាក់ចំណេញសុទ្ធ។",
+    "ar": "<strong style=\"color: var(--primary-color);\">تنويع مزيج القنوات:</strong> الموازنة بين الاعتماد على وكالات السفر عبر الإنترنت والحجوزات المباشرة لحماية هوامش الربح الصافية."
+  }
+}

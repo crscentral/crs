@@ -1,0 +1,401 @@
+{
+  "High OTA Reliance:": {
+    "vi": "Sự phụ thuộc cao vào OTA:",
+    "zh-CN": "对OTA的高依赖：",
+    "th": "การพึ่งพา OTA สูง:",
+    "km": "ការពឹងផ្អែកលើ OTA ខ្ពស់៖",
+    "ar": "الاعتماد الكبير على وكالات السفر عبر الإنترنت:"
+  },
+  "How do I get in touch?": {
+    "vi": "Làm thế nào để tôi liên lạc?",
+    "zh-CN": "我该如何联系？",
+    "th": "ฉันจะติดต่อได้อย่างไร?",
+    "km": "តើខ្ញុំអាចទាក់ទងដោយរបៀបណា?",
+    "ar": "كيف يمكنني التواصل؟"
+  },
+  "Home": {
+    "vi": "Trang chủ",
+    "zh-CN": "首页",
+    "th": "หน้าแรก",
+    "km": "ទំព័រដើម",
+    "ar": "الرئيسية"
+  },
+  "<label for=\"e\">Email</label><input id=\"e\" required=\"\" type=\"email\"/>": {
+    "vi": "<label for=\"e\">Email</label><input id=\"e\" required=\"\" type=\"email\"/>",
+    "zh-CN": "<label for=\"e\">电子邮件</label><input id=\"e\" required=\"\" type=\"email\"/>",
+    "th": "<label for=\"e\">อีเมล</label><input id=\"e\" required=\"\" type=\"email\"/>",
+    "km": "<label for=\"e\">អ៊ីមែល</label><input id=\"e\" required=\"\" type=\"email\"/>",
+    "ar": "<label for=\"e\">البريد الإلكتروني</label><input id=\"e\" required=\"\" type=\"email\"/>"
+  },
+  "The CRS Central Advantage in Malaysia": {
+    "vi": "Lợi thế của CRS Central tại Malaysia",
+    "zh-CN": "马来西亚的 CRS Central 优势",
+    "th": "ข้อได้เปรียบของ CRS Central ในมาเลเซีย",
+    "km": "អត្ថប្រយោជន៍របស់ CRS Central នៅប្រទេសម៉ាឡេស៊ី",
+    "ar": "ميزة CRS Central في ماليزيا"
+  },
+  "Results": {
+    "vi": "Kết quả",
+    "zh-CN": "结果",
+    "th": "ผลลัพธ์",
+    "km": "លទ្ធផល",
+    "ar": "النتائج"
+  },
+  "<strong>Segment-Smart Revenue:</strong> Pricing that reflects who your actual guests are, not a one-size-fits-all rate.": {
+    "vi": "<strong>Doanh thu theo phân khúc thông minh:</strong> Định giá phản ánh chính xác đối tượng khách thực tế của bạn, không phải một mức giá chung cho tất cả.",
+    "zh-CN": "<strong>分众智能收益：</strong> 定价反映您的实际客群，而非一刀切的费率。",
+    "th": "<strong>รายได้อัจฉริยะตามกลุ่มเป้าหมาย:</strong> การตั้งราคาที่สะท้อนถึงแขกที่แท้จริงของคุณ ไม่ใช่อัตราเดียวกันทั้งหมด",
+    "km": "<strong>ប្រាក់ចំណូលឆ្លាតវៃតាមផ្នែក៖</strong> ការកំណត់តម្លៃដែលឆ្លុះបញ្ចាំងពីភ្ញៀវពិតប្រាកដរបស់អ្នក មិនមែនអត្រាតម្លៃតែមួយសម្រាប់ទាំងអស់នោះទេ។",
+    "ar": "<strong>إيرادات ذكية حسب الشريحة:</strong> تسعير يعكس هوية ضيوفك الفعليين، وليس سعرًا موحدًا للجميع."
+  },
+  "We optimize your presence on Booking.com, Agoda, Expedia, Trip.com, MakeMyTrip, and all major platforms — increasing your visibility and booking conversion.": {
+    "vi": "Chúng tôi tối ưu hóa sự hiện diện của bạn trên Booking.com, Agoda, Expedia, Trip.com, MakeMyTrip và tất cả các nền tảng chính — tăng cường khả năng hiển thị và chuyển đổi đặt phòng.",
+    "zh-CN": "我们优化您在 Booking.com、Agoda、Expedia、Trip.com、MakeMyTrip 及所有主要平台上的展示——提高您的曝光率和预订转化率。",
+    "th": "เราเพิ่มประสิทธิภาพการแสดงผลของคุณบน Booking.com, Agoda, Expedia, Trip.com, MakeMyTrip และแพลตฟอร์มหลักทั้งหมด — เพื่อเพิ่มการมองเห็นและอัตราการจอง",
+    "km": "យើងបង្កើនប្រសិទ្ធភាពវត្តមានរបស់អ្នកនៅលើ Booking.com, Agoda, Expedia, Trip.com, MakeMyTrip និងគ្រប់វេទិកាធំៗទាំងអស់ — បង្កើនភាពមើលឃើញ និងការបំប្លែងការកក់របស់អ្នក។",
+    "ar": "نحن نحسن وجودك على Booking.com وAgoda وExpedia وTrip.com وMakeMyTrip وجميع المنصات الرئيسية — مما يزيد من ظهورك ومعدل التحويل للحجوزات."
+  },
+  "<strong style=\"color: var(--primary-color);\">Visual &amp; Content Optimization:</strong> Showcasing resort amenities and heritage character effectively across booking platforms.": {
+    "vi": "<strong style=\"color: var(--primary-color);\">Tối ưu hóa Hình ảnh &amp; Nội dung:</strong> Thể hiện hiệu quả các tiện nghi của khu nghỉ dưỡng và đặc trưng di sản trên các nền tảng đặt phòng.",
+    "zh-CN": "<strong style=\"color: var(--primary-color);\">视觉与内容优化：</strong> 在预订平台上有效地展示度假村设施和文化底蕴。",
+    "th": "<strong style=\"color: var(--primary-color);\">การเพิ่มประสิทธิภาพภาพและเนื้อหา:</strong> แสดงสิ่งอำนวยความสะดวกของรีสอร์ทและเอกลักษณ์ทางมรดกอย่างมีประสิทธิภาพในแพลตฟอร์มการจองต่างๆ",
+    "km": "<strong style=\"color: var(--primary-color);\">ការបង្កើនប្រសិទ្ធភាពរូបភាព &amp; មាតិកា៖</strong> ការបង្ហាញពីបរិក្ខាររបស់រមណីយដ្ឋាន និងលក្ខណៈបេតិកភណ្ឌយ៉ាងមានប្រសិទ្ធភាពនៅទូទាំងវេទិកាកក់។",
+    "ar": "<strong style=\"color: var(--primary-color);\">تحسين المرئيات والمحتوى:</strong> عرض مرافق المنتجع والطابع التراثي بشكل فعال عبر منصات الحجز."
+  },
+  "The CRS Central Advantage in Vietnam": {
+    "vi": "Lợi thế của CRS Central tại Việt Nam",
+    "zh-CN": "越南的 CRS Central 优势",
+    "th": "ข้อได้เปรียบของ CRS Central ในเวียดนาม",
+    "km": "អត្ថប្រយោជន៍របស់ CRS Central នៅប្រទេសវៀតណាម",
+    "ar": "ميزة CRS Central في فيتنام"
+  },
+  "<strong>Lengthening Booking Windows:</strong> Guests are booking further in advance across the region — hotels need forward-looking rate strategy, not reactive, last-minute adjustments.": {
+    "vi": "<strong>Thời gian đặt phòng sớm kéo dài:</strong> Khách hàng đang đặt phòng trước sớm hơn trong toàn khu vực — các khách sạn cần một chiến lược giá đón đầu, chứ không phải các điều chỉnh phản ứng, vào phút chót.",
+    "zh-CN": "<strong>预订周期延长：</strong> 整个地区的客人都在提前更早预订——酒店需要前瞻性的费率策略，而非被动的最后一刻调整。",
+    "th": "<strong>กรอบเวลาการจองที่ยาวนานขึ้น:</strong> แขกทำการจองล่วงหน้ามากขึ้นทั่วทั้งภูมิภาค — โรงแรมจำเป็นต้องมีกลยุทธ์ด้านราคาที่มองไปข้างหน้า ไม่ใช่การปรับเปลี่ยนในนาทีสุดท้ายตามสถานการณ์",
+    "km": "<strong>ការពន្យារពេលនៃការកក់៖</strong> ភ្ញៀវកំពុងកក់ទុកមុនកាន់តែយូរនៅទូទាំងតំបន់ — សណ្ឋាគារត្រូវការយុទ្ធសាស្ត្រតម្លៃដែលឆ្ពោះទៅមុខ មិនមែនជាការកែតម្រូវនៅនាទីចុងក្រោយនោះទេ។",
+    "ar": "<strong>إطالة نوافذ الحجز:</strong> يقوم الضيوف بالحجز مسبقًا بفترة أطول عبر المنطقة — تحتاج الفنادق إلى استراتيجية أسعار مستقبلية، وليست تعديلات اللحظة الأخيرة كرد فعل."
+  },
+  "<strong>New Supply Pressure:</strong> With Kuala Lumpur, Penang, and Johor Bahru all adding hotel rooms, competitive positioning is no longer optional — hotels need a live view of what competitors are charging, not a quarterly glance.": {
+    "vi": "<strong>Áp lực Nguồn cung Mới:</strong> Với việc Kuala Lumpur, Penang và Johor Bahru đều tăng cường thêm phòng khách sạn, định vị cạnh tranh không còn là một lựa chọn — các khách sạn cần cái nhìn trực tiếp về mức giá của đối thủ cạnh tranh, không phải chỉ xem lướt qua hàng quý.",
+    "zh-CN": "<strong>新供应压力：</strong> 随着吉隆坡、槟城和新山都在增加酒店客房，竞争定位已不再是可有可无——酒店需要实时了解竞争对手的收费标准，而不是季度性地扫一眼。",
+    "th": "<strong>แรงกดดันจากอุปทานใหม่:</strong> ด้วยจำนวนห้องพักโรงแรมที่เพิ่มขึ้นในกัวลาลัมเปอร์ ปีนัง และยะโฮร์บาห์รู การวางตำแหน่งทางการแข่งขันจึงไม่ใช่ทางเลือกอีกต่อไป — โรงแรมจำเป็นต้องดูราคาของคู่แข่งแบบเรียลไทม์ ไม่ใช่แค่ดูเป็นรายไตรมาส",
+    "km": "<strong>សម្ពាធផ្គត់ផ្គង់ថ្មី៖</strong> ដោយទីក្រុងគូឡាឡាំពួ ប៉េណាំង និងចូហូបារូសុទ្ធតែបានបន្ថែមបន្ទប់សណ្ឋាគារ ការដាក់ទីតាំងប្រកួតប្រជែងលែងជាជម្រើសទៀតហើយ — សណ្ឋាគារត្រូវការមើលផ្ទាល់នូវអ្វីដែលដៃគូប្រកួតប្រជែងកំពុងគិតថ្លៃ មិនមែនគ្រាន់តែមើលត្រួសៗប្រចាំត្រីមាសនោះទេ។",
+    "ar": "<strong>ضغط العرض الجديد:</strong> مع إضافة كوالالمبور وبينانغ وجوهور باهرو لغرف فندقية، لم يعد التموضع التنافسي اختياريًا — تحتاج الفنادق إلى عرض مباشر لما يفرضه المنافسون، وليس نظرة ربع سنوية."
+  },
+  "<strong style=\"color: var(--primary-color);\">Length-of-Stay Optimization:</strong> Multi-night incentives during peak periods to maximize total stay value.": {
+    "vi": "<strong style=\"color: var(--primary-color);\">Tối ưu hóa Thời gian lưu trú:</strong> Các ưu đãi nghỉ nhiều đêm trong các giai đoạn cao điểm để tối đa hóa tổng giá trị lưu trú.",
+    "zh-CN": "<strong style=\"color: var(--primary-color);\">入住时长优化：</strong> 在高峰期的多晚入住优惠，以实现总住宿价值最大化。",
+    "th": "<strong style=\"color: var(--primary-color);\">การเพิ่มประสิทธิภาพระยะเวลาการเข้าพัก:</strong> แรงจูงใจสำหรับการเข้าพักหลายคืนในช่วงพีคเพื่อเพิ่มมูลค่าการเข้าพักโดยรวมให้สูงสุด",
+    "km": "<strong style=\"color: var(--primary-color);\">ការបង្កើនប្រសិទ្ធភាពរយៈពេលស្នាក់នៅ៖</strong> ការលើកទឹកចិត្តសម្រាប់ការស្នាក់នៅច្រើនយប់ក្នុងអំឡុងពេលដែលមានមនុស្សច្រើនដើម្បីបង្កើនតម្លៃស្នាក់នៅសរុបអតិបរមា។",
+    "ar": "<strong style=\"color: var(--primary-color);\">تحسين مدة الإقامة:</strong> حوافز لعدة ليالٍ خلال فترات الذروة لزيادة إجمالي قيمة الإقامة إلى أقصى حد."
+  },
+  "<strong style=\"color: var(--primary-color);\">New-Supply Competitive Positioning:</strong> Live competitor rate tracking so your pricing holds up as new hotel stock enters the market.": {
+    "vi": "<strong style=\"color: var(--primary-color);\">Định vị cạnh tranh với Nguồn cung mới:</strong> Theo dõi giá của đối thủ trực tiếp để mức giá của bạn vẫn vững vàng khi các khách sạn mới thâm nhập thị trường.",
+    "zh-CN": "<strong style=\"color: var(--primary-color);\">新供应竞争定位：</strong> 实时追踪竞争对手费率，以便在新酒店资源进入市场时您的定价保持竞争力。",
+    "th": "<strong style=\"color: var(--primary-color);\">การวางตำแหน่งทางการแข่งขันกับอุปทานใหม่:</strong> การติดตามราคาคู่แข่งแบบเรียลไทม์เพื่อให้ราคาของคุณอยู่รอดเมื่อมีสต็อกโรงแรมใหม่เข้าสู่ตลาด",
+    "km": "<strong style=\"color: var(--primary-color);\">ការដាក់ទីតាំងប្រកួតប្រជែងសម្រាប់ការផ្គត់ផ្គង់ថ្មី៖</strong> ការតាមដានអត្រាប្រកួតប្រជែងផ្ទាល់ ដូច្នេះតម្លៃរបស់អ្នកនៅតែមានស្ថិរភាពខណៈពេលដែលស្តុកសណ្ឋាគារថ្មីចូលទីផ្សារ។",
+    "ar": "<strong style=\"color: var(--primary-color);\">التموضع التنافسي للعرض الجديد:</strong> تتبع حي لأسعار المنافسين بحيث يصمد تسعيرك مع دخول فنادق جديدة إلى السوق."
+  },
+  "OTA Visibility for Boutique Properties:": {
+    "vi": "Khả năng hiển thị trên OTA cho các Cơ sở lưu trú Boutique:",
+    "zh-CN": "精品酒店在 OTA 上的曝光率：",
+    "th": "การมองเห็นใน OTA สำหรับที่พักสไตล์บูติก:",
+    "km": "ភាពមើលឃើញនៅលើ OTA សម្រាប់អចលនទ្រព្យប៊ូទិក៖",
+    "ar": "الظهور على وكالات السفر عبر الإنترنت للعقارات البوتيكية:"
+  },
+  "Hanoi – A Market of Small, Independent Hotels": {
+    "vi": "Hà Nội – Một thị trường của các khách sạn nhỏ, độc lập",
+    "zh-CN": "河内——一个以小型独立酒店为主的市场",
+    "th": "ฮานอย – ตลาดของโรงแรมขนาดเล็กและเป็นอิสระ",
+    "km": "ហាណូយ – ទីផ្សារនៃសណ្ឋាគារតូចៗ និងឯករាជ្យ",
+    "ar": "هانوي – سوق للفنادق الصغيرة والمستقلة"
+  },
+  "Medical Tourism Packaging:": {
+    "vi": "Các gói Du lịch Y tế:",
+    "zh-CN": "医疗旅游套餐：",
+    "th": "แพ็คเกจการท่องเที่ยวเชิงการแพทย์:",
+    "km": "កញ្ចប់ទេសចរណ៍វេជ្ជសាស្ត្រ៖",
+    "ar": "باقات السياحة العلاجية:"
+  },
+  "Channel Mix Diversification:": {
+    "vi": "Đa dạng hóa tổ hợp Kênh:",
+    "zh-CN": "渠道组合多元化：",
+    "th": "การกระจายช่องทางแบบผสมผสาน:",
+    "km": "ការធ្វើពិពិធកម្មចម្រុះប៉ុស្តិ៍៖",
+    "ar": "تنويع مزيج القنوات:"
+  },
+  "Shoulder-Season Demand Building:": {
+    "vi": "Thúc đẩy nhu cầu vào Mùa Thấp điểm:",
+    "zh-CN": "平季需求拉动：",
+    "th": "การสร้างความต้องการในช่วงนอกฤดูกาลท่องเที่ยว:",
+    "km": "ការកសាងតម្រូវការរដូវកាលទាប៖",
+    "ar": "بناء الطلب في مواسم الركود:"
+  },
+  "1. Revenue Management – Turning Data into Strategy, and Strategy into Profit": {
+    "vi": "1. Quản lý Doanh thu – Biến Dữ liệu thành Chiến lược và Chiến lược thành Lợi nhuận",
+    "zh-CN": "1. 收益管理——将数据转化为策略，将策略转化为利润",
+    "th": "1. การจัดการรายได้ – เปลี่ยนข้อมูลเป็นกลยุทธ์ และกลยุทธ์เป็นกำไร",
+    "km": "1. ការគ្រប់គ្រងប្រាក់ចំណូល – ការបំប្លែងទិន្នន័យទៅជាយុទ្ធសាស្ត្រ និងយុទ្ធសាស្ត្រទៅជាប្រាក់ចំណេញ",
+    "ar": "1. إدارة الإيرادات – تحويل البيانات إلى استراتيجية، والاستراتيجية إلى أرباح"
+  },
+  "Small-Property Pricing Strategy:": {
+    "vi": "Chiến lược Định giá cho Cơ sở lưu trú Nhỏ:",
+    "zh-CN": "小型酒店定价策略：",
+    "th": "กลยุทธ์การตั้งราคาสำหรับที่พักขนาดเล็ก:",
+    "km": "យុទ្ធសាស្ត្រកំណត់តម្លៃអចលនទ្រព្យតូចៗ៖",
+    "ar": "استراتيجية التسعير للعقارات الصغيرة:"
+  },
+  "Why Vietnamese Hotels Need Revenue Management Now": {
+    "vi": "Tại sao các khách sạn Việt Nam cần Quản lý Doanh thu Ngay lúc này",
+    "zh-CN": "为什么越南酒店现在需要收益管理",
+    "th": "ทำไมโรงแรมในเวียดนามจึงต้องมีการจัดการรายได้ในขณะนี้",
+    "km": "មូលហេតុដែលសណ្ឋាគារវៀតណាមត្រូវការការគ្រប់គ្រងប្រាក់ចំណូលឥឡូវនេះ",
+    "ar": "لماذا تحتاج الفنادق الفيتنامية إلى إدارة الإيرادات الآن"
+  },
+  "<strong style=\"color: var(--primary-color);\">Small-Property Pricing Strategy:</strong> Revenue approaches built for hotels this size, not adapted from large-chain models.": {
+    "vi": "<strong style=\"color: var(--primary-color);\">Chiến lược Định giá cho Cơ sở lưu trú Nhỏ:</strong> Các phương pháp tiếp cận doanh thu được xây dựng riêng cho các khách sạn quy mô này, không phải chắp vá từ các mô hình chuỗi lớn.",
+    "zh-CN": "<strong style=\"color: var(--primary-color);\">小型酒店定价策略：</strong> 为该规模酒店量身定制的收益方案，而非从大型连锁酒店模式生搬硬套。",
+    "th": "<strong style=\"color: var(--primary-color);\">กลยุทธ์การตั้งราคาสำหรับที่พักขนาดเล็ก:</strong> แนวทางการสร้างรายได้ที่สร้างขึ้นสำหรับโรงแรมขนาดนี้ โดยไม่ต้องดัดแปลงจากโมเดลเครือข่ายขนาดใหญ่",
+    "km": "<strong style=\"color: var(--primary-color);\">យុទ្ធសាស្ត្រកំណត់តម្លៃអចលនទ្រព្យតូចៗ៖</strong> វិធីសាស្រ្តប្រាក់ចំណូលដែលបង្កើតឡើងសម្រាប់សណ្ឋាគារទំហំនេះ មិនមែនកែសម្រួលពីម៉ូដែលខ្សែសង្វាក់ធំៗនោះទេ។",
+    "ar": "<strong style=\"color: var(--primary-color);\">استراتيجية التسعير للعقارات الصغيرة:</strong> مناهج إيرادات مصممة للفنادق من هذا الحجم، وليست مقتبسة من نماذج السلاسل الكبيرة."
+  },
+  "<strong style=\"color: var(--accent-color);\">Regional Expertise:</strong> Deep understanding of the Southeast Asian hospitality market, with on-the-ground knowledge of Vientiane and Luang Prabang's distinct demand drivers — business/diplomatic travel in the capital, UNESCO heritage tourism in Luang Prabang.": {
+    "vi": "<strong style=\"color: var(--accent-color);\">Chuyên môn Khu vực:</strong> Hiểu biết sâu sắc về thị trường dịch vụ lưu trú Đông Nam Á, với kiến thức thực tế về các động lực thúc đẩy nhu cầu riêng biệt của Viêng Chăn và Luông Pha Băng — du lịch công tác/ngoại giao ở thủ đô, du lịch di sản UNESCO ở Luông Pha Băng.",
+    "zh-CN": "<strong style=\"color: var(--accent-color);\">区域专长：</strong> 对东南亚酒店业市场的深入了解，实地掌握万象和琅勃拉邦不同的需求驱动因素——首都的商务/外交旅行，琅勃拉邦的联合国教科文组织遗产旅游。",
+    "th": "<strong style=\"color: var(--accent-color);\">ความเชี่ยวชาญระดับภูมิภาค:</strong> ความเข้าใจอย่างลึกซึ้งในตลาดการบริการเอเชียตะวันออกเฉียงใต้ พร้อมด้วยความรู้ในพื้นที่เกี่ยวกับปัจจัยขับเคลื่อนอุปสงค์ที่แตกต่างกันของเวียงจันทน์และหลวงพระบาง — การเดินทางเพื่อธุรกิจ/การทูตในเมืองหลวง การท่องเที่ยวเชิงมรดกโลกในหลวงพระบาง",
+    "km": "<strong style=\"color: var(--accent-color);\">ជំនាញក្នុងតំបន់៖</strong> ការយល់ដឹងស៊ីជម្រៅអំពីទីផ្សារបដិសណ្ឋារកិច្ចនៅអាស៊ីអាគ្នេយ៍ ជាមួយនឹងចំណេះដឹងផ្ទាល់អំពីកត្តាជំរុញតម្រូវការដាច់ដោយឡែករបស់ទីក្រុងវៀងចន្ទន៍ និងហ្លួងប្រាបាង — ការធ្វើដំណើរអាជីវកម្ម/ការទូតនៅរដ្ឋធានី ទេសចរណ៍បេតិកភណ្ឌយូណេស្កូនៅហ្លួងប្រាបាង។",
+    "ar": "<strong style=\"color: var(--accent-color);\">خبرة إقليمية:</strong> فهم عميق لسوق الضيافة في جنوب شرق آسيا، مع معرفة ميدانية بدوافع الطلب المميزة في فينتيان ولوانغ برابانغ — السفر للأعمال/الدبلوماسي في العاصمة، وسياحة التراث لليونسكو في لوانغ برابانغ."
+  },
+  "<strong style=\"color: var(--accent-color);\">Physical On-Site Visits:</strong> We come to your property and conduct our audit in person.": {
+    "vi": "<strong style=\"color: var(--accent-color);\">Khảo sát trực tiếp tại chỗ:</strong> Chúng tôi đến cơ sở của bạn và tiến hành kiểm toán trực tiếp.",
+    "zh-CN": "<strong style=\"color: var(--accent-color);\">实地考察：</strong> 我们亲自来到您的酒店进行现场审核。",
+    "th": "<strong style=\"color: var(--accent-color);\">การเยี่ยมชมสถานที่จริง:</strong> เราจะไปที่พักของคุณและดำเนินการตรวจสอบด้วยตนเอง",
+    "km": "<strong style=\"color: var(--accent-color);\">ការចុះទៅពិនិត្យទីតាំងផ្ទាល់៖</strong> យើងចុះទៅកាន់អចលនទ្រព្យរបស់អ្នក ហើយធ្វើសវនកម្មដោយផ្ទាល់។",
+    "ar": "<strong style=\"color: var(--accent-color);\">زيارات ميدانية فعلية:</strong> نأتي إلى عقارك ونجري التدقيق شخصيًا."
+  },
+  "StayCRS by CRS Central": {
+    "vi": "StayCRS bởi CRS Central",
+    "zh-CN": "CRS Central 的 StayCRS",
+    "th": "StayCRS โดย CRS Central",
+    "km": "StayCRS ដោយ CRS Central",
+    "ar": "StayCRS بواسطة CRS Central"
+  },
+  "VND (₫)": {
+    "vi": "VND (₫)",
+    "zh-CN": "VND (₫)",
+    "th": "VND (₫)",
+    "km": "VND (₫)",
+    "ar": "VND (₫)"
+  },
+  "<label for=\"i\">Interested in</label> <select id=\"i\"><option>All three</option><option>PMS</option><option>Channel Manager</option><option>Booking Engine</option></select>": {
+    "vi": "<label for=\"i\">Quan tâm đến</label> <select id=\"i\"><option>Cả ba</option><option>PMS</option><option>Channel Manager</option><option>Booking Engine</option></select>",
+    "zh-CN": "<label for=\"i\">感兴趣的服务</label> <select id=\"i\"><option>所有三个</option><option>PMS</option><option>Channel Manager</option><option>Booking Engine</option></select>",
+    "th": "<label for=\"i\">สนใจใน</label> <select id=\"i\"><option>ทั้งสามอย่าง</option><option>PMS</option><option>Channel Manager</option><option>Booking Engine</option></select>",
+    "km": "<label for=\"i\">ចាប់អារម្មណ៍លើ</label> <select id=\"i\"><option>ទាំងបី</option><option>PMS</option><option>Channel Manager</option><option>Booking Engine</option></select>",
+    "ar": "<label for=\"i\">مهتم بـ</label> <select id=\"i\"><option>الجميع</option><option>PMS</option><option>Channel Manager</option><option>Booking Engine</option></select>"
+  },
+  "Kuala Lumpur's hotel market runs on three very different guest types at once — corporate and MICE travelers, a fast-growing medical tourism segment centered on the city's private hospitals, and leisure visitors drawn by Visit Malaysia Year 2026. With the city's hotel stock forecast to grow 9% over the next three years, independent hotels that don't segment their pricing across these guest types are competing on rate alone against a rising number of new rooms.": {
+    "vi": "Thị trường khách sạn của Kuala Lumpur phục vụ đồng thời ba loại khách rất khác nhau — khách công tác và MICE, phân khúc du lịch y tế đang phát triển nhanh chóng xoay quanh các bệnh viện tư nhân của thành phố, và khách du lịch nghỉ dưỡng được thu hút bởi Năm Du lịch Malaysia 2026. Với dự báo lượng phòng khách sạn của thành phố sẽ tăng 9% trong 3 năm tới, các khách sạn độc lập không phân khúc mức giá cho từng loại khách này đang phải cạnh tranh về giá một cách đơn thuần với số lượng phòng mới ngày càng tăng.",
+    "zh-CN": "吉隆坡的酒店市场同时依赖三种截然不同的客群——企业和 MICE（会展）旅客、以该市私立医院为中心的快速增长的医疗旅游客群，以及被 2026 年马来西亚旅游年吸引的休闲游客。由于该市的酒店存量预计在未来三年将增长 9%，那些不对这些客群进行差别定价的独立酒店，只能与不断增加的新客房进行单纯的价格竞争。",
+    "th": "ตลาดโรงแรมของกัวลาลัมเปอร์ดำเนินไปด้วยแขกสามประเภทที่แตกต่างกันในเวลาเดียวกัน — นักเดินทางองค์กรและ MICE, ส่วนแบ่งการท่องเที่ยวเชิงการแพทย์ที่เติบโตอย่างรวดเร็วซึ่งมีศูนย์กลางอยู่ที่โรงพยาบาลเอกชนของเมือง และนักท่องเที่ยวพักผ่อนที่ดึงดูดโดยปีการท่องเที่ยวมาเลเซีย 2026 ด้วยสต็อกโรงแรมของเมืองที่คาดว่าจะเติบโต 9% ในอีกสามปีข้างหน้า โรงแรมอิสระที่ไม่ได้แบ่งกลุ่มราคาของตนตามประเภทแขกเหล่านี้ จะต้องแข่งขันในเรื่องราคาเพียงอย่างเดียวกับจำนวนห้องพักใหม่ที่เพิ่มขึ้น",
+    "km": "ទីផ្សារសណ្ឋាគារនៅទីក្រុងគូឡាឡាំពួដំណើរការលើប្រភេទភ្ញៀវបីផ្សេងគ្នាខ្លាំងក្នុងពេលតែមួយ — អ្នកធ្វើដំណើរតាមក្រុមហ៊ុន និង MICE ផ្នែកទេសចរណ៍វេជ្ជសាស្រ្តដែលរីកលូតលាស់យ៉ាងឆាប់រហ័សដែលផ្តោតលើមន្ទីរពេទ្យឯកជនក្នុងទីក្រុង និងភ្ញៀវទេសចរកម្សាន្តដែលទាក់ទាញដោយឆ្នាំទស្សនាម៉ាឡេស៊ី 2026។ ជាមួយនឹងការព្យាករណ៍ស្តុកសណ្ឋាគាររបស់ទីក្រុងនឹងកើនឡើង 9% ក្នុងរយៈពេលបីឆ្នាំខាងមុខ សណ្ឋាគារឯករាជ្យដែលមិនបែងចែកតម្លៃរបស់ពួកគេតាមប្រភេទភ្ញៀវទាំងនេះកំពុងប្រកួតប្រជែងលើអត្រាតម្លៃតែមួយទល់នឹងការកើនឡើងនៃចំនួនបន្ទប់ថ្មី។",
+    "ar": "يعمل سوق الفنادق في كوالالمبور على ثلاثة أنواع مختلفة جدًا من الضيوف في وقت واحد — المسافرون من الشركات وسياحة الاجتماعات والحوافز والمؤتمرات والمعارض (MICE)، وقطاع السياحة العلاجية سريع النمو المتمركز حول المستشفيات الخاصة في المدينة، وزوار الترفيه الذين تجذبهم سنة زيارة ماليزيا 2026. مع توقع نمو مخزون الفنادق في المدينة بنسبة 9% على مدى السنوات الثلاث المقبلة، فإن الفنادق المستقلة التي لا تقوم بتقسيم أسعارها عبر أنواع الضيوف هذه تتنافس على السعر وحده ضد عدد متزايد من الغرف الجديدة."
+  },
+  "What are the charges for a PMS &amp; Channel Manager?": {
+    "vi": "Chi phí cho một PMS &amp; Channel Manager là bao nhiêu?",
+    "zh-CN": "PMS &amp; Channel Manager 的收费是多少？",
+    "th": "ค่าบริการสำหรับ PMS &amp; Channel Manager คือเท่าไหร่?",
+    "km": "តើការគិតថ្លៃសម្រាប់ PMS &amp; Channel Manager មានប៉ុន្មាន?",
+    "ar": "ما هي رسوم PMS &amp; Channel Manager؟"
+  },
+  "<label for=\"r\">Number of rooms</label><input id=\"r\" min=\"1\" type=\"number\"/>": {
+    "vi": "<label for=\"r\">Số lượng phòng</label><input id=\"r\" min=\"1\" type=\"number\"/>",
+    "zh-CN": "<label for=\"r\">房间数量</label><input id=\"r\" min=\"1\" type=\"number\"/>",
+    "th": "<label for=\"r\">จำนวนห้องพัก</label><input id=\"r\" min=\"1\" type=\"number\"/>",
+    "km": "<label for=\"r\">ចំនួនបន្ទប់</label><input id=\"r\" min=\"1\" type=\"number\"/>",
+    "ar": "<label for=\"r\">عدد الغرف</label><input id=\"r\" min=\"1\" type=\"number\"/>"
+  },
+  "Do you take a commission on top of the monthly fee?": {
+    "vi": "Bạn có thu hoa hồng ngoài phí hàng tháng không?",
+    "zh-CN": "除了月费之外，你们还收取佣金吗？",
+    "th": "คุณมีการเรียกเก็บค่าคอมมิชชั่นเพิ่มเติมจากค่าธรรมเนียมรายเดือนหรือไม่?",
+    "km": "តើអ្នកយកប្រាក់កម្រៃជើងសារបន្ថែមលើថ្លៃប្រចាំខែដែរឬទេ?",
+    "ar": "هل تأخذ عمولة بالإضافة إلى الرسوم الشهرية؟"
+  },
+  "Book a Free Revenue Audit in Vietnam →": {
+    "vi": "Đặt một cuộc Kiểm toán Doanh thu Miễn phí tại Việt Nam →",
+    "zh-CN": "预约在越南的免费收益审核 →",
+    "th": "จองการตรวจสอบรายได้ฟรีในเวียดนาม →",
+    "km": "កក់ការធ្វើសវនកម្មប្រាក់ចំណូលដោយឥតគិតថ្លៃនៅប្រទេសវៀតណាម →",
+    "ar": "احجز تدقيق مجاني للإيرادات في فيتنام →"
+  },
+  "<strong style=\"color: var(--primary-color);\">Resort Yield Management:</strong> Peak-season and holiday rate premiums balanced against steady shoulder-season occupancy.": {
+    "vi": "<strong style=\"color: var(--primary-color);\">Quản lý Lợi nhuận Khu nghỉ dưỡng:</strong> Mức giá cao của mùa cao điểm và kỳ nghỉ lễ được cân bằng với tỷ lệ lấp đầy ổn định trong mùa thấp điểm.",
+    "zh-CN": "<strong style=\"color: var(--primary-color);\">度假村收益管理：</strong> 旺季和节假日的高价费率与平季的稳定入住率相平衡。",
+    "th": "<strong style=\"color: var(--primary-color);\">การจัดการผลตอบแทนของรีสอร์ท:</strong> การปรับราคาในช่วงไฮซีซั่นและวันหยุดให้สมดุลกับอัตราการเข้าพักที่สม่ำเสมอในช่วงนอกฤดูกาล",
+    "km": "<strong style=\"color: var(--primary-color);\">ការគ្រប់គ្រងទិន្នផលរមណីយដ្ឋាន៖</strong> បុព្វលាភអត្រារដូវកាលខ្ពស់ និងថ្ងៃឈប់សម្រាកត្រូវបានធ្វើឱ្យមានតុល្យភាពប្រឆាំងនឹងការកាន់កាប់រដូវកាលទាបដែលមានស្ថិរភាព។",
+    "ar": "<strong style=\"color: var(--primary-color);\">إدارة عائد المنتجع:</strong> توازن هوامش أسعار موسم الذروة والعطلات مع الإشغال المستقر في مواسم الركود."
+  },
+  "<!-- Using the SVG map from laos for regional context, or simply text block --> <!-- Custom SVG Map Infographic showing regional proximity --> <svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Malaysia) --> <path d=\"M 180,120 Q 240,190 220,260\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Bangkok Node --> <circle cx=\"180\" cy=\"120\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"180\" cy=\"120\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Malaysia Node --> <circle cx=\"220\" cy=\"260\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"220\" cy=\"260\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"180\" y=\"85\">BANGKOK BASE</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"220\" y=\"295\">KUALA LUMPUR &amp; PENANG</text> <text fill=\"var(--accent-color)\" font-family=\"var(--font-body)\" font-size=\"12\" text-anchor=\"middle\" x=\"220\" y=\"315\">Malaysia Presence</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">CRS Central Regional Reach Map</text> </svg>": {
+    "vi": "<!-- Using the SVG map from laos for regional context, or simply text block --> <!-- Custom SVG Map Infographic showing regional proximity --> <svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Malaysia) --> <path d=\"M 180,120 Q 240,190 220,260\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Bangkok Node --> <circle cx=\"180\" cy=\"120\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"180\" cy=\"120\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Malaysia Node --> <circle cx=\"220\" cy=\"260\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"220\" cy=\"260\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"180\" y=\"85\">CƠ SỞ BANGKOK</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"220\" y=\"295\">KUALA LUMPUR &amp; PENANG</text> <text fill=\"var(--accent-color)\" font-family=\"var(--font-body)\" font-size=\"12\" text-anchor=\"middle\" x=\"220\" y=\"315\">Sự hiện diện tại Malaysia</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">Bản đồ Phạm vi Tiếp cận Khu vực của CRS Central</text> </svg>",
+    "zh-CN": "<!-- Using the SVG map from laos for regional context, or simply text block --> <!-- Custom SVG Map Infographic showing regional proximity --> <svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Malaysia) --> <path d=\"M 180,120 Q 240,190 220,260\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Bangkok Node --> <circle cx=\"180\" cy=\"120\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"180\" cy=\"120\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Malaysia Node --> <circle cx=\"220\" cy=\"260\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"220\" cy=\"260\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"180\" y=\"85\">曼谷基地</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"220\" y=\"295\">吉隆坡 &amp; 槟城</text> <text fill=\"var(--accent-color)\" font-family=\"var(--font-body)\" font-size=\"12\" text-anchor=\"middle\" x=\"220\" y=\"315\">马来西亚业务</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">CRS Central 区域覆盖地图</text> </svg>",
+    "th": "<!-- Using the SVG map from laos for regional context, or simply text block --> <!-- Custom SVG Map Infographic showing regional proximity --> <svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Malaysia) --> <path d=\"M 180,120 Q 240,190 220,260\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Bangkok Node --> <circle cx=\"180\" cy=\"120\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"180\" cy=\"120\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Malaysia Node --> <circle cx=\"220\" cy=\"260\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"220\" cy=\"260\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"180\" y=\"85\">ฐานที่กรุงเทพฯ</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"220\" y=\"295\">กัวลาลัมเปอร์ &amp; ปีนัง</text> <text fill=\"var(--accent-color)\" font-family=\"var(--font-body)\" font-size=\"12\" text-anchor=\"middle\" x=\"220\" y=\"315\">การปรากฏตัวในมาเลเซีย</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">แผนที่แสดงขอบเขตการเข้าถึงระดับภูมิภาคของ CRS Central</text> </svg>",
+    "km": "<!-- Using the SVG map from laos for regional context, or simply text block --> <!-- Custom SVG Map Infographic showing regional proximity --> <svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Malaysia) --> <path d=\"M 180,120 Q 240,190 220,260\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Bangkok Node --> <circle cx=\"180\" cy=\"120\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"180\" cy=\"120\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Malaysia Node --> <circle cx=\"220\" cy=\"260\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"220\" cy=\"260\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"180\" y=\"85\">មូលដ្ឋានបាងកក</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"220\" y=\"295\">គូឡាឡាំពួ &amp; ប៉េណាំង</text> <text fill=\"var(--accent-color)\" font-family=\"var(--font-body)\" font-size=\"12\" text-anchor=\"middle\" x=\"220\" y=\"315\">វត្តមាននៅម៉ាឡេស៊ី</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">ផែនទីទៅដល់ក្នុងតំបន់កណ្តាល CRS</text> </svg>",
+    "ar": "<!-- Using the SVG map from laos for regional context, or simply text block --> <!-- Custom SVG Map Infographic showing regional proximity --> <svg height=\"320\" style=\"background-color: var(--bg-navy-card); border-radius: var(--radius-lg); border: 2px solid var(--border-navy); box-shadow: var(--shadow-navy);\" viewbox=\"0 0 400 400\" width=\"100%\"> <!-- Definitions for gradients and shadows --> <defs> <filter height=\"120%\" id=\"shadow\" width=\"120%\" x=\"-10%\" y=\"-10%\"> <fedropshadow dx=\"0\" dy=\"4\" flood-color=\"#000000\" flood-opacity=\"0.3\" stddeviation=\"6\"></fedropshadow> </filter> <lineargradient id=\"lineGrad\" x1=\"0%\" x2=\"0%\" y1=\"100%\" y2=\"0%\"> <festop offset=\"0%\" stop-color=\"var(--accent-color)\"></festop> <festop offset=\"100%\" stop-color=\"#ffffff\"></festop> </lineargradient> </defs> <!-- Map Grid Gridlines --> <path d=\"M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <path d=\"M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350\" stroke=\"rgba(29, 62, 102, 0.3)\" stroke-width=\"1\"></path> <!-- Connection Line (Bangkok to Malaysia) --> <path d=\"M 180,120 Q 240,190 220,260\" fill=\"none\" filter=\"url(#shadow)\" stroke=\"var(--accent-color)\" stroke-dasharray=\"6,4\" stroke-width=\"3\"></path> <!-- Bangkok Node --> <circle cx=\"180\" cy=\"120\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"180\" cy=\"120\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Malaysia Node --> <circle cx=\"220\" cy=\"260\" fill=\"var(--accent-color)\" r=\"10\" stroke=\"#ffffff\" stroke-width=\"2\"></circle> <circle cx=\"220\" cy=\"260\" fill=\"none\" opacity=\"0.5\" r=\"18\" stroke=\"var(--accent-color)\" stroke-width=\"1\"> <animate attributename=\"r\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"10;24;10\"></animate> <animate attributename=\"opacity\" dur=\"3.5s\" repeatcount=\"indefinite\" values=\"0.8;0;0.8\"></animate> </circle> <!-- Node Labels --> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"180\" y=\"85\">قاعدة بانكوك</text> <text fill=\"#ffffff\" filter=\"url(#shadow)\" font-family=\"var(--font-heading)\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" x=\"220\" y=\"295\">كوالالمبور وبينانغ</text> <text fill=\"var(--accent-color)\" font-family=\"var(--font-body)\" font-size=\"12\" text-anchor=\"middle\" x=\"220\" y=\"315\">التواجد في ماليزيا</text> <!-- Info overlay text in map --> <text fill=\"rgba(255,255,255,0.4)\" font-family=\"var(--font-body)\" font-size=\"10\" x=\"20\" y=\"375\">خريطة الوصول الإقليمي لـ CRS Central</text> </svg>"
+  },
+  "All three": {
+    "vi": "Cả ba",
+    "zh-CN": "所有三个",
+    "th": "ทั้งสามอย่าง",
+    "km": "ទាំងបី",
+    "ar": "جميعها"
+  },
+  "Operating from our Bangkok base, CRS Central brings the same institutional, five-star revenue discipline to Malaysia's independent hotels that international chains use in Kuala Lumpur and Penang — without the overhead of hiring an in-house team.": {
+    "vi": "Hoạt động từ cơ sở ở Bangkok, CRS Central mang đến kỷ luật doanh thu năm sao, chuyên nghiệp cho các khách sạn độc lập của Malaysia, giống như cách các chuỗi quốc tế đang áp dụng tại Kuala Lumpur và Penang — mà không cần phải chịu chi phí thuê một đội ngũ nội bộ.",
+    "zh-CN": "CRS Central 以曼谷基地为运营中心，为马来西亚的独立酒店带来与吉隆坡和槟城的国际连锁酒店相同的制度化、五星级收益纪律——且无需承担聘请内部团队的高昂成本。",
+    "th": "ด้วยการดำเนินงานจากฐานที่กรุงเทพฯ CRS Central นำวินัยด้านรายได้ระดับห้าดาวที่มีความเป็นสถาบันแบบเดียวกันมาสู่โรงแรมอิสระในมาเลเซีย ซึ่งเครือโรงแรมระดับนานาชาติใช้ในกัวลาลัมเปอร์และปีนัง — โดยไม่ต้องมีค่าใช้จ่ายในการจ้างทีมงานภายใน",
+    "km": "ដោយប្រតិបត្តិការពីមូលដ្ឋានបាងកករបស់យើង CRS Central នាំមកនូវវិន័យប្រាក់ចំណូលលំដាប់ផ្កាយប្រាំរបស់ស្ថាប័នដូចគ្នាទៅកាន់សណ្ឋាគារឯករាជ្យរបស់ប្រទេសម៉ាឡេស៊ីដែលខ្សែសង្វាក់អន្តរជាតិប្រើប្រាស់ក្នុងទីក្រុងគូឡាឡាំពួ និងប៉េណាំង — ដោយមិនមានការចំណាយលើការជួលក្រុមការងារខាងក្នុង។",
+    "ar": "انطلاقًا من قاعدتنا في بانكوك، تجلب CRS Central نفس الانضباط المؤسسي في الإيرادات من فئة الخمس نجوم إلى الفنادق المستقلة في ماليزيا والذي تستخدمه السلاسل الدولية في كوالالمبور وبينانغ — دون تكاليف تعيين فريق داخلي."
+  },
+  "Market Expertise": {
+    "vi": "Chuyên môn Thị trường",
+    "zh-CN": "市场专长",
+    "th": "ความเชี่ยวชาญด้านตลาด",
+    "km": "ជំនាញទីផ្សារ",
+    "ar": "خبرة السوق"
+  },
+  "What This Includes:": {
+    "vi": "Bao gồm những gì:",
+    "zh-CN": "这包括：",
+    "th": "สิ่งที่รวมอยู่ในนี้:",
+    "km": "អ្វីដែលរាប់បញ្ចូល៖",
+    "ar": "ما يشمله هذا:"
+  },
+  "INR (₹)": {
+    "vi": "INR (₹)",
+    "zh-CN": "INR (₹)",
+    "th": "INR (₹)",
+    "km": "INR (₹)",
+    "ar": "INR (₹)"
+  },
+  "Contact name": {
+    "vi": "Tên liên hệ",
+    "zh-CN": "联系人姓名",
+    "th": "ชื่อผู้ติดต่อ",
+    "km": "ឈ្មោះទំនាក់ទំនង",
+    "ar": "اسم جهة الاتصال"
+  },
+  "Professional, brand-aligned phone support that converts inquiries into confirmed bookings. Available live from 8 a.m. to 11 p.m.": {
+    "vi": "Hỗ trợ qua điện thoại chuyên nghiệp, phù hợp với thương hiệu, giúp chuyển đổi các yêu cầu thành đặt phòng được xác nhận. Hỗ trợ trực tiếp từ 8 giờ sáng đến 11 giờ tối.",
+    "zh-CN": "专业、符合品牌形象的电话支持，将咨询转化为已确认的预订。服务时间为上午 8 点至晚上 11 点。",
+    "th": "การสนับสนุนทางโทรศัพท์ที่เป็นมืออาชีพและสอดคล้องกับแบรนด์ ซึ่งช่วยเปลี่ยนการสอบถามเป็นการจองที่ได้รับการยืนยัน ให้บริการตั้งแต่ 8.00 น. ถึง 23.00 น.",
+    "km": "ការគាំទ្រតាមទូរស័ព្ទប្រកបដោយវិជ្ជាជីវៈ និងស្របតាមម៉ាកយីហោ ដែលបំប្លែងការសាកសួរទៅជាការកក់ដែលបានបញ្ជាក់។ មានផ្តល់ជូនផ្ទាល់ចាប់ពីម៉ោង 8 ព្រឹកដល់ម៉ោង 11 យប់។",
+    "ar": "دعم هاتفي احترافي يتماشى مع العلامة التجارية ويحول الاستفسارات إلى حجوزات مؤكدة. متاح مباشرة من 8 صباحًا إلى 11 مساءً."
+  },
+  "JPY (¥)": {
+    "vi": "JPY (¥)",
+    "zh-CN": "JPY (¥)",
+    "th": "JPY (¥)",
+    "km": "JPY (¥)",
+    "ar": "JPY (¥)"
+  },
+  "Our Da Nang &amp; Hoi An Revenue Solutions:": {
+    "vi": "Giải pháp Doanh thu tại Đà Nẵng &amp; Hội An của chúng tôi:",
+    "zh-CN": "我们的岘港及会安收益解决方案：",
+    "th": "โซลูชั่นด้านรายได้ในดานังและฮอยอันของเรา:",
+    "km": "ដំណោះស្រាយប្រាក់ចំណូលនៅដាណាង &amp; ហូយអានរបស់យើង៖",
+    "ar": "حلولنا للإيرادات في دا نانغ وهوي آن:"
+  },
+  "<em>8%</em>": {
+    "vi": "<em>8%</em>",
+    "zh-CN": "<em>8%</em>",
+    "th": "<em>8%</em>",
+    "km": "<em>8%</em>",
+    "ar": "<em>8%</em>"
+  },
+  "Business travel, regional tourism, NGO and diplomatic stays, and a steady stream of long-stay guests from neighboring countries are driving demand. Yet most hotels in the country are still operating without structured revenue management — relying on static rates, reactive discounting, and limited channel distribution. That gap is exactly where CRS Central adds the most value.": {
+    "vi": "Du lịch công tác, du lịch khu vực, lưu trú của các tổ chức phi chính phủ và ngoại giao, cùng với lượng khách lưu trú dài ngày ổn định từ các quốc gia lân cận đang thúc đẩy nhu cầu. Tuy nhiên, hầu hết các khách sạn trong nước vẫn đang hoạt động mà không có hệ thống quản lý doanh thu bài bản — dựa vào mức giá cố định, giảm giá phản ứng và phân phối kênh hạn chế. Khoảng trống đó chính là nơi CRS Central mang lại giá trị cao nhất.",
+    "zh-CN": "商务旅行、区域旅游、非政府组织和外交人员的住宿，以及来自邻国的稳定长住客流正在推动需求。然而，该国大多数酒店仍在没有结构化收益管理的情况下运营——依赖固定费率、被动打折和有限的渠道分销。这一空白正是 CRS Central 能够创造最大价值的地方。",
+    "th": "การเดินทางเพื่อธุรกิจ การท่องเที่ยวระดับภูมิภาค การเข้าพักของ NGO และนักการทูต และกระแสแขกที่เข้าพักระยะยาวอย่างต่อเนื่องจากประเทศเพื่อนบ้านกำลังผลักดันความต้องการ ทว่าโรงแรมส่วนใหญ่ในประเทศยังคงดำเนินงานโดยไม่มีการจัดการรายได้ที่เป็นระบบ — โดยอาศัยอัตราคงที่ การลดราคาตามสถานการณ์ และการกระจายช่องทางที่จำกัด ช่องว่างนี้คือจุดที่ CRS Central เพิ่มมูลค่าได้มากที่สุด",
+    "km": "ការធ្វើដំណើរអាជីវកម្ម ទេសចរណ៍ក្នុងតំបន់ ការស្នាក់នៅរបស់អង្គការក្រៅរដ្ឋាភិបាល និងការទូត និងលំហូរនៃភ្ញៀវស្នាក់នៅរយៈពេលយូរពីប្រទេសជិតខាងកំពុងជំរុញតម្រូវការ។ ប៉ុន្តែសណ្ឋាគារភាគច្រើននៅក្នុងប្រទេសនៅតែដំណើរការដោយគ្មានការគ្រប់គ្រងប្រាក់ចំណូលដែលមានរចនាសម្ព័ន្ធ — ដោយពឹងផ្អែកលើអត្រាឋិតិវន្ត ការបញ្ចុះតម្លៃប្រតិកម្ម និងការចែកចាយបណ្តាញមានកំណត់។ គម្លាតនេះគឺពិតជាកន្លែងដែល CRS Central បន្ថែមតម្លៃច្រើនបំផុត។",
+    "ar": "سفر الأعمال والسياحة الإقليمية وإقامات المنظمات غير الحكومية والدبلوماسية، وتدفق مستمر للضيوف المقيمين لفترات طويلة من البلدان المجاورة، كلها تدفع الطلب. ومع ذلك، لا تزال معظم الفنادق في البلاد تعمل بدون إدارة إيرادات منظمة — معتمدة على الأسعار الثابتة والخصومات الانفعالية والتوزيع المحدود عبر القنوات. هذه الفجوة هي بالضبط المكان الذي تضيف فيه CRS Central القيمة الأكبر."
+  },
+  "<strong style=\"color: var(--primary-color);\">Forward Demand Forecasting:</strong> Pricing set ahead of Hanoi's lengthening booking windows, not reactively.": {
+    "vi": "<strong style=\"color: var(--primary-color);\">Dự báo Nhu cầu Tương lai:</strong> Đặt giá đón đầu khoảng thời gian đặt phòng ngày càng sớm của Hà Nội, thay vì phản ứng thụ động.",
+    "zh-CN": "<strong style=\"color: var(--primary-color);\">前瞻性需求预测：</strong> 在河内预订周期延长之前就制定好定价，而不是事后被动反应。",
+    "th": "<strong style=\"color: var(--primary-color);\">การพยากรณ์ความต้องการล่วงหน้า:</strong> การตั้งราคาล่วงหน้าตามกรอบเวลาการจองที่ยาวนานขึ้นของฮานอย ไม่ใช่การทำแบบตอบสนอง",
+    "km": "<strong style=\"color: var(--primary-color);\">ការព្យាករណ៍តម្រូវការទៅមុខ៖</strong> ការកំណត់តម្លៃមុនការពន្យារពេលនៃការកក់របស់ទីក្រុងហាណូយ មិនមែនជាការប្រតិកម្មនោះទេ។",
+    "ar": "<strong style=\"color: var(--primary-color);\">توقع الطلب المستقبلي:</strong> وضع الأسعار بشكل استباقي لنوافذ الحجز التي تطول في هانوي، وليس بشكل انفعالي."
+  },
+  "NPR (₨)": {
+    "vi": "NPR (₨)",
+    "zh-CN": "NPR (₨)",
+    "th": "NPR (₨)",
+    "km": "NPR (₨)",
+    "ar": "NPR (₨)"
+  },
+  "MICE &amp; Corporate Rate Strategy:": {
+    "vi": "Chiến lược Giá cho MICE &amp; Doanh nghiệp:",
+    "zh-CN": "MICE（会展）与企业客房费率策略：",
+    "th": "กลยุทธ์ราคาสำหรับ MICE และองค์กร:",
+    "km": "យុទ្ធសាស្ត្រអត្រាតម្លៃ MICE &amp; សាជីវកម្ម៖",
+    "ar": "استراتيجية أسعار الشركات والمؤتمرات (MICE):"
+  },
+  "Event-Aware Strategy:": {
+    "vi": "Chiến lược Nhạy bén với Sự kiện:",
+    "zh-CN": "事件感知策略：",
+    "th": "กลยุทธ์ที่ตระหนักถึงเหตุการณ์:",
+    "km": "យុទ្ធសាស្ត្រដឹងពីព្រឹត្តិការណ៍៖",
+    "ar": "استراتيجية واعية بالفعاليات:"
+  },
+  "What are the charges for hotel website development, and what is required?": {
+    "vi": "Chi phí phát triển trang web khách sạn là bao nhiêu, và cần những gì?",
+    "zh-CN": "酒店网站开发的费用是多少，需要什么条件？",
+    "th": "ค่าบริการสำหรับพัฒนาเว็บไซต์โรงแรมคือเท่าไหร่ และมีข้อกำหนดอะไรบ้าง?",
+    "km": "តើការគិតថ្លៃសម្រាប់ការអភិវឌ្ឍន៍គេហទំព័រសណ្ឋាគារមានប៉ុន្មាន ហើយតើត្រូវការអ្វីខ្លះ?",
+    "ar": "ما هي رسوم تطوير موقع الفندق، وما هي المتطلبات؟"
+  },
+  "<strong style=\"color: var(--primary-color);\">Peak-Season Yield Protection:</strong> Structured rate tiers that capture full value during the November–February high season, rather than underselling against branded neighbors.": {
+    "vi": "<strong style=\"color: var(--primary-color);\">Bảo vệ Lợi nhuận Mùa cao điểm:</strong> Các bậc giá được cấu trúc hợp lý để thu trọn giá trị trong mùa cao điểm từ tháng 11 đến tháng 2, thay vì bán phá giá so với các khách sạn có thương hiệu lân cận.",
+    "zh-CN": "<strong style=\"color: var(--primary-color);\">旺季收益保护：</strong> 结构化的阶梯费率，在 11 月至 2 月的旺季期间获取全部价值，而不是相较于附近的品牌酒店低价抛售。",
+    "th": "<strong style=\"color: var(--primary-color);\">การปกป้องผลตอบแทนช่วงฤดูท่องเที่ยว:</strong> ระดับราคาที่มีโครงสร้างเพื่อจับมูลค่าเต็มที่ในช่วงไฮซีซั่นเดือนพฤศจิกายน-กุมภาพันธ์ แทนที่จะขายในราคาต่ำกว่าเพื่อนบ้านที่เป็นแบรนด์",
+    "km": "<strong style=\"color: var(--primary-color);\">ការការពារទិន្នផលរដូវកាលខ្ពស់៖</strong> ថ្នាក់អត្រាតម្លៃដែលមានរចនាសម្ព័ន្ធដែលចាប់យកតម្លៃពេញលេញក្នុងអំឡុងពេលរដូវកាលខ្ពស់ខែវិច្ឆិកា–កុម្ភៈ ជាជាងការលក់ក្នុងតម្លៃទាបប្រៀបធៀបនឹងអ្នកជិតខាងដែលមានម៉ាកយីហោ។",
+    "ar": "<strong style=\"color: var(--primary-color);\">حماية عائد موسم الذروة:</strong> مستويات أسعار منظمة تلتقط القيمة الكاملة خلال موسم الذروة بين نوفمبر وفبراير، بدلاً من البيع بسعر أقل من الجيران ذوي العلامات التجارية."
+  },
+  "Number of rooms": {
+    "vi": "Số lượng phòng",
+    "zh-CN": "房间数量",
+    "th": "จำนวนห้องพัก",
+    "km": "ចំនួនបន្ទប់",
+    "ar": "عدد الغرف"
+  },
+  "A Shifting Guest Mix:": {
+    "vi": "Sự thay đổi trong Tỷ lệ Khách hàng:",
+    "zh-CN": "不断变化的客群结构：",
+    "th": "ส่วนผสมของแขกที่เปลี่ยนแปลง:",
+    "km": "ល្បាយភ្ញៀវដែលផ្លាស់ប្តូរ៖",
+    "ar": "تغير مزيج الضيوف:"
+  },
+  "Quick Execution:": {
+    "vi": "Thực hiện Nhanh chóng:",
+    "zh-CN": "快速执行：",
+    "th": "การดำเนินการที่รวดเร็ว:",
+    "km": "ការប្រតិបត្តិរហ័ស៖",
+    "ar": "تنفيذ سريع:"
+  },
+  "Tiếng Việt": {
+    "vi": "Tiếng Việt",
+    "zh-CN": "越南语",
+    "th": "ภาษาเวียดนาม",
+    "km": "ភាសាវៀតណាម",
+    "ar": "الفيتنامية"
+  },
+  "From Hanoi's dense small-hotel market to the resort and heritage circuit of Da Nang and Hoi An, we bring segment-specific strategy across Vietnam's different hospitality markets.": {
+    "vi": "Từ thị trường khách sạn nhỏ dày đặc ở Hà Nội đến các khu nghỉ dưỡng và di sản của Đà Nẵng và Hội An, chúng tôi mang đến chiến lược cụ thể theo phân khúc cho các thị trường lưu trú khác nhau của Việt Nam.",
+    "zh-CN": "从河内密集的小型酒店市场，到岘港和会安的度假与遗产线路，我们在越南不同的酒店市场中带来了针对特定细分市场的策略。",
+    "th": "จากตลาดโรงแรมขนาดเล็กที่หนาแน่นในฮานอย ไปจนถึงวงจรแหล่งมรดกและรีสอร์ทในดานังและฮอยอัน เรานำเสนอกลยุทธ์เฉพาะกลุ่มในตลาดการบริการที่หลากหลายของเวียดนาม",
+    "km": "ពីទីផ្សារសណ្ឋាគារតូចៗដ៏ក្រាស់ក្រែលនៅទីក្រុងហាណូយ រហូតដល់រមណីយដ្ឋាន និងតំបន់បេតិកភណ្ឌនៃទីក្រុងដាណាង និងហូយអាន យើងនាំយកយុទ្ធសាស្ត្រជាក់លាក់តាមផ្នែកនៅទូទាំងទីផ្សារបដិសណ្ឋារកិច្ចផ្សេងៗគ្នារបស់ប្រទេសវៀតណាម។",
+    "ar": "من سوق الفنادق الصغيرة الكثيف في هانوي إلى منتجعات ومسارات التراث في دا نانغ وهوي آن، نحن نقدم استراتيجية خاصة بكل قطاع عبر أسواق الضيافة المختلفة في فيتنام."
+  }
+}
