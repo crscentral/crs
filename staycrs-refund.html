@@ -164,6 +164,49 @@ header .nav > a { flex-shrink: 0; }
   .lang-btn { font-size: 0.8rem !important; padding: 4px 6px !important; }
 }
 
+
+/* Mobile Hamburger Nav for StayCRS */
+@media (max-width: 900px) {
+  .menu-toggle-btn { display: block !important; }
+  header .wrap.nav { justify-content: space-between; position: relative; }
+  .links {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    flex-direction: column;
+    align-items: stretch !important;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    display: none !important;
+    z-index: 1000;
+  }
+  .links.mobile-open {
+    display: flex !important;
+  }
+  .links a:not(.btn) {
+    display: block !important;
+    padding: 12px 0 !important;
+    border-bottom: 1px solid #eee;
+    font-size: 1.1rem !important;
+  }
+  .links .btn {
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+  }
+  .lang-selector {
+    margin-top: 15px;
+    width: 100%;
+  }
+  .lang-btn {
+    width: 100%;
+    
+    font-size: 1.1rem !important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -179,6 +222,7 @@ header .nav > a { flex-shrink: 0; }
 <header>
 <div class="wrap nav">
 <a aria-label="StayCRS home" href="staycrs.html"><svg class="logo" style="--tile:#18344A;--ink:#fff;--c1:#2F5D80;--c2:#18344A;--cl:#5B6B78" viewbox="0 0 588 120"><use href="#logo"></use></svg></a>
+<button class="menu-toggle-btn" style="display:none; background:transparent; border:none; font-size:1.8rem; cursor:pointer; color:var(--navy); padding:0 10px;">☰</button>
 <nav class="links">
 <a data-i18n="staycrs-auto-133" href="staycrs.html#pms">PMS</a>
 <a data-i18n="staycrs-auto-134" href="staycrs.html#channel-manager">Channel Manager</a>
@@ -271,6 +315,49 @@ header .nav > a { flex-shrink: 0; }
   .lang-btn { font-size: 0.8rem !important; padding: 4px 6px !important; }
 }
 
+
+/* Mobile Hamburger Nav for StayCRS */
+@media (max-width: 900px) {
+  .menu-toggle-btn { display: block !important; }
+  header .wrap.nav { justify-content: space-between; position: relative; }
+  .links {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    flex-direction: column;
+    align-items: stretch !important;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    display: none !important;
+    z-index: 1000;
+  }
+  .links.mobile-open {
+    display: flex !important;
+  }
+  .links a:not(.btn) {
+    display: block !important;
+    padding: 12px 0 !important;
+    border-bottom: 1px solid #eee;
+    font-size: 1.1rem !important;
+  }
+  .links .btn {
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+  }
+  .lang-selector {
+    margin-top: 15px;
+    width: 100%;
+  }
+  .lang-btn {
+    width: 100%;
+    
+    font-size: 1.1rem !important;
+  }
+}
+
 </style>
 </nav>
 </div>
@@ -337,5 +424,26 @@ document.getElementById('wa').addEventListener('click',function(){
   this.href="https://wa.me/66990143142?text="+encodeURIComponent(msg());
 });
 </script>
-<script defer="" src="assets/js/script-v2.js"></script></body>
+<script defer="" src="assets/js/script-v2.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const toggleBtn = document.querySelector('.menu-toggle-btn');
+    const linksNav = document.querySelector('.links');
+    if (toggleBtn && linksNav) {
+        toggleBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            linksNav.classList.toggle('mobile-open');
+            toggleBtn.innerHTML = linksNav.classList.contains('mobile-open') ? '✕' : '☰';
+        });
+        document.addEventListener('click', function(e) {
+            if (!linksNav.contains(e.target) && e.target !== toggleBtn) {
+                linksNav.classList.remove('mobile-open');
+                toggleBtn.innerHTML = '☰';
+            }
+        });
+    }
+});
+</script>
+</body>
+
 </html>
