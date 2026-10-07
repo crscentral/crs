@@ -1353,5 +1353,10 @@
   "How do you help Hotels?": "คุณช่วยเหลือโรงแรมอย่างไร?",
   "<strong>Demand Spikes Left Unpriced:</strong> Festival periods, regional conferences, and event-driven surges (like ASEAN meetings hosted in Penang) regularly push occupancy above 90% — yet many independent hotels hold flat rates through these windows, giving away yield they'll never recover.": "<strong>ความต้องการที่พุ่งสูงขึ้นโดยไม่มีการปรับราคา:</strong> ช่วงเทศกาล การประชุมระดับภูมิภาค และการเพิ่มขึ้นจากกิจกรรม (เช่น การประชุมอาเซียนที่จัดขึ้นในปีนัง) มักจะผลักดันให้อัตราการเข้าพักสูงกว่า 90% — แต่โรงแรมอิสระหลายแห่งยังคงใช้อัตราคงที่ในช่วงเวลาเหล่านี้ ซึ่งเป็นการทิ้งผลตอบแทนที่พวกเขาจะไม่มีวันได้กลับคืนมา",
   "<strong>High OTA Dependency:</strong> As across the region, a large share of bookings still flow through OTA commissions rather than direct channels, compressing margins that a stronger channel-mix strategy can recover.": "<strong>การพึ่งพา OTA สูง:</strong> เช่นเดียวกับทั่วทั้งภูมิภาค ส่วนแบ่งขนาดใหญ่ของการจองยังคงไหลผ่านค่าคอมมิชชั่น OTA มากกว่าช่องทางโดยตรง ทำให้ส่วนต่างกำไรลดลง ซึ่งกลยุทธ์ส่วนผสมช่องทางที่แข็งแกร่งกว่าสามารถกู้คืนได้",
-  "Forward Demand Forecasting:": "การคาดการณ์ความต้องการในอนาคต:"
+  "Forward Demand Forecasting:": "การคาดการณ์ความต้องการในอนาคต:",
+  "thailand-faq-q1": "คุณครอบคลุมเมืองใดบ้างในประเทศไทย?",
+  "thailand-faq-q2": "เราจำเป็นต้องเปลี่ยน PMS หรือ channel manager หรือไม่?",
+  "thailand-faq-q3": "มีค่าใช้จ่ายเท่าไร?",
+  "thailand-faq-q4": "คุณทำงานกับโรงแรมขนาดใด?",
+  "thailand-faq-q5": "การตรวจสอบฟรีรวมอะไรบ้าง?"
 }

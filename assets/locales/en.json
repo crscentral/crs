@@ -1354,5 +1354,10 @@
   "auto-gen-13": "<svg fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewbox=\"0 0 24 24\"><path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle></svg>\n<span data-i18n=\"Sri Sai Anurag New Town, Karimnagar–Hyderabad Highway, Secunderabad, Telangana 500078, India\" style=\"font-size: 0.8rem;\">Sri Sai Anurag New Town, Karimnagar–Hyderabad Highway, Secunderabad, Telangana 500078, India</span>",
   "auto-gen-14": "<b data-i18n=\"Commission you pay\">Commission you pay</b>",
   "auto-gen-15": "<b data-i18n=\"On a USD 1,000 booking\">On a USD 1,000 booking</b>",
-  "auto-gen-16": "<b data-i18n=\"You keep more\">You keep more</b>"
+  "auto-gen-16": "<b data-i18n=\"You keep more\">You keep more</b>",
+  "thailand-faq-q1": "Which Thai cities do you cover?",
+  "thailand-faq-q2": "Do we need to change our PMS or channel manager?",
+  "thailand-faq-q3": "How much does it cost?",
+  "thailand-faq-q4": "What size of hotel do you work with?",
+  "thailand-faq-q5": "What does the free audit include?"
 }
