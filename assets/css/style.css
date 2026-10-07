@@ -196,7 +196,7 @@ input, textarea, select {
   color: rgba(255, 255, 255, 0.85);
   font-family: var(--font-body);
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   padding: 0.5rem 0;
   cursor: pointer;
   display: flex;
@@ -273,14 +273,14 @@ input, textarea, select {
   display: flex;
   align-items: center;
   flex: 1;
-  justify-content: space-evenly;
-  margin: 0 2rem;
+  justify-content: space-between;
+  margin: 0 3rem;
 }
 
 .nav-link {
   color: rgba(255, 255, 255, 0.85);
   font-weight: 500;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   position: relative;
   padding: 0.5rem 0;
   white-space: nowrap;
@@ -313,7 +313,7 @@ input, textarea, select {
 
 .lang-btn {
   white-space: nowrap;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   background: transparent;
   border: 1px solid var(--border-navy);
   color: var(--text-white);
