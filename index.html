@@ -107,7 +107,7 @@ fbq('track', 'PageView');
 </div>
 </div>
 <a class="nav-link" data-i18n="nav-about" href="about.html">Company Profile</a>
-<a class="nav-link" data-i18n="nav-audit" href="audit.html">Free Revenue Audit</a>
+<a class="nav-link" data-i18n="nav-audit" href="audit.html">Free Audit</a>
 <a class="nav-link" data-i18n="nav-blog" href="blog.html">Blog</a>
 <a class="nav-link" data-i18n="nav-contact" href="contact.html">Contact Us</a>
 </nav>
@@ -152,7 +152,7 @@ fbq('track', 'PageView');
 <section class="section section-dark">
 <div class="section-container">
 <div class="section-header">
-<span class="section-tag" data-i18n="home-pillars-tag">Value Proposition Pillars</span>
+<span class="section-tag" data-i18n="home-pillars-tag">Why It Works</span>
 <h2 class="section-title" data-i18n="home-pillars-title">Revenue. Reputation. Results.</h2>
 <p class="section-desc" data-i18n="home-pillars-desc">Most independent hotels need two or more team members just to manage pricing, OTA channels, reservations, and guest communications. CRS Central delivers all of this — and more — at a fraction of the cost, with zero recruitment headaches, no staff turnover, and no training burden.</p>
 <p class="section-desc" data-i18n="home-pillars-sub" style="font-weight: 600; color: var(--accent-color); margin-top: 1.5rem;">We plug directly into your operation and act as your extended revenue team from day one.</p>
@@ -179,7 +179,7 @@ fbq('track', 'PageView');
 <div class="pillar-icon" data-i18n='&lt;svg viewbox="0 0 24 24"&gt;&lt;path d="M21 18v1c0 1.1-.9 2-2 2H5a2 2 0 0 1-2-2v-1h18zm-2-5v1H5v-1h14zm0-5v1H5V8h14zm-2-5v1H5V3h12z"&gt;&lt;/path&gt;&lt;/svg&gt;'>
 <svg viewbox="0 0 24 24"><path d="M21 18v1c0 1.1-.9 2-2 2H5a2 2 0 0 1-2-2v-1h18zm-2-5v1H5v-1h14zm0-5v1H5V8h14zm-2-5v1H5V3h12z"></path></svg>
 </div>
-<h3 class="pillar-title" data-i18n="pillar-cost-title">Reduced Costs</h3>
+<h3 class="pillar-title" data-i18n="pillar-cost-title">Results</h3>
 <p class="pillar-text" data-i18n="pillar-cost-desc">Replace two full-time salaries with one expert team at a fraction of the price.</p>
 </div>
 </div>
@@ -189,7 +189,7 @@ fbq('track', 'PageView');
 <section class="section">
 <div class="section-container">
 <div style="margin-bottom: 2.5rem; text-align: center;">
-<span class="section-tag" data-i18n="home-calc-tag">Revenue Calculator &amp; Audit</span>
+<span class="section-tag" data-i18n="home-calc-tag">Revenue Calculator</span>
 <h2 class="section-title" data-i18n="home-calc-title" style="font-size: 2.5rem; line-height: 1.2; margin-bottom: 1rem;">Unlock Your Hidden Revenue Potential</h2>
 <p class="section-desc" data-i18n="home-calc-desc" style="max-width: 800px; margin: 0 auto;">Enter your hotel's current performance data to see your potential revenue uplift with CRS Central.</p>
 </div>
@@ -353,6 +353,21 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 <label class="form-label" data-i18n="audit-f-contact-name" for="haName">Contact Name *</label>
 <input class="form-input" id="haName" name="name" required="" type="text"/>
 </div>
+
+<div class="form-group">
+  <label>Country</label>
+  <select name="Country" class="form-input" required>
+    <option value="" disabled selected>Select Country</option>
+    <option value="Thailand">Thailand</option>
+    <option value="Laos">Laos</option>
+    <option value="India">India</option>
+    <option value="Nepal">Nepal</option>
+    <option value="Malaysia">Malaysia</option>
+    <option value="Vietnam">Vietnam</option>
+    <option value="Other">Other</option>
+  </select>
+</div>
+
 <div class="form-group">
 <label class="form-label" data-i18n="audit-f-hotel-name" for="haHotel">Hotel Name *</label>
 <input class="form-input" id="haHotel" name="hotelName" required="" type="text"/>
@@ -367,6 +382,12 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 </div>
 </div>
 <div class="form-submit-container" style="text-align: center; margin-top: 1.5rem;">
+
+<div class="form-group" style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+  <input type="checkbox" name="Privacy_Consent" id="privacyConsent" required style="width: auto;">
+  <label for="privacyConsent" style="margin: 0; font-size: 0.9rem;">I agree to the <a href="privacy.html" style="color: var(--c1); text-decoration: underline;" target="_blank">Privacy Policy</a></label>
+</div>
+
 <button class="btn btn-primary" data-i18n="form-audit-submit" style="width: 100%; max-width: 400px; height: 48px;" type="submit">Submit Your Audit Request</button>
 </div>
 </form>
@@ -378,7 +399,7 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 <div class="section-container">
 <div class="split-layout">
 <div class="split-content">
-<span class="section-tag" data-i18n="home-about-tag">About Section</span>
+<span class="section-tag" data-i18n="home-about-tag">About Us</span>
 <h2 class="section-title" data-i18n="home-about-title">The Revenue Gap No One Talks About</h2>
 <p data-i18n="home-about-desc1">Here is a truth that surprises most hotel owners: big hotel chains do not earn more simply because they have more rooms. They earn more because they have dedicated revenue management teams working every day to ensure the right room is sold at the right price, through the right channel, to the right guest.</p>
 <p data-i18n="home-about-desc2">Independent hotels rarely have access to that kind of expertise. Until now. CRS Central was built specifically to close that gap. Our senior team comes from five-star international hotel operations, with decades of hands-on experience in revenue strategy, OTA management, dynamic pricing, and yield management.</p>
@@ -394,7 +415,7 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 <section class="section section-light">
 <div class="section-container">
 <div class="section-header">
-<span class="section-tag" data-i18n="home-services-tag">Service Highlights</span>
+<span class="section-tag" data-i18n="home-services-tag">Our Services</span>
 <h2 class="section-title" data-i18n="home-services-title">What We Do — Smart Hotel Solutions That Maximize Revenue</h2>
 <p class="section-desc" data-i18n="home-services-desc">"Smart Hotel Solutions. Maximized Revenue. Exceptional Guest Experiences."</p>
 </div>
@@ -416,12 +437,12 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 <p class="service-card-text" data-i18n="We optimize your presence on Booking.com, Agoda, Expedia, Trip.com, MakeMyTrip, and all major platforms — increasing your visibility and booking conversion.">We optimize your presence on Booking.com, Agoda, Expedia, Trip.com, MakeMyTrip, and all major platforms — increasing your visibility and booking conversion.</p>
 </a>
 <!-- Service 3 -->
-<a class="service-card" href="services.html#service-3" style="text-decoration: none; color: inherit; display: block;">
+<a class="service-card" href="staycrs.html" style="text-decoration: none; color: inherit; display: block;">
 <div class="service-card-icon" data-i18n='&lt;svg viewbox="0 0 24 24"&gt;&lt;path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm-5-7H7v2h7v-2z"&gt;&lt;/path&gt;&lt;/svg&gt;'>
 <svg viewbox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm-5-7H7v2h7v-2z"></path></svg>
 </div>
 <h3 class="service-card-title" data-i18n="PMS &amp;amp; Channel Manager">PMS &amp; Channel Manager</h3>
-<p class="service-card-text" data-i18n="Enterprise-grade hotel software starting at just $55/month. Cloud PMS and real-time channel manager with no setup fee.">Enterprise-grade hotel software starting at just $55/month. Cloud PMS and real-time channel manager with no setup fee.</p>
+<p class="service-card-text" data-i18n="Cloud PMS and real-time channel manager for independent hotels. USD 110/month, no setup fee.">Cloud PMS and real-time channel manager for independent hotels. USD 110/month, no setup fee.</p>
 </a>
 <!-- Service 4 -->
 <a class="service-card" href="services.html#service-4" style="text-decoration: none; color: inherit; display: block;">
@@ -453,7 +474,7 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 <svg viewbox="0 0 24 24"><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.2c.28-.27.36-.67.25-1.02A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z"></path></svg>
 </div>
 <h3 class="service-card-title" data-i18n="Centralized Call Handling">Centralized Call Handling</h3>
-<p class="service-card-text" data-i18n="Professional, brand-aligned phone support that converts inquiries into confirmed bookings. Available live from 8 a.m. to 11 p.m.">Professional, brand-aligned phone support that converts inquiries into confirmed bookings. Available live from 8 a.m. to 11 p.m.</p>
+<p class="service-card-text" data-i18n="Professional, brand-aligned phone support that converts inquiries into confirmed bookings. Daily 8am–7pm ICT (UTC+7). WhatsApp support until 11pm ICT.">Professional, brand-aligned phone support that converts inquiries into confirmed bookings. Daily 8am–7pm ICT (UTC+7). WhatsApp support until 11pm ICT.</p>
 </a>
 <!-- Service 8 -->
 <a class="service-card" href="services.html#service-8" style="text-decoration: none; color: inherit; display: block;">
@@ -498,7 +519,7 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 </div>
 <div style="margin-bottom: 2rem;">
 <h3 data-i18n="why-item-4-title" style="font-size:1.4rem; margin-bottom:0.5rem;">Local Presence, Regional Reach</h3>
-<p data-i18n="Based in Bangkok, with on-ground teams and local expertise across Thailand, Laos, India, Nepal, Malaysia, and Vietnam.">Based in Bangkok, with on-ground teams and local expertise across Thailand, Laos, India, Nepal, Malaysia, and Vietnam.</p>
+<p data-i18n="Registered in Hyderabad, India, with a Bangkok base to meet clients across the region. Expertise across Thailand, Laos, India, Nepal, Malaysia and Vietnam.">Registered in Hyderabad, India, with a Bangkok base to meet clients across the region. Expertise across Thailand, Laos, India, Nepal, Malaysia and Vietnam.</p>
 </div>
 <div style="margin-bottom: 2rem;">
 <h3 data-i18n="why-item-5-title" style="font-size:1.4rem; margin-bottom:0.5rem;">Transparent Reporting</h3>
@@ -521,7 +542,7 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 <section class="section section-light">
 <div class="section-container">
 <div class="section-header">
-<span class="section-tag" data-i18n="home-testimonial-tag">Client Testimonial</span>
+<span class="section-tag" data-i18n="home-testimonial-tag">Client Feedback</span>
 <h2 class="section-title" data-i18n="home-testimonial-title">What Our Clients Say</h2>
 </div>
 <div class="testimonial-box">
@@ -539,7 +560,7 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 <section class="section section-light" id="faq">
 <div class="section-container">
 <div class="section-header">
-<span class="section-tag" data-i18n="Help Center">Help Center</span>
+<span class="section-tag" data-i18n="Help Center">FAQs</span>
 <h2 class="section-title" data-i18n="Frequently Asked Questions (FAQs)">Frequently Asked Questions (FAQs)</h2>
 </div>
 <!-- About CRS Central & Core Services -->
@@ -594,7 +615,7 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 <div class="faq-item">
 <div class="faq-question" data-i18n="What are the charges for a PMS &amp;amp; Channel Manager?">What are the charges for a PMS &amp; Channel Manager?</div>
 <div class="faq-answer">
-<p data-i18n="Our Property Management System (PMS) and Channel Manager services start at USD 55 per month.">Our Property Management System (PMS) and Channel Manager services start at USD 55 per month.</p>
+<p data-i18n="USD 110 per month, with no setup fee.">USD 110 per month, with no setup fee.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -620,9 +641,9 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 <h3 data-i18n="Contracts &amp;amp; Cancellations" style="margin-top: 2rem; margin-bottom: 1rem; color: var(--accent-color); font-size: 1.5rem;">Contracts &amp; Cancellations</h3>
 <div class="faq-list">
 <div class="faq-item">
-<div class="faq-question" data-i18n="Is there a minimum contract period?">Is there a minimum contract period?</div>
+<div class="faq-question" data-i18n="Is there a minimum contract period, or can I cancel anytime?">Is there a minimum contract period, or can I cancel anytime?</div>
 <div class="faq-answer">
-<p data-i18n="Our engagement terms are discussed individually based on your property's needs and goals. We offer flexible arrangements with a structured lock-in period as outlined in our service agreements.">Our engagement terms are discussed individually based on your property's needs and goals. We offer flexible arrangements with a structured lock-in period as outlined in our service agreements.</p>
+<p data-i18n="Initial 3-month term, then cancel anytime with 30 days' written notice. This applies to all services: Revenue Management, StayCRS and Digital Marketing.">Initial 3-month term, then cancel anytime with 30 days' written notice. This applies to all services: Revenue Management, StayCRS and Digital Marketing.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -655,7 +676,7 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 <div class="section-container">
 <div class="cta-banner">
 <div class="cta-container">
-<span class="section-tag" data-i18n="home-audit-tag">Free Revenue Audit CTA</span>
+<span class="section-tag" data-i18n="home-audit-tag">Free Audit</span>
 <h2 class="cta-title" data-i18n="home-audit-title">Book Your FREE Hotel Revenue Audit</h2>
 <p class="cta-desc" data-i18n="home-audit-desc">Not sure where your hotel is losing revenue? We will show you — at no cost and with zero obligation. In a complimentary 20–30 minute consultation, our specialists will review your pricing structure, OTA performance, competitor positioning, and distribution setup.</p>
 <a class="btn btn-primary" data-i18n="home-audit-cta-btn" href="audit.html">Book Your Free Revenue Audit Today →</a>
@@ -703,7 +724,7 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 <ul class="footer-links">
 <li data-i18n='&lt;a data-i18n="nav-home" href="./"&gt;Home&lt;/a&gt;'><a data-i18n="nav-home" href="./">Home</a></li>
 <li data-i18n='&lt;a data-i18n="nav-about" href="about.html"&gt;Company Profile&lt;/a&gt;'><a data-i18n="nav-about" href="about.html">Company Profile</a></li>
-<li data-i18n='&lt;a data-i18n="nav-audit" href="audit.html"&gt;Free Revenue Audit&lt;/a&gt;'><a data-i18n="nav-audit" href="audit.html">Free Revenue Audit</a></li>
+<li data-i18n='&lt;a data-i18n="nav-audit" href="audit.html"&gt;Free Revenue Audit&lt;/a&gt;'><a data-i18n="nav-audit" href="audit.html">Free Audit</a></li>
 <li data-i18n='&lt;a data-i18n="nav-blog" href="blog.html"&gt;Blog&lt;/a&gt;'><a data-i18n="nav-blog" href="blog.html">Blog</a></li>
 <li data-i18n='&lt;a data-i18n="nav-contact" href="contact.html"&gt;Contact Us&lt;/a&gt;'><a data-i18n="nav-contact" href="contact.html">Contact Us</a></li>
 <li data-i18n="auto-gen-0"><a data-i18n="FAQs" href="https://crscentral.com/#faq">FAQs</a></li>
