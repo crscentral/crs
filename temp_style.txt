@@ -1,0 +1,303 @@
+22:<style>
+23-:root{--navy:#18344A;--mid:#2F5D80;--tint:#E8EEF3;--text:#222;--grey:#5B6B78;--accent:#C9A24A;--r:14px}
+24-*{box-sizing:border-box;margin:0;padding:0}
+25-html{scroll-behavior:smooth;scroll-padding-top:76px}
+26-body{font-family:Montserrat,Arial,sans-serif;color:var(--text);line-height:1.65;font-size:16px;background:#fff}
+27-a{color:var(--mid)}
+28-.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+29-section{padding:76px 0}
+30-.alt{background:var(--tint)}
+31-h1,h2,h3{color:var(--navy);line-height:1.2}
+32-h1{font-size:clamp(2rem,5vw,3.2rem);font-weight:800}
+33-h2{font-size:clamp(1.6rem,3.4vw,2.2rem);font-weight:800;margin-bottom:12px}
+34-h3{font-size:1.05rem;font-weight:700;margin-bottom:6px}
+35-.lead{color:var(--grey);font-size:1.08rem;max-width:720px;margin-bottom:34px}
+36-.eyebrow{font-size:.78rem;letter-spacing:.14em;font-weight:700;color:var(--mid);text-transform:uppercase;margin-bottom:10px}
+37-.btn{display:inline-block;padding:13px 26px;border-radius:10px;font-weight:700;font-size:.95rem;text-decoration:none;border:2px solid var(--navy);background:var(--navy);color:#fff;cursor:pointer;font-family:inherit;transition:.2s}
+38-.btn:hover{background:var(--mid);border-color:var(--mid)}
+39-.btn.ghost{background:transparent;color:var(--navy)}
+40-.btn.ghost:hover{background:var(--navy);color:#fff}
+41-.btn.light{background:#fff;color:var(--navy);border-color:#fff}
+42-.btn.light:hover{background:var(--tint)}
+43-.btn.outl{background:transparent;color:#fff;border-color:#fff}
+44-.btn.outl:hover{background:#fff;color:var(--navy)}
+45-header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid #dde5ec}
+46-.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+47-.logo{height:46px;width:auto;display:block}
+48-.links{display:flex;gap:26px;align-items:center}
+49-.links a{text-decoration:none;color:var(--navy);font-weight:600;font-size:.9rem}
+50-.links a:hover{color:var(--mid)}
+51-.links .btn{color:#fff;padding:10px 20px}
+52-.hero{background:linear-gradient(135deg,#18344A 0%,#214a69 100%);color:#fff;padding:92px 0 84px}
+53-.hero h1{color:#fff;max-width:760px}
+54-.hero p{color:#cfdbe6;font-size:1.15rem;max-width:620px;margin:18px 0 30px}
+55-.hero .cta{display:flex;gap:14px;flex-wrap:wrap}
+56-.chips{display:flex;gap:16px;flex-wrap:wrap;margin-top:44px}
+57-.chip{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);border-radius:var(--r);padding:16px 22px}
+58-.chip b{display:block;font-size:1.5rem;color:#fff}
+59-.chip span{font-size:.85rem;color:#cfdbe6}
+60-.grid{display:grid;gap:22px}
+61-.g3{grid-template-columns:repeat(3,1fr)}
+62-.g4{grid-template-columns:repeat(4,1fr)}
+63-.card{background:#fff;border:1px solid #dde5ec;border-radius:var(--r);padding:26px}
+64-.alt .card{border-color:transparent}
+65-.card p{color:var(--grey);font-size:.95rem}
+66-.num{display:inline-flex;width:40px;height:40px;border-radius:10px;background:var(--navy);color:#fff;font-weight:800;align-items:center;justify-content:center;margin-bottom:14px}
+67-.card a.more{display:inline-block;margin-top:12px;font-weight:700;font-size:.9rem;text-decoration:none}
+68-.tbl{width:100%;border-collapse:collapse;margin-top:10px;background:#fff;border-radius:var(--r);overflow:hidden}
+69-.tbl th,.tbl td{padding:15px 18px;text-align:left;border-bottom:1px solid #dde5ec;font-size:.95rem}
+70-.tbl th{background:var(--navy);color:#fff}
+71-.tbl td.win{background:var(--tint);color:var(--navy);font-weight:800}
+72-.note{font-size:.8rem;color:var(--grey);margin-top:10px}
+73-.big8{font-size:clamp(2.4rem,6vw,3.6rem);font-weight:800;color:var(--navy)}
+74-.big8 em{font-style:normal;color:var(--accent)}
+75-.rev{background:var(--navy);color:#fff}
+76-.rev h2{color:#fff;max-width:760px}
+77-.rev p{color:#cfdbe6;max-width:800px;margin-bottom:26px;font-size:1.05rem}
+78-.revgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:30px}
+79-.revgrid div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:var(--r);padding:20px}
+80-.revgrid b{display:block;color:#fff;margin-bottom:6px;font-size:.95rem}
+81-.revgrid span{color:#cfdbe6;font-size:.9rem}
+82-form{display:grid;grid-template-columns:1fr 1fr;gap:16px;background:#fff;border:1px solid #dde5ec;border-radius:var(--r);padding:30px}
+83-label{display:block;font-size:.8rem;font-weight:700;color:var(--navy);margin-bottom:5px}
+84-input,select{width:100%;padding:12px 14px;border:1px solid #c5d1db;border-radius:9px;font:inherit;font-size:.95rem}
+85-input:focus,select:focus{outline:2px solid var(--mid);border-color:var(--mid)}
+86-.full{grid-column:1/-1}
+87-.actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+88-#thanks{display:none;color:var(--navy);font-weight:600}
+89-footer{background:#10263a;color:#b9c9d6;padding:52px 0 28px;font-size:.9rem}
+90-footer .logo{height:56px;margin-bottom:18px}
+91-.fgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}
+92-footer h4{color:#fff;margin-bottom:12px;font-size:.9rem}
+93-footer a{color:#b9c9d6;text-decoration:none;display:block;margin-bottom:7px}
+94-footer a:hover{color:#fff}
+95-.copy{border-top:1px solid rgba(255,255,255,.14);margin-top:34px;padding-top:20px;font-size:.8rem}
+96-@media(max-width:900px){.g3,.g4{grid-template-columns:1fr 1fr}.fgrid{grid-template-columns:1fr}.revgrid{grid-template-columns:1fr}}
+97-@media(max-width:620px){.links a:not(.btn){display:none}.g3,.g4{grid-template-columns:1fr}form{grid-template-columns:1fr}section{padding:56px 0}.logo{height:40px}}
+98-
+99-
+100-/* WhatsApp & Cookie Banner dynamic CSS injected for script-v2.js compatibility */
+101-.whatsapp-float { position: fixed; bottom: 30px; right: 30px; width: 60px; height: 60px; background-color: #25d366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); z-index: 9999; border: 2px solid #ffffff; }
+102-.whatsapp-icon { width: 34px; height: 34px; }
+103-.whatsapp-float:hover { transform: translateY(-5px) scale(1.05); background-color: #20ba5a; }
+104-.whatsapp-badge { position: absolute; right: 75px; background-color: #ffffff; color: #128c7e; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); border: 1px solid rgba(37, 211, 102, 0.3); white-space: nowrap; }
+105-.whatsapp-badge::after { content: ""; position: absolute; right: -6px; top: 50%; transform: translateY(-50%); border-width: 6px 0 6px 6px; border-style: solid; border-color: transparent transparent transparent #ffffff; display: block; width: 0; }
+106-@media (max-width: 480px) { .whatsapp-float { bottom: 20px; right: 20px; width: 55px; height: 55px; } .whatsapp-icon { width: 30px; height: 30px; } .whatsapp-badge { display: none; } }
+107-
+108-.cookie-banner { position: fixed; bottom: 30px; left: 30px; width: 380px; background: rgba(10, 25, 47, 0.95); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 1.5rem; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); z-index: 10000; color: #fff; transition: all 0.4s; transform: translateY(100px); opacity: 0; visibility: hidden; }
+109-.cookie-banner.show { transform: translateY(0); opacity: 1; visibility: visible; }
+110-.cookie-content { display: flex; flex-direction: column; gap: 1rem; }
+111-.cookie-header { display: flex; align-items: center; gap: 0.75rem; }
+112-.cookie-icon { width: 24px; height: 24px; color: #C9A24A; }
+113-.cookie-header h4 { margin: 0; font-size: 1.15rem; font-weight: 700; }
+114-.cookie-text { margin: 0; font-size: 0.9rem; color: rgba(255, 255, 255, 0.7); line-height: 1.5; }
+115-.cookie-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+116-.cookie-btn { padding: 0.6rem 1rem; border-radius: 8px; font-size: 0.85rem; font-weight: 600; cursor: pointer; border: none; text-align: center; }
+117-.cookie-btn-accept { background-color: #C9A24A; color: #18344A; }
+118-.cookie-btn-reject { background-color: rgba(255, 255, 255, 0.1); color: #fff; border: 1px solid rgba(255, 255, 255, 0.2); }
+119-.cookie-btn-manage { grid-column: span 2; background-color: transparent; color: rgba(255, 255, 255, 0.6); text-decoration: underline; padding: 0.25rem; font-size: 0.8rem; }
+120-.cookie-preferences { border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 1rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 1rem; }
+121-.cookie-pref-item { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+122-.cookie-pref-info { display: flex; flex-direction: column; }
+123-.cookie-pref-name { font-size: 0.85rem; font-weight: 600; color: #fff; }
+124-.cookie-pref-desc { font-size: 0.75rem; color: rgba(255, 255, 255, 0.5); line-height: 1.3; }
+125-.cookie-switch { position: relative; display: inline-block; width: 44px; height: 22px; }
+126-.cookie-switch input { opacity: 0; width: 0; height: 0; }
+127-.cookie-slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(255, 255, 255, 0.2); transition: .3s; border-radius: 34px; }
+128-.cookie-slider:before { position: absolute; content: ""; height: 16px; width: 16px; left: 3px; bottom: 3px; background-color: white; transition: .3s; border-radius: 50%; }
+129-.cookie-switch input:checked + .cookie-slider { background-color: #C9A24A; }
+130-.cookie-switch input:checked + .cookie-slider:before { transform: translateX(22px); }
+131-.cookie-btn-save { background-color: #18344A; color: #fff; border: 1px solid rgba(255, 255, 255, 0.1); margin-top: 0.5rem; width: 100%; }
+132-@media (max-width: 480px) { .cookie-banner { bottom: 0; left: 0; right: 0; width: 100%; border-radius: 12px 12px 0 0; padding: 1.25rem; } }
+133-
+134-
+135-/* Nav Fixes */
+136-.links a, .lang-btn, .lang-option {
+137-  white-space: nowrap !important;
+138-}
+139-@media (max-width: 1300px) {
+140-  .links { gap: 12px !important; }
+141-  .links a { font-size: 0.8rem !important; }
+142-  .lang-btn { font-size: 0.8rem !important; padding: 4px 8px !important; }
+143-}
+144-
+145-
+146-/* Final StayCRS Fixes - Aligned Version */
+147-.logo { direction: ltr; flex-shrink: 0 !important; }
+148-header .nav > a { flex-shrink: 0; margin-inline-end: auto; }
+149-header .nav { gap: 2rem; }
+150-
+151-/* Ensure items fit within the 1120px wrap without squishing the logo */
+152-.links { gap: 16px !important; flex-shrink: 1; }
+153-.links a { font-size: 0.9rem !important; }
+154-
+155-@media (max-width: 1200px) {
+156-  .links { gap: 10px !important; }
+157-  .links a { font-size: 0.8rem !important; }
+158-  .links .btn { padding: 6px 12px !important; }
+159-}
+160-@media (max-width: 900px) {
+161-  .links { gap: 8px !important; }
+162-  .links a { font-size: 0.75rem !important; }
+163-  .links .btn { padding: 6px 10px !important; font-size: 0.75rem !important; }
+164-  .lang-btn { font-size: 0.75rem !important; padding: 4px 6px !important; }
+165-}
+166-  .links a { font-size: 0.75rem !important; }
+167-  .links .btn { padding: 6px 12px !important; }
+168-}
+169-@media (max-width: 620px) {
+170-  .nav.wrap { padding: 0 10px !important; gap: 10px !important; }
+171-  .logo { height: 32px !important; }
+172-  .links { gap: 8px !important; }
+--
+260:<style>
+261-.lang-selector:hover .lang-dropdown, .lang-selector.open .lang-dropdown { display: block !important; }
+262-.lang-option:hover { background: var(--tint); }
+263-
+264-
+265-/* WhatsApp & Cookie Banner dynamic CSS injected for script-v2.js compatibility */
+266-.whatsapp-float { position: fixed; bottom: 30px; right: 30px; width: 60px; height: 60px; background-color: #25d366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); z-index: 9999; border: 2px solid #ffffff; }
+267-.whatsapp-icon { width: 34px; height: 34px; }
+268-.whatsapp-float:hover { transform: translateY(-5px) scale(1.05); background-color: #20ba5a; }
+269-.whatsapp-badge { position: absolute; right: 75px; background-color: #ffffff; color: #128c7e; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); border: 1px solid rgba(37, 211, 102, 0.3); white-space: nowrap; }
+270-.whatsapp-badge::after { content: ""; position: absolute; right: -6px; top: 50%; transform: translateY(-50%); border-width: 6px 0 6px 6px; border-style: solid; border-color: transparent transparent transparent #ffffff; display: block; width: 0; }
+271-@media (max-width: 480px) { .whatsapp-float { bottom: 20px; right: 20px; width: 55px; height: 55px; } .whatsapp-icon { width: 30px; height: 30px; } .whatsapp-badge { display: none; } }
+272-
+273-.cookie-banner { position: fixed; bottom: 30px; left: 30px; width: 380px; background: rgba(10, 25, 47, 0.95); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 1.5rem; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); z-index: 10000; color: #fff; transition: all 0.4s; transform: translateY(100px); opacity: 0; visibility: hidden; }
+274-.cookie-banner.show { transform: translateY(0); opacity: 1; visibility: visible; }
+275-.cookie-content { display: flex; flex-direction: column; gap: 1rem; }
+276-.cookie-header { display: flex; align-items: center; gap: 0.75rem; }
+277-.cookie-icon { width: 24px; height: 24px; color: #C9A24A; }
+278-.cookie-header h4 { margin: 0; font-size: 1.15rem; font-weight: 700; }
+279-.cookie-text { margin: 0; font-size: 0.9rem; color: rgba(255, 255, 255, 0.7); line-height: 1.5; }
+280-.cookie-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+281-.cookie-btn { padding: 0.6rem 1rem; border-radius: 8px; font-size: 0.85rem; font-weight: 600; cursor: pointer; border: none; text-align: center; }
+282-.cookie-btn-accept { background-color: #C9A24A; color: #18344A; }
+283-.cookie-btn-reject { background-color: rgba(255, 255, 255, 0.1); color: #fff; border: 1px solid rgba(255, 255, 255, 0.2); }
+284-.cookie-btn-manage { grid-column: span 2; background-color: transparent; color: rgba(255, 255, 255, 0.6); text-decoration: underline; padding: 0.25rem; font-size: 0.8rem; }
+285-.cookie-preferences { border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 1rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 1rem; }
+286-.cookie-pref-item { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+287-.cookie-pref-info { display: flex; flex-direction: column; }
+288-.cookie-pref-name { font-size: 0.85rem; font-weight: 600; color: #fff; }
+289-.cookie-pref-desc { font-size: 0.75rem; color: rgba(255, 255, 255, 0.5); line-height: 1.3; }
+290-.cookie-switch { position: relative; display: inline-block; width: 44px; height: 22px; }
+291-.cookie-switch input { opacity: 0; width: 0; height: 0; }
+292-.cookie-slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(255, 255, 255, 0.2); transition: .3s; border-radius: 34px; }
+293-.cookie-slider:before { position: absolute; content: ""; height: 16px; width: 16px; left: 3px; bottom: 3px; background-color: white; transition: .3s; border-radius: 50%; }
+294-.cookie-switch input:checked + .cookie-slider { background-color: #C9A24A; }
+295-.cookie-switch input:checked + .cookie-slider:before { transform: translateX(22px); }
+296-.cookie-btn-save { background-color: #18344A; color: #fff; border: 1px solid rgba(255, 255, 255, 0.1); margin-top: 0.5rem; width: 100%; }
+297-@media (max-width: 480px) { .cookie-banner { bottom: 0; left: 0; right: 0; width: 100%; border-radius: 12px 12px 0 0; padding: 1.25rem; } }
+298-
+299-
+300-/* Nav Fixes */
+301-.links a, .lang-btn, .lang-option {
+302-  white-space: nowrap !important;
+303-}
+304-@media (max-width: 1300px) {
+305-  .links { gap: 12px !important; }
+306-  .links a { font-size: 0.8rem !important; }
+307-  .lang-btn { font-size: 0.8rem !important; padding: 4px 8px !important; }
+308-}
+309-
+310-
+311-/* Final StayCRS Fixes - Aligned Version */
+312-.logo { direction: ltr; flex-shrink: 0 !important; }
+313-header .nav > a { flex-shrink: 0; margin-inline-end: auto; }
+314-header .nav { gap: 2rem; }
+315-
+316-/* Ensure items fit within the 1120px wrap without squishing the logo */
+317-.links { gap: 16px !important; flex-shrink: 1; }
+318-.links a { font-size: 0.9rem !important; }
+319-
+320-@media (max-width: 1200px) {
+321-  .links { gap: 10px !important; }
+322-  .links a { font-size: 0.8rem !important; }
+323-  .links .btn { padding: 6px 12px !important; }
+324-}
+325-@media (max-width: 900px) {
+326-  .links { gap: 8px !important; }
+327-  .links a { font-size: 0.75rem !important; }
+328-  .links .btn { padding: 6px 10px !important; font-size: 0.75rem !important; }
+329-  .lang-btn { font-size: 0.75rem !important; padding: 4px 6px !important; }
+330-}
+331-  .links a { font-size: 0.75rem !important; }
+332-  .links .btn { padding: 6px 12px !important; }
+333-}
+334-@media (max-width: 620px) {
+335-  .nav.wrap { padding: 0 10px !important; gap: 10px !important; }
+336-  .logo { height: 32px !important; }
+337-  .links { gap: 8px !important; }
+338-  .links .btn { padding: 6px 10px !important; font-size: 0.8rem !important; }
+339-  .lang-btn { font-size: 0.8rem !important; padding: 4px 6px !important; }
+340-}
+341-
+342-
+343-/* Mobile Hamburger Nav for StayCRS */
+344-@media (max-width: 900px) {
+345-  .links { gap: 8px !important; }
+346-  .links a { font-size: 0.75rem !important; }
+347-  .links .btn { padding: 6px 10px !important; font-size: 0.75rem !important; }
+348-  .lang-btn { font-size: 0.75rem !important; padding: 4px 6px !important; }
+349-}
+350-  header .wrap.nav { justify-content: space-between; position: relative; }
+351-  .links {
+352-    position: absolute;
+353-    top: 68px;
+354-    left: 0;
+355-    right: 0;
+356-    background: #fff;
+357-    flex-direction: column;
+358-    align-items: stretch !important;
+359-    padding: 20px;
+360-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+361-    display: none !important;
+362-    z-index: 1000;
+363-  }
+364-  .links.mobile-open {
+365-    display: flex !important;
+366-  }
+367-  .links a:not(.btn) {
+368-    display: block !important;
+369-    padding: 12px 0 !important;
+370-    border-bottom: 1px solid #eee;
+371-    font-size: 1.1rem !important;
+372-  }
+373-  .links .btn {
+374-    margin-top: 15px;
+375-    text-align: center;
+376-    width: 100%;
+377-  }
+378-  .lang-selector {
+379-    margin-top: 15px;
+380-    width: 100%;
+381-  }
+382-  .lang-btn {
+383-    width: 100%;
+384-    
+385-    font-size: 1.1rem !important;
+386-  }
+387-}
+388-
+389-</style>
+390-</nav>
+391-</div>
+392-</header>
+393-<main id="top">
+394-<section class="hero">
+395-<div class="wrap">
+396-<div class="eyebrow" data-i18n="StayCRS by CRS Central" style="color:#9DB9D1">StayCRS by CRS Central</div>
+397-<h1 data-i18n="Hotel software that helps you earn more.">Hotel software that helps you earn more.</h1>
+398-<p data-i18n="PMS, Channel Manager and Booking Engine in one connected system, backed by hotel revenue experts.">PMS, Channel Manager and Booking Engine in one connected system, backed by hotel revenue experts.</p>
+399-<div class="cta">
+400-<a class="btn light" data-i18n="Get a Demo" href="#demo">Get a Demo</a>
+401-<a class="btn outl" data-i18n="See Pricing" href="#pricing">See Pricing</a>
+402-</div>
+403-<div class="chips">
+404-<div class="chip"><b data-i18n="USD 110">USD 110</b><span data-i18n="per month, PMS + Channel Manager">per month, PMS + Channel Manager</span></div>
+405-<div class="chip"><b data-i18n="8% flat">8% flat</b><span data-i18n="on direct bookings via the Booking Engine">on direct bookings via the Booking Engine</span></div>
+406-</div>
+407-</div>
+408-</section>
+409-<section>
+410-<div class="wrap">

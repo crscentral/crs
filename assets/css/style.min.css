@@ -131,7 +131,7 @@ input, textarea, select {
   justify-content: space-between;
 }
 /* Vietnamese language specific overrides to prevent horizontal overflow */
-@media (min-width: 1301px) {
+@media (min-width: 1001px) {
   html[lang="vi"] .header-container {
   max-width: 1200px;
   }
@@ -196,7 +196,7 @@ input, textarea, select {
   color: rgba(255, 255, 255, 0.85);
   font-family: var(--font-body);
   font-weight: 500;
-  font-size: 1.05rem;
+  font-size: 1.0rem;
   padding: 0.5rem 0;
   cursor: pointer;
   display: flex;
@@ -280,7 +280,7 @@ input, textarea, select {
 .nav-link {
   color: rgba(255, 255, 255, 0.85);
   font-weight: 500;
-  font-size: 1.05rem;
+  font-size: 1.0rem;
   position: relative;
   padding: 0.5rem 0;
   white-space: nowrap;
@@ -313,7 +313,7 @@ input, textarea, select {
 
 .lang-btn {
   white-space: nowrap;
-  font-size: 1.05rem;
+  font-size: 1.0rem;
   background: transparent;
   border: 1px solid var(--border-navy);
   color: var(--text-white);
@@ -1757,7 +1757,7 @@ textarea.form-input {
 /* ==========================================================================
    Responsive Breakpoints
    ========================================================================== */
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
   :root {
     --header-height: 70px;
   }
@@ -1791,7 +1791,6 @@ textarea.form-input {
     flex-direction: column;
     padding: 3rem 2rem;
     gap: 0.8rem;
-  margin-left: 2rem;
     transition: left 0.3s ease;
     z-index: 999;
     align-items: flex-start;
@@ -1878,7 +1877,7 @@ textarea.form-input {
 }
 
 /* Intermediate Viewports: Compress spacing to prevent nav wrapping */
-@media (min-width: 1025px) and (max-width: 1200px) {
+@media (min-width: 1001px) and (max-width: 1200px) {
   .header-container {
     padding: 0 1rem;
   }
