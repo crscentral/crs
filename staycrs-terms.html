@@ -145,14 +145,24 @@ footer a:hover{color:#fff}
 
 /* Final StayCRS Fixes - Aligned Version */
 .logo { direction: ltr; flex-shrink: 0 !important; }
-header .nav > a { flex-shrink: 0; }
+header .nav > a { flex-shrink: 0; margin-inline-end: auto; }
+header .nav { gap: 2rem; }
 
 /* Ensure items fit within the 1120px wrap without squishing the logo */
-.links { gap: 16px !important; }
+.links { gap: 16px !important; flex-shrink: 1; }
 .links a { font-size: 0.9rem !important; }
 
+@media (max-width: 1200px) {
+  .links { gap: 10px !important; }
+  .links a { font-size: 0.8rem !important; }
+  .links .btn { padding: 6px 12px !important; }
+}
 @media (max-width: 900px) {
   .links { gap: 8px !important; }
+  .links a { font-size: 0.75rem !important; }
+  .links .btn { padding: 6px 10px !important; font-size: 0.75rem !important; }
+  .lang-btn { font-size: 0.75rem !important; padding: 4px 6px !important; }
+}
   .links a { font-size: 0.75rem !important; }
   .links .btn { padding: 6px 12px !important; }
 }
@@ -167,7 +177,11 @@ header .nav > a { flex-shrink: 0; }
 
 /* Mobile Hamburger Nav for StayCRS */
 @media (max-width: 900px) {
-  .menu-toggle-btn { display: block !important; }
+  .links { gap: 8px !important; }
+  .links a { font-size: 0.75rem !important; }
+  .links .btn { padding: 6px 10px !important; font-size: 0.75rem !important; }
+  .lang-btn { font-size: 0.75rem !important; padding: 4px 6px !important; }
+}
   header .wrap.nav { justify-content: space-between; position: relative; }
   .links {
     position: absolute;
@@ -296,14 +310,24 @@ header .nav > a { flex-shrink: 0; }
 
 /* Final StayCRS Fixes - Aligned Version */
 .logo { direction: ltr; flex-shrink: 0 !important; }
-header .nav > a { flex-shrink: 0; }
+header .nav > a { flex-shrink: 0; margin-inline-end: auto; }
+header .nav { gap: 2rem; }
 
 /* Ensure items fit within the 1120px wrap without squishing the logo */
-.links { gap: 16px !important; }
+.links { gap: 16px !important; flex-shrink: 1; }
 .links a { font-size: 0.9rem !important; }
 
+@media (max-width: 1200px) {
+  .links { gap: 10px !important; }
+  .links a { font-size: 0.8rem !important; }
+  .links .btn { padding: 6px 12px !important; }
+}
 @media (max-width: 900px) {
   .links { gap: 8px !important; }
+  .links a { font-size: 0.75rem !important; }
+  .links .btn { padding: 6px 10px !important; font-size: 0.75rem !important; }
+  .lang-btn { font-size: 0.75rem !important; padding: 4px 6px !important; }
+}
   .links a { font-size: 0.75rem !important; }
   .links .btn { padding: 6px 12px !important; }
 }
@@ -318,7 +342,11 @@ header .nav > a { flex-shrink: 0; }
 
 /* Mobile Hamburger Nav for StayCRS */
 @media (max-width: 900px) {
-  .menu-toggle-btn { display: block !important; }
+  .links { gap: 8px !important; }
+  .links a { font-size: 0.75rem !important; }
+  .links .btn { padding: 6px 10px !important; font-size: 0.75rem !important; }
+  .lang-btn { font-size: 0.75rem !important; padding: 4px 6px !important; }
+}
   header .wrap.nav { justify-content: space-between; position: relative; }
   .links {
     position: absolute;

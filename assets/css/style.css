@@ -122,7 +122,7 @@ input, textarea, select {
 }
 
 .header-container {
-  max-width: 1440px;
+  max-width: 1200px;
   height: 100%;
   margin: 0 auto;
   padding: 0 1rem;
@@ -133,7 +133,7 @@ input, textarea, select {
 /* Vietnamese language specific overrides to prevent horizontal overflow */
 @media (min-width: 1301px) {
   html[lang="vi"] .header-container {
-    max-width: 1440px;
+  max-width: 1200px;
   }
   html[lang="vi"] .nav-menu {
     gap: 0.8rem !important;
@@ -196,7 +196,7 @@ input, textarea, select {
   color: rgba(255, 255, 255, 0.85);
   font-family: var(--font-body);
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   padding: 0.5rem 0;
   cursor: pointer;
   display: flex;
@@ -280,7 +280,7 @@ input, textarea, select {
 .nav-link {
   color: rgba(255, 255, 255, 0.85);
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   position: relative;
   padding: 0.5rem 0;
   white-space: nowrap;
@@ -313,7 +313,7 @@ input, textarea, select {
 
 .lang-btn {
   white-space: nowrap;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   background: transparent;
   border: 1px solid var(--border-navy);
   color: var(--text-white);
