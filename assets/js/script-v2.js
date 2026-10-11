@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Find the base path dynamically from script src (handles subdirectories like /blog/)
       const scriptEl = document.querySelector('script[src*="assets/js/"]');
       const basePath = scriptEl ? scriptEl.getAttribute('src').split('assets/js/')[0] : '';
-      const translationUrl = `${basePath}assets/locales/${lang}.json?v=14`;
+      const translationUrl = `${basePath}assets/locales/${lang}.json?v=15`;
 
       fetch(translationUrl)
         .then(response => {
@@ -105,6 +105,30 @@ document.addEventListener('DOMContentLoaded', () => {
         const key = blogArticleTitleEl.getAttribute('data-i18n');
         if (window.translations[lang] && window.translations[lang][key]) {
           document.title = window.translations[lang][key] + " — CRS Central";
+        }
+      }
+
+      // Dynamic page title translation for homepage matching H1
+      const isHomepage = window.location.pathname === '/' || window.location.pathname.endsWith('/index.html') || window.location.pathname === '';
+      const heroTitleEl = document.querySelector('h1.hero-title[data-i18n="home-hero-title"]');
+      if (isHomepage && heroTitleEl) {
+        const homeTitles = {
+          'en': 'Hotel Revenue Management Consultancy — Across South and Southeast Asia',
+          'th': 'ที่ปรึกษาการบริหาร รายได้โรงแรม — ทั่วทั้งเอเชียใต้และเอเชียตะวันออกเฉียงใต้',
+          'zh': '酒店收益 管理咨询公司 — 跨越南亚与东南亚',
+          'ar': 'استشارات إدارة إيرادات الفنادق — عبر جنوب وجنوب شرق آسيا',
+          'vi': 'Tư vấn Quản lý Doanh thu Khách sạn — Khắp Nam Á và Đông Nam Á',
+          'km': 'ការប្រឹក្សាគ្រប់គ្រង ប្រាក់ចំណូលសណ្ឋាគារ — នៅទូទាំងអាស៊ីខាងត្បូង និងអាស៊ីអាគ្នេយ៍'
+        };
+        if (homeTitles[lang]) {
+          document.title = homeTitles[lang];
+        } else if (window.translations[lang] && window.translations[lang]['home-hero-title']) {
+          const raw = window.translations[lang]['home-hero-title'];
+          const tmp = document.createElement('div');
+          tmp.innerHTML = raw;
+          let clean = (tmp.textContent || tmp.innerText || '').replace(/\s+/g, ' ').trim();
+          clean = clean.replace(/[.。។]+$/, '');
+          if (clean) document.title = clean;
         }
       }
 
