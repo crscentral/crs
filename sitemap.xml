@@ -244,4 +244,10 @@
   <url>
     <loc>https://crscentral.com/thailand.html</loc>
   </url>
+  <url>
+    <loc>https://crscentral.com/staycrs.html</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>

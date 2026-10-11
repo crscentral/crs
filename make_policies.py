@@ -4,7 +4,7 @@ terms_text = """
 Terms and Conditions
 StayCRS  |  PMS, Channel Manager and Booking Engine
 Last updated: 7 October 2026
-Applies to: stay.crscentral.com and crscentral.com/staycrs.html
+Applies to: crscentral.com/staycrs.html and crscentral.com/staycrs.html
 Operated by: CRS CHAUHAN Private Limited, trading as StayCRS and CRS Central (CIN U70200TS2025PTC206971), No. 4-59/1/308 BLK-A, SS Anurag New Town Pearl, Thumkunta, Hyderabad 500078, Telangana, India. Email: info@crscentral.com
 1.  ABOUT THESE TERMS
 1.1	These Terms and Conditions ("Terms") govern your use of the StayCRS website and your relationship with StayCRS before you sign a service agreement. StayCRS is a brand of CRS CHAUHAN Private Limited ("StayCRS", "we", "us"). By using the website you accept these Terms. If you do not accept them, please do not use the website.
@@ -41,7 +41,7 @@ cancellation_text = """
 Cancellation Policy
 StayCRS  |  PMS, Channel Manager and Booking Engine
 Last updated: 7 October 2026
-Applies to: stay.crscentral.com and crscentral.com/staycrs.html
+Applies to: crscentral.com/staycrs.html and crscentral.com/staycrs.html
 Operated by: CRS CHAUHAN Private Limited, trading as StayCRS and CRS Central (CIN U70200TS2025PTC206971), No. 4-59/1/308 BLK-A, SS Anurag New Town Pearl, Thumkunta, Hyderabad 500078, Telangana, India. Email: info@crscentral.com
 1.  ABOUT THIS POLICY
 1.1	This policy explains how a hotel can cancel its StayCRS services, and what happens to hotel guest bookings made through the Booking Engine. It applies together with the signed Hotel Technology Services Agreement ("Client Agreement"), which prevails if they conflict.
