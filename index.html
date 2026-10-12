@@ -39,22 +39,7 @@
     })();
   </script>
 <!-- End Google Consent Mode -->
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-KX4XFNHN');</script>
-<!-- End Google Tag Manager -->
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WBP8KP25T0"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'G-WBP8KP25T0');
-  </script>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Outfit:wght@300;400;500;600;700;800&amp;display=swap" rel="preload"/>
@@ -63,23 +48,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Outfit:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
 </noscript>
 <link as="image" fetchpriority="high" href="assets/images/manager_revenue_laptop.webp" rel="preload" type="image/webp"/>
-<link as="image" fetchpriority="high" href="assets/images/director_crs_central.webp" rel="preload" type="image/webp"/>
-<link href="assets/css/style.min.css?v=14" rel="stylesheet"/>
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1590816782659845');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" src="https://facebook.com" style="display:none" width="1"/></noscript>
-<!-- End Meta Pixel Code -->
+<link href="assets/css/style.min.css?v=15" rel="stylesheet"/>
+
     <link rel="icon" type="image/webp" href="assets/images/logo_globe_transparent.webp">
 
 <script type="application/ld+json">
@@ -169,9 +139,6 @@ fbq('track', 'PageView');
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-KX4XFNHN" style="display:none;visibility:hidden" width="0"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 <!-- Navigation Header -->
 <header class="header">
 <div class="header-container">
@@ -230,7 +197,7 @@ fbq('track', 'PageView');
 </div>
 <div class="hero-image-wrapper">
 <div class="hero-img-box" data-i18n='&lt;img alt="Director CRS Central" height="1500" src="assets/images/director_crs_central.webp" width="1000"/&gt;'>
-<img alt="Director CRS Central" fetchpriority="high" height="1500" src="assets/images/director_crs_central.webp" width="1000"/>
+<img alt="Director CRS Central" height="1500" loading="lazy" src="assets/images/director_crs_central.webp" width="1000"/>
 </div>
 </div>
 </div>
@@ -868,6 +835,56 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 </div>
 </footer>
 <script defer="" src="assets/js/translations-v2.min.js"></script>
-<script defer="" src="assets/js/script-v2.min.js?v=20261012"></script>
+<script defer="" src="assets/js/script-v2.min.js?v=20261012b"></script>
+<!-- Optimized Analytics & Third-Party Scripts (Deferred to maximize Core Web Vitals) -->
+<script>
+(function() {
+  var loaded = false;
+  function loadThirdParty() {
+    if (loaded) return;
+    loaded = true;
+
+    // GTM
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KX4XFNHN');
+
+    // GA4
+    var gtagScript = document.createElement('script');
+    gtagScript.async = true;
+    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-WBP8KP25T0';
+    document.head.appendChild(gtagScript);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WBP8KP25T0');
+
+    // Meta Pixel
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1590816782659845');
+    fbq('track', 'PageView');
+  }
+
+  // Trigger on user engagement or deferred fallback
+  ['scroll', 'touchstart', 'mousemove', 'keydown', 'click'].forEach(function(evt) {
+    window.addEventListener(evt, loadThirdParty, { once: true, passive: true });
+  });
+  if (document.readyState === 'complete') {
+    setTimeout(loadThirdParty, 3500);
+  } else {
+    window.addEventListener('load', function() { setTimeout(loadThirdParty, 3500); });
+  }
+})();
+</script>
+<noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-KX4XFNHN" style="display:none;visibility:hidden" width="0"></iframe><img height="1" src="https://facebook.com" style="display:none" width="1"/></noscript>
 </body>
 </html>

@@ -2830,3 +2830,6 @@ img.logo-img, img.hero-logo-img, img.calc-header-logo, .footer img.logo-img {
 .header-container > .logo-link {
   flex-shrink: 0 !important;
 }
+
+.section { content-visibility: auto; contain-intrinsic-size: 1px 800px; }
+footer { content-visibility: auto; contain-intrinsic-size: 1px 400px; }
