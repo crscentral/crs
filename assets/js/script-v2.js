@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Find the base path dynamically from script src (handles subdirectories like /blog/)
       const scriptEl = document.querySelector('script[src*="assets/js/"]');
       const basePath = scriptEl ? scriptEl.getAttribute('src').split('assets/js/')[0] : '';
-      const translationUrl = `${basePath}assets/locales/${lang}.json?v=15`;
+      const translationUrl = `${basePath}assets/locales/${lang}.json?v=16`;
 
       fetch(translationUrl)
         .then(response => {
@@ -170,8 +170,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (langSelector) {
       langSelector.classList.remove('open');
     }
-    if (dropdownWrapper) {
-      dropdownWrapper.classList.remove('open');
+    const dropWrap = document.querySelector('.nav-dropdown-wrapper');
+    if (dropWrap) {
+      dropWrap.classList.remove('open');
     }
   });
 

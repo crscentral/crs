@@ -63,6 +63,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Outfit:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
 </noscript>
 <link as="image" fetchpriority="high" href="assets/images/manager_revenue_laptop.webp" rel="preload" type="image/webp"/>
+<link as="image" fetchpriority="high" href="assets/images/director_crs_central.webp" rel="preload" type="image/webp"/>
 <link href="assets/css/style.min.css?v=14" rel="stylesheet"/>
 <!-- Meta Pixel Code -->
 <script>
@@ -80,6 +81,92 @@ fbq('track', 'PageView');
 <noscript><img height="1" src="https://facebook.com" style="display:none" width="1"/></noscript>
 <!-- End Meta Pixel Code -->
     <link rel="icon" type="image/webp" href="assets/images/logo_globe_transparent.webp">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://crscentral.com/#organization",
+      "name": "CRS Central",
+      "url": "https://crscentral.com/",
+      "logo": "https://crscentral.com/assets/images/logo_globe_transparent.webp",
+      "description": "Hotel revenue management consultancy for independent hotels across South and Southeast Asia.",
+      "email": "info@crscentral.com",
+      "telephone": "+66 990 143 142",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "CRS Chauhan Private Limited"
+      },
+      "areaServed": [
+        "Thailand",
+        "Laos",
+        "India",
+        "Nepal",
+        "Malaysia",
+        "Vietnam"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://crscentral.com/#website",
+      "url": "https://crscentral.com/",
+      "name": "CRS Central",
+      "description": "Hotel revenue management partner across South and Southeast Asia",
+      "publisher": {
+        "@id": "https://crscentral.com/#organization"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://crscentral.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the charges for Hotel Revenue Management?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Revenue Management is a fixed monthly fee, quoted per hotel based on the size of the property. Book a free revenue audit and we will give you a clear quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you take a commission on top of the monthly fee?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. There is no commission on bookings or revenue. You pay one fixed monthly fee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the charges for a PMS & Channel Manager?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "USD 110 per month, with no setup fee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a minimum contract period, or can I cancel anytime?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Initial 3-month term, then cancel anytime with 30 days' written notice. This applies to all services: Revenue Management, StayCRS and Digital Marketing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are your operating hours?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We operate daily from 8:00 a.m. to 7:00 p.m. ICT (UTC+7) for core services, with after-hours digital and WhatsApp support available until 11:00 p.m. ICT for call handling and urgent queries."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -91,7 +178,7 @@ fbq('track', 'PageView');
 <a class="logo-link" data-i18n='&lt;img alt="CRS Central Logo" class="logo-img" height="181" src="assets/images/logo_globe_transparent.webp" width="350"/&gt;' href="./">
 <img alt="CRS Central Logo" class="logo-img" height="181" src="assets/images/logo_globe_transparent.webp" width="350"/>
 </a>
-<button class="menu-toggle">☰</button>
+<button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
 <nav class="nav-menu">
 <a class="nav-link" data-i18n="nav-home" href="./">Home</a>
 <a class="nav-link" data-i18n="nav-services" href="services.html">Services</a>
@@ -143,7 +230,7 @@ fbq('track', 'PageView');
 </div>
 <div class="hero-image-wrapper">
 <div class="hero-img-box" data-i18n='&lt;img alt="Director CRS Central" height="1500" src="assets/images/director_crs_central.webp" width="1000"/&gt;'>
-<img alt="Director CRS Central" height="1500" src="assets/images/director_crs_central.webp" width="1000"/>
+<img alt="Director CRS Central" fetchpriority="high" height="1500" src="assets/images/director_crs_central.webp" width="1000"/>
 </div>
 </div>
 </div>
@@ -250,7 +337,7 @@ fbq('track', 'PageView');
 <div class="calc-group">
 <div class="calc-label-row">
 <label class="calc-label" data-i18n="calc-inventory-label" for="calcInventory" id="lblCalcInventory">Total Room Inventory</label>
-<input class="calc-number-input" id="calcInventory" max="1000" min="10" type="number" value="100"/>
+<input aria-labelledby="lblCalcInventory" class="calc-number-input" id="calcInventory" max="1000" min="10" type="number" value="100"/>
 </div>
 <input aria-labelledby="lblCalcInventory" class="calc-range-slider" id="calcInventoryRange" max="1000" min="10" step="5" type="range" value="100"/>
 <span class="calc-subtext" data-i18n="calc-inventory-sub">Number of physical rooms in your hotel</span>
@@ -259,7 +346,7 @@ fbq('track', 'PageView');
 <div class="calc-group">
 <div class="calc-label-row">
 <label class="calc-label" data-i18n="calc-occupied-label" for="calcOccupied" id="lblCalcOccupied">Occupied Rooms (Daily)</label>
-<input class="calc-number-input" id="calcOccupied" max="100" min="1" type="number" value="65"/>
+<input aria-labelledby="lblCalcOccupied" class="calc-number-input" id="calcOccupied" max="100" min="1" type="number" value="65"/>
 </div>
 <input aria-labelledby="lblCalcOccupied" class="calc-range-slider" id="calcOccupiedRange" max="100" min="1" step="1" type="range" value="65"/>
 <span class="calc-subtext" data-i18n="calc-occupied-sub">Average daily occupied rooms</span>
@@ -268,7 +355,7 @@ fbq('track', 'PageView');
 <div class="calc-group">
 <div class="calc-label-row">
 <label class="calc-label" data-i18n="calc-occ-label" for="calcOccupancy" id="lblCalcOccupancy">Current Occupancy %</label>
-<input class="calc-number-input" id="calcOccupancy" max="100" min="10" step="0.1" type="number" value="65"/>
+<input aria-labelledby="lblCalcOccupancy" class="calc-number-input" id="calcOccupancy" max="100" min="1" type="number" value="65"/>
 </div>
 <input aria-labelledby="lblCalcOccupancy" class="calc-range-slider" id="calcOccupancyRange" max="100" min="10" step="0.5" type="range" value="65"/>
 <span class="calc-subtext" data-i18n="calc-occ-sub">Your current occupancy percentage</span>
@@ -277,7 +364,7 @@ fbq('track', 'PageView');
 <div class="calc-group">
 <div class="calc-label-row">
 <label class="calc-label" for="calcADR" id="lblCalcADR"><span data-i18n="calc-adr-label">Average Daily Rate — ADR</span> (<span data-i18n="THB" id="calcCurrencyCode">THB</span>)</label>
-<input class="calc-number-input" id="calcADR" max="15000" min="300" type="number" value="2500"/>
+<input aria-labelledby="lblCalcADR" class="calc-number-input" id="calcADR" max="15000" min="300" type="number" value="2500"/>
 </div>
 <input aria-labelledby="lblCalcADR" class="calc-range-slider" id="calcADRRange" max="15000" min="300" step="100" type="range" value="2500"/>
 <span class="calc-subtext" data-i18n="calc-adr-sub">Your current average room rate</span>
@@ -356,8 +443,8 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 </div>
 
 <div class="form-group">
-  <label>Country</label>
-  <select name="Country" class="form-input" required>
+  <label class="form-label" for="haCountry">Country *</label>
+  <select name="Country" id="haCountry" class="form-input" required>
     <option value="" disabled selected>Select Country</option>
     <option value="Thailand">Thailand</option>
     <option value="Laos">Laos</option>
@@ -781,6 +868,6 @@ If you require immediate assistance, please reach us at info@crscentral.com or v
 </div>
 </footer>
 <script defer="" src="assets/js/translations-v2.min.js"></script>
-<script defer="" src="assets/js/script-v2.min.js?v=20261011b"></script>
+<script defer="" src="assets/js/script-v2.min.js?v=20261012"></script>
 </body>
 </html>
