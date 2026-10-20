@@ -24,7 +24,7 @@
   "form-audit-submit": "提交审计申请",
   "form-success-title": "非常感谢！",
   "form-success-desc": "我们已收到您的申请。我们的收益专家将评估您的酒店信息，并在24小时内与您联系。",
-  "home-hero-title": "酒店收益 <br> 管理咨询公司 <span>— 跨越南亚与东南亚。</span>",
+  "home-hero-title": "酒店收益 <br> 管理咨询公司 <span>— 老挝、印度、尼泊尔、马来西亚和越南。</span>",
   "home-hero-desc": "CRS Central 为东南亚及南亚的独立酒店提供专业的酒店收益 management 服务——动态定价、OTA 优化和预订外包。",
   "home-hero-sub": "我们将五星级连锁酒店的收益智能直接带到您的独立酒店 — 费用仅为聘请全职团队的一小部分，且免去人员流失与培训的烦恼。我们是您的中央收益与预订合作伙伴，致力于实现更智能的定价和更高的利润率。",
   "home-hero-cta1": "立即申请免费收益审计 →",
@@ -1496,5 +1496,7 @@
   "staycrs-auto-222": "退款政策",
   "staycrs-auto-223": "取消政策",
   "staycrs-auto-224": "© <span id=\"yr\"></span> StayCRS。由CRS Chauhan Private Limited拥有和运营的品牌。",
-  "Hotel revenue management means selling the right room, at the right price, on the right channel, at the right time. With StayCRS it works hand in hand with your system. The CRS Central revenue team, led by specialists with decades of experience in luxury hospitality, uses your PMS data to set rates, pushes them to every OTA through the Channel Manager, and steers more guests to your Booking Engine, where you pay 8% instead of around 18%.": "酒店收益管理意味着在合适的时间、通过合适的渠道，以合适的价格销售合适的客房。借助 StayCRS，它可以与您的系统完美协同工作。由拥有 数十年奢华酒店行业丰富经验的专家带领的 CRS Central 收益团队，将利用您的 PMS 数据来设定房价，并通过渠道管理器推送至各大 OTA，同时将更多客人引导至您的预订引擎，在这里您只需支付 8% 的费用，而不是约 18%。"
+  "Hotel revenue management means selling the right room, at the right price, on the right channel, at the right time. With StayCRS it works hand in hand with your system. The CRS Central revenue team, led by specialists with decades of experience in luxury hospitality, uses your PMS data to set rates, pushes them to every OTA through the Channel Manager, and steers more guests to your Booking Engine, where you pay 8% instead of around 18%.": "酒店收益管理意味着在合适的时间、通过合适的渠道，以合适的价格销售合适的客房。借助 StayCRS，它可以与您的系统完美协同工作。由拥有 数十年奢华酒店行业丰富经验的专家带领的 CRS Central 收益团队，将利用您的 PMS 数据来设定房价，并通过渠道管理器推送至各大 OTA，同时将更多客人引导至您的预订引擎，在这里您只需支付 8% 的费用，而不是约 18%。",
+  "— Laos, India, Nepal, Malaysia and Vietnam.": "—— 老挝、印度、尼泊尔、马来西亚和越南。",
+  "Hotel Revenue Management Consultancy — Laos, India, Nepal, Malaysia and Vietnam": "酒店收益 管理咨询公司 — 老挝、印度、尼泊尔、马来西亚和越南"
 }

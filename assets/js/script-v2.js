@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Find the base path dynamically from script src (handles subdirectories like /blog/)
       const scriptEl = document.querySelector('script[src*="assets/js/"]');
       const basePath = scriptEl ? scriptEl.getAttribute('src').split('assets/js/')[0] : '';
-      const translationUrl = `${basePath}assets/locales/${lang}.json?v=17`;
+      const translationUrl = `${basePath}assets/locales/${lang}.json?v=18`;
 
       fetch(translationUrl)
         .then(response => {
@@ -113,12 +113,12 @@ document.addEventListener('DOMContentLoaded', () => {
       const heroTitleEl = document.querySelector('h1.hero-title[data-i18n="home-hero-title"]');
       if (isHomepage && heroTitleEl) {
         const homeTitles = {
-          'en': 'Hotel Revenue Management Consultancy — Across South and Southeast Asia',
-          'th': 'ที่ปรึกษาการบริหาร รายได้โรงแรม — ทั่วทั้งเอเชียใต้และเอเชียตะวันออกเฉียงใต้',
-          'zh': '酒店收益 管理咨询公司 — 跨越南亚与东南亚',
-          'ar': 'استشارات إدارة إيرادات الفنادق — عبر جنوب وجنوب شرق آسيا',
-          'vi': 'Tư vấn Quản lý Doanh thu Khách sạn — Khắp Nam Á và Đông Nam Á',
-          'km': 'ការប្រឹក្សាគ្រប់គ្រង ប្រាក់ចំណូលសណ្ឋាគារ — នៅទូទាំងអាស៊ីខាងត្បូង និងអាស៊ីអាគ្នេយ៍'
+          'en': 'Hotel Revenue Management Consultancy — Laos, India, Nepal, Malaysia and Vietnam',
+          'th': 'ที่ปรึกษาการบริหาร รายได้โรงแรม — ลาว อินเดีย เนปาล มาเลเซีย และเวียดนาม',
+          'zh': '酒店收益 管理咨询公司 — 老挝、印度、尼泊尔、马来西亚和越南',
+          'ar': 'استشارات إدارة إيرادات الفنادق — لاوس والهند ونيبال وماليزيا وفيتنام',
+          'vi': 'Tư vấn Quản lý Doanh thu Khách sạn — Lào, Ấn Độ, Nepal, Malaysia và Việt Nam',
+          'km': 'ការប្រឹក្សាគ្រប់គ្រង ប្រាក់ចំណូលសណ្ឋាគារ — ប្រទេសឡាវ ឥណ្ឌា នេប៉ាល់ ម៉ាឡេស៊ី និងវៀតណាម'
         };
         if (homeTitles[lang]) {
           document.title = homeTitles[lang];

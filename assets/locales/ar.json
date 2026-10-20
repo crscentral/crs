@@ -24,7 +24,7 @@
   "form-audit-submit": "أرسل طلب التدقيق الخاص بك",
   "form-success-title": "شكرًا لك!",
   "form-success-desc": "لقد تم استلام طلبك. سيقوم المتخصصون لدينا بمراجعة التفاصيل الخاصة بك والرد عليك في غضون 24 ساعة.",
-  "home-hero-title": "استشارات إدارة <br> إيرادات الفنادق <span>— عبر جنوب وجنوب شرق آسيا.</span>",
+  "home-hero-title": "استشارات إدارة <br> إيرادات الفنادق <span>— لاوس والهند ونيبال وماليزيا وفيتنام.</span>",
   "home-hero-desc": "تقدم CRS Central إدارة احترافية لإيرادات الفنادق في جميع أنحاء جنوب شرق آسيا وجنوب آسيا — تسعير مرن وتحسين OTA وتعهيد الحجوزات للفنادق المستقلة.",
   "home-hero-sub": "نوفر المعلومات المتعلقة بإيرادات سلاسل الفنادق من فئة الخمس نجوم مباشرة إلى ممتلكاتك المستقلة - بجزء بسيط من التكلفة، ودون متاعب توظيف فريق كامل. نحن شريكك المركزي في الإيرادات والحجوزات للحصول على أسعار أكثر ذكاءً وربحية أعلى.",
   "home-hero-cta1": "احجز تدقيق الإيرادات المجاني الخاص بك →",
@@ -1500,5 +1500,7 @@
   "Daily, 8:00 a.m.–7:00 p.m. ICT (UTC+7). WhatsApp support until 11:00 p.m. ICT.": "يوميًا، من 8:00 صباحًا حتى 7:00 مساءً بتوقيت ICT (UTC+7). دعم WhatsApp حتى 11:00 مساءً ICT.",
   "Request a free demo": "طلب عرض توضيحي مجاني",
   "Hotel Revenue Management Consultancy — Across South and Southeast Asia": "استشارات إدارة إيرادات الفنادق — عبر جنوب وجنوب شرق آسيا",
-  "Registered in Hyderabad, India, supporting clients across the region. Expertise across Laos, India, Nepal, Malaysia and Vietnam.": "مسجلون في حيدر أباد، الهند، لدعم العملاء في جميع أنحاء المنطقة. خبرة في لاوس والهند ونيبال وماليزيا وفيتنام."
+  "Registered in Hyderabad, India, supporting clients across the region. Expertise across Laos, India, Nepal, Malaysia and Vietnam.": "مسجلون في حيدر أباد، الهند، لدعم العملاء في جميع أنحاء المنطقة. خبرة في لاوس والهند ونيبال وماليزيا وفيتنام.",
+  "— Laos, India, Nepal, Malaysia and Vietnam.": "— لاوس والهند ونيبال وماليزيا وفيتنام.",
+  "Hotel Revenue Management Consultancy — Laos, India, Nepal, Malaysia and Vietnam": "استشارات إدارة إيرادات الفنادق — لاوس والهند ونيبال وماليزيا وفيتنام"
 }
