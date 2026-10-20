@@ -90,13 +90,6 @@
     "km": "<strong style=\"color: var(--accent-color);\">ការប្រតិបត្តិរហ័ស៖</strong> នៅពេលដែលយើងរកឃើញឱកាស យើងផ្លាស់ទីលឿន — ការផ្តល់អនុសាសន៍ដំបូងក្នុងរយៈពេលប៉ុន្មានថ្ងៃ ការគាំទ្រការអនុវត្តតាំងពីដំបូង។",
     "ar": "<strong style=\"color: var(--accent-color);\">التنفيذ السريع:</strong> بمجرد تحديد الفرص، نتحرك بسرعة — توصيات أولية في غضون أيام، ودعم التنفيذ من البداية."
   },
-  "From our Bangkok base, CRS Central brings hands-on Southeast Asian hospitality experience directly to Vietnam's independent hotel owners, at a fraction of the cost of an in-house revenue team.": {
-    "vi": "Từ trụ sở tại Bangkok, CRS Central mang kinh nghiệm thực tiễn về khách sạn tại Đông Nam Á trực tiếp đến các chủ khách sạn độc lập của Việt Nam, với chi phí chỉ bằng một phần nhỏ so với đội ngũ quản lý doanh thu nội bộ.",
-    "zh-CN": "以曼谷为基地，CRS Central 将丰富的东南亚酒店管理经验直接带给越南的独立酒店业主，其成本仅为内部收益团队的一小部分。",
-    "th": "จากฐานปฏิบัติการในกรุงเทพฯ CRS Central นำประสบการณ์ตรงด้านการโรงแรมในเอเชียตะวันออกเฉียงใต้มาสู่เจ้าของโรงแรมอิสระในเวียดนาม ในราคาเพียงเศษเสี้ยวของทีมรายได้ภายใน",
-    "km": "ពីមូលដ្ឋានរបស់យើងនៅទីក្រុងបាងកក CRS Central នាំយកបទពិសោធន៍ផ្ទាល់ផ្នែកបដិសណ្ឋារកិច្ចនៅអាស៊ីអាគ្នេយ៍ដោយផ្ទាល់ទៅកាន់ម្ចាស់សណ្ឋាគារឯករាជ្យនៅវៀតណាម ក្នុងតម្លៃមួយចំណែកនៃក្រុមចំណូលក្នុងស្រុក។",
-    "ar": "من قاعدتنا في بانكوك، تقدم CRS Central تجربة ضيافة عملية في جنوب شرق آسيا مباشرة لأصحاب الفنادق المستقلين في فيتنام، بجزء بسيط من تكلفة فريق الإيرادات الداخلي."
-  },
   "<div class=\"service-card-icon\"> <svg viewbox=\"0 0 24 24\"><path d=\"M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm-5-7H7v2h7v-2z\"></path></svg> </div> <h3 class=\"service-card-title\">Reservations Management</h3> <p class=\"service-card-text\">Accurate, real-time booking management fully integrated with your PMS — no errors, no overbooking, no missed opportunities.</p>": {
     "vi": "<div class=\"service-card-icon\"> <svg viewbox=\"0 0 24 24\"><path d=\"M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm-5-7H7v2h7v-2z\"></path></svg> </div> <h3 class=\"service-card-title\">Quản lý Đặt phòng</h3> <p class=\"service-card-text\">Quản lý đặt phòng chính xác, theo thời gian thực được tích hợp hoàn toàn với PMS của bạn — không sai sót, không đặt phòng quá mức, không bỏ lỡ cơ hội.</p>",
     "zh-CN": "<div class=\"service-card-icon\"> <svg viewbox=\"0 0 24 24\"><path d=\"M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm-5-7H7v2h7v-2z\"></path></svg> </div> <h3 class=\"service-card-title\">预订管理</h3> <p class=\"service-card-text\">准确、实时的预订管理，与您的 PMS 完全集成——无错误，无超售，不错失任何机会。</p>",
@@ -138,13 +131,6 @@
     "th": "การเพิ่มประสิทธิภาพช่องทาง OTA และสไตล์ MakeMyTrip:",
     "km": "ការបង្កើនប្រសិទ្ធភាពឆានែល OTA និងរចនាប័ទ្ម MakeMyTrip៖",
     "ar": "تحسين القنوات بأسلوب OTA و MakeMyTrip:"
-  },
-  "Email us at info@crscentral.com, call or WhatsApp us at +66 990 143 142, or complete the contact form on our website.": {
-    "vi": "Gửi email cho chúng tôi tại info@crscentral.com, gọi điện hoặc WhatsApp theo số +66 990 143 142, hoặc điền vào biểu mẫu liên hệ trên trang web của chúng tôi.",
-    "zh-CN": "请发送电子邮件至 info@crscentral.com，致电或 WhatsApp 联系我们：+66 990 143 142，或在我们网站上填写联系表。",
-    "th": "ส่งอีเมลถึงเราที่ info@crscentral.com, โทรหรือ WhatsApp ที่ +66 990 143 142 หรือกรอกแบบฟอร์มการติดต่อบนเว็บไซต์ของเรา",
-    "km": "ផ្ញើអ៊ីមែលមកយើងតាមរយៈ info@crscentral.com ទូរស័ព្ទឬ WhatsApp តាមរយៈ +66 990 143 142 ឬបំពេញទម្រង់ទំនាក់ទំនងនៅលើគេហទំព័ររបស់យើង។",
-    "ar": "راسلنا على info@crscentral.com، اتصل بنا أو تواصل عبر واتساب على +66 990 143 142، أو أكمل نموذج الاتصال على موقعنا."
   },
   "<strong>Intensifying Competition in a Small-Hotel Market:</strong> With thousands of small, independent properties competing in cities like Hanoi and Da Nang, hotels with flexible pricing and a strong online presence are pulling ahead — and hotels without them are being left behind, per current market data.": {
     "vi": "<strong>Sự cạnh tranh ngày càng gay gắt trong thị trường khách sạn nhỏ:</strong> Với hàng ngàn bất động sản nhỏ, độc lập cạnh tranh ở các thành phố như Hà Nội và Đà Nẵng, những khách sạn có giá cả linh hoạt và hiện diện trực tuyến mạnh mẽ đang vượt lên — và những khách sạn không có những yếu tố này đang bị tụt lại phía sau, theo dữ liệu thị trường hiện tại.",

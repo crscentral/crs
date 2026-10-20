@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Find the base path dynamically from script src (handles subdirectories like /blog/)
       const scriptEl = document.querySelector('script[src*="assets/js/"]');
       const basePath = scriptEl ? scriptEl.getAttribute('src').split('assets/js/')[0] : '';
-      const translationUrl = `${basePath}assets/locales/${lang}.json?v=16`;
+      const translationUrl = `${basePath}assets/locales/${lang}.json?v=17`;
 
       fetch(translationUrl)
         .then(response => {
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // A. Prominent Floating WhatsApp Button
   const whatsappFloat = document.createElement('a');
-  whatsappFloat.href = 'https://wa.me/66990143142';
+  whatsappFloat.href = 'https://wa.me/919121773501';
   whatsappFloat.target = '_blank';
   whatsappFloat.rel = 'noopener noreferrer';
   whatsappFloat.className = 'whatsapp-float';
@@ -601,7 +601,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // Live currency rates map with fallback default values relative to 1 USD
-  let currentCurrency = 'THB';
+  let currentCurrency = 'USD';
   let calcPeriod = 'monthly';
   let exchangeRates = {
     THB: 36.75,
@@ -667,7 +667,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 3. Browser language fallback
     const userLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
-    if (userLang.includes('th')) return 'THB';
     if (userLang.includes('lo')) return 'LAK';
     if (userLang.includes('in') || userLang.includes('hi')) return 'INR';
     if (userLang.includes('mv')) return 'MVR';
@@ -981,10 +980,8 @@ document.addEventListener('DOMContentLoaded', () => {
     bindSliderSync(calcOccupancy, calcOccupancyRange, () => syncInventoryOccupancy('occupancy'));
     bindSliderSync(calcADR, calcADRRange, null);
     
-    // Detect currency and initialize calculator, then fetch live exchange rates
-    detectUserCurrency().then(detectedCode => {
-      initializeCurrency(detectedCode);
-      fetchLiveExchangeRates();
-    });
+    // Initialize calculator to default USD currency, then fetch live exchange rates
+    initializeCurrency('USD');
+    fetchLiveExchangeRates();
   }
 });
