@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    if (!el.getAttribute('data-i18n')) {
+      el.setAttribute('data-i18n', el.textContent.trim());
+    }
+  });
   // ==========================================================================
   // 1. Language Initialization & Translation Engine
   // ==========================================================================
@@ -213,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <circle cx="8" cy="16" r="1" fill="currentColor"/>
             <circle cx="9" cy="9" r="1" fill="currentColor"/>
           </svg>
-          <h4 data-i18n="cookie-title">We use cookies</h4>
+          <h3 data-i18n="cookie-title">We use cookies</h3>
         </div>
         <p class="cookie-text" data-i18n="cookie-desc">This website uses cookies to ensure you get the best experience.</p>
         
@@ -224,7 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <span class="cookie-pref-desc" data-i18n="cookie-pref-necessary-desc">Required for core website functionality like language settings.</span>
             </div>
             <label class="cookie-switch">
-              <input type="checkbox" checked disabled aria-label="Necessary Cookies">
+              <input type="checkbox" id="cookiePrefNecessary" name="cookiePrefNecessary" checked disabled aria-label="Necessary Cookies">
               <span class="cookie-slider"></span>
             </label>
           </div>
@@ -234,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <span class="cookie-pref-desc" data-i18n="cookie-pref-analytics-desc">Help us understand website traffic and usage.</span>
             </div>
             <label class="cookie-switch">
-              <input type="checkbox" id="cookiePrefAnalytics" checked aria-label="Analytics & Performance Cookies">
+              <input type="checkbox" id="cookiePrefAnalytics" name="cookiePrefAnalytics" checked aria-label="Analytics & Performance Cookies">
               <span class="cookie-slider"></span>
             </label>
           </div>
@@ -244,7 +249,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <span class="cookie-pref-desc" data-i18n="cookie-pref-marketing-desc">Used to deliver relevant advertisements.</span>
             </div>
             <label class="cookie-switch">
-              <input type="checkbox" id="cookiePrefMarketing" checked aria-label="Marketing & Ads Cookies">
+              <input type="checkbox" id="cookiePrefMarketing" name="cookiePrefMarketing" checked aria-label="Marketing & Ads Cookies">
               <span class="cookie-slider"></span>
             </label>
           </div>
