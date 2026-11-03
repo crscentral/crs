@@ -454,55 +454,143 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ==========================================================================
-  // 6. Contact & Audit Form Submissions (FormSubmit Standard Navigation)
+  // 6. Contact & Audit Form Submissions (3-Tier Fail-Safe: FormSubmit -> Web3Forms -> Email/WhatsApp)
   // ==========================================================================
   const auditForm = document.getElementById('auditForm');
   const contactForm = document.getElementById('contactForm');
   const homeAuditForm = document.getElementById('homeAuditForm');
 
+  // Optional Web3Forms backup access key (get free key for info@crscentral.com at https://web3forms.com)
+  const WEB3FORMS_ACCESS_KEY = '';
+
   // Resolve dynamic thank-you redirection URL absolute path
-  function resolveThanksUrl() {
+  function resolveThanksUrl(isFallback) {
+    const suffix = isFallback ? '/thanks.html?fallback=1' : '/thanks.html';
     if (window.location.protocol.startsWith('http')) {
       const currentDir = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/'));
-      return window.location.origin + currentDir + '/thanks.html';
+      return window.location.origin + currentDir + suffix;
     }
-    return 'https://crscentral.com/thanks.html'; // Live fallback
+    return 'https://crscentral.com' + suffix;
   }
 
   // Inject dynamic thanks redirect to all hidden next inputs
   const nextInputs = document.querySelectorAll('.formsubmit-next');
-  const thanksUrl = resolveThanksUrl();
+  const thanksUrl = resolveThanksUrl(false);
   nextInputs.forEach(input => {
     input.value = thanksUrl;
   });
 
-  function handleFormSubmit(event, formEl) {
+  function fetchWithTimeout(url, options, timeoutMs) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    return fetch(url, Object.assign({}, options, { signal: controller.signal }))
+      .finally(() => clearTimeout(timer));
+  }
+
+  function buildReadableLead(formDataObj, formEl) {
+    const subject = formDataObj._subject || (formEl.id === 'contactForm' ? 'CRS Central Contact Inquiry' : 'CRS Central Free Revenue Audit Request');
+    const skipKeys = { _honey: 1, _subject: 1, _autoresponse: 1, _next: 1, _captcha: 1, _template: 1, access_key: 1 };
+    const lines = [subject, '----------------------------------------'];
+    Object.keys(formDataObj).forEach(k => {
+      if (!skipKeys[k] && formDataObj[k] !== undefined && String(formDataObj[k]).trim() !== '') {
+        const label = k.replace(/([A-Z])/g, ' $1').replace(/_/g, ' ').replace(/^./, s => s.toUpperCase());
+        lines.push(label + ': ' + String(formDataObj[k]).trim());
+      }
+    });
+    return { subject, body: lines.join('\n') };
+  }
+
+  async function handleFormSubmit(event, formEl) {
+    event.preventDefault();
+
     // Basic Client-Side Validation
     let isValid = true;
     const requiredInputs = formEl.querySelectorAll('[required]');
     
     requiredInputs.forEach(input => {
-      if (!input.value.trim()) {
+      const ok = input.type === 'checkbox' ? input.checked : Boolean(input.value && input.value.trim());
+      if (!ok) {
         isValid = false;
-        input.style.borderColor = '#dc2626'; // Alert Red
+        input.style.borderColor = '#dc2626';
       } else {
         input.style.borderColor = 'var(--border-color)';
       }
     });
     
     if (!isValid) {
-      event.preventDefault();
       alert(currentLang === 'th' ? 'กรุณากรอกข้อมูลในช่องที่จำเป็น (*) ให้ครบถ้วน' :
             currentLang === 'zh' ? '请填写所有必填字段 (*)' :
             'Please fill in all required fields (*)');
       return;
     }
     
-    // Change submit button text to sending status (do NOT disable the button so standard POST submits normally)
     const submitBtn = formEl.querySelector('button[type="submit"]');
     if (submitBtn) {
+      submitBtn.disabled = true;
       submitBtn.textContent = currentLang === 'th' ? 'กำลังส่ง...' : currentLang === 'zh' ? '发送中...' : 'Sending...';
     }
+
+    const formData = new FormData(formEl);
+    const payload = Object.fromEntries(formData.entries());
+
+    // Tier 1: Primary — FormSubmit AJAX endpoint (6s timeout)
+    try {
+      const res1 = await fetchWithTimeout('https://formsubmit.co/ajax/info@crscentral.com', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(payload)
+      }, 6000);
+      if (res1 && res1.ok) {
+        const data1 = await res1.json().catch(() => ({}));
+        if (data1.success === 'true' || data1.success === true || res1.status === 200) {
+          window.location.href = resolveThanksUrl(false);
+          return;
+        }
+      }
+    } catch (err1) {
+      console.warn('Primary FormSubmit endpoint timed out or failed, trying Option B (Web3Forms)...', err1);
+    }
+
+    // Tier 2 (Option B): Backup — Web3Forms API (6s timeout)
+    if (WEB3FORMS_ACCESS_KEY) {
+      try {
+        const w3Payload = Object.assign({}, payload, {
+          access_key: WEB3FORMS_ACCESS_KEY,
+          subject: payload._subject || 'New Lead from CRS Central Website'
+        });
+        const res2 = await fetchWithTimeout('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify(w3Payload)
+        }, 6000);
+        if (res2 && res2.ok) {
+          const data2 = await res2.json().catch(() => ({}));
+          if (data2.success) {
+            window.location.href = resolveThanksUrl(false);
+            return;
+          }
+        }
+      } catch (err2) {
+        console.warn('Backup Web3Forms endpoint failed, activating Option A fallback...', err2);
+      }
+    }
+
+    // Tier 3 (Option A): Final Fail-Safe — Pre-filled Email + WhatsApp Lead Rescue
+    const lead = buildReadableLead(payload, formEl);
+    try {
+      sessionStorage.setItem('crs_fallback_lead', JSON.stringify(lead));
+    } catch (e) {}
+
+    const mailtoHref = 'mailto:info@crscentral.com?subject=' + encodeURIComponent(lead.subject) + '&body=' + encodeURIComponent(lead.body);
+    const tmpLink = document.createElement('a');
+    tmpLink.href = mailtoHref;
+    tmpLink.style.display = 'none';
+    document.body.appendChild(tmpLink);
+    tmpLink.click();
+
+    setTimeout(() => {
+      window.location.href = resolveThanksUrl(true);
+    }, 450);
   }
 
   if (auditForm) {

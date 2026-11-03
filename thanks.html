@@ -124,9 +124,19 @@ src="https://facebook.com"
       <h1 id="thank-you" class="thanks-title" data-i18n="form-success-title">Thank You!</h1>
       <p class="thanks-desc" data-i18n="form-success-desc">Your request has been received. Our specialists will review your details and get back to you within 24 hours.</p>
       
+      <div id="fallback-actions" style="display: none; margin: 1.5rem 0; padding: 1.25rem; background: rgba(197, 168, 128, 0.08); border: 1px solid var(--accent-color); border-radius: 8px;">
+        <p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--text-dark);">
+          Our form server is experiencing high traffic. We have opened your email app with your inquiry pre-filled — or you can send it with one tap on WhatsApp below:
+        </p>
+        <div style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+          <a id="fallback-wa-btn" href="https://wa.me/919121773501" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background-color: #25D366; border-color: #25D366; color: #fff;">Send via WhatsApp</a>
+          <a id="fallback-mail-btn" href="mailto:info@crscentral.com" class="btn btn-secondary">Open Email App</a>
+        </div>
+      </div>
+
       <a href="./" class="btn btn-primary" style="display: inline-block;">Back to Home Page</a>
       
-      <p class="thanks-redirect-text">
+      <p class="thanks-redirect-text" id="thanks-redirect-msg">
         Redirecting you back to the home page in <span id="countdown" style="font-weight: 700; color: var(--accent-color);">5</span> seconds...
       </p>
     </div>
@@ -233,13 +243,31 @@ src="https://facebook.com"
   </footer>
 
   <script src="assets/js/translations-v2.min.js" defer></script>
-  <script src="assets/js/script-v2.min.js?v=20261103" defer></script>
+  <script src="assets/js/script-v2.min.js?v=20261104" defer></script>
   
-  <!-- Countdown Redirect Script -->
+  <!-- Countdown Redirect & Fallback Handler Script -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      let seconds = 5;
+      const params = new URLSearchParams(window.location.search);
+      const isFallback = params.get('fallback') === '1';
+      let seconds = isFallback ? 30 : 5;
       const countdownEl = document.getElementById('countdown');
+      if (countdownEl) countdownEl.textContent = seconds;
+
+      if (isFallback) {
+        const fbBox = document.getElementById('fallback-actions');
+        if (fbBox) fbBox.style.display = 'block';
+        try {
+          const saved = JSON.parse(sessionStorage.getItem('crs_fallback_lead') || 'null');
+          if (saved && saved.body) {
+            const waBtn = document.getElementById('fallback-wa-btn');
+            const mailBtn = document.getElementById('fallback-mail-btn');
+            if (waBtn) waBtn.href = 'https://wa.me/919121773501?text=' + encodeURIComponent(saved.body);
+            if (mailBtn) mailBtn.href = 'mailto:info@crscentral.com?subject=' + encodeURIComponent(saved.subject || 'CRS Central Inquiry') + '&body=' + encodeURIComponent(saved.body);
+          }
+        } catch (e) {}
+      }
+
       const timer = setInterval(() => {
         seconds--;
         if (countdownEl) countdownEl.textContent = seconds;
