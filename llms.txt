@@ -21,7 +21,7 @@ CRS Central (A Unit of CRS Chauhan Private Limited, registered in Hyderabad, Ind
 - [Home](https://crscentral.com/)
 - [Our Services](https://crscentral.com/services.html)
 - [StayCRS](https://crscentral.com/staycrs.html)
-- [Company Profile](https://crscentral.com/about.html)
+- [About Us](https://crscentral.com/about.html)
 - [Free Hotel Revenue Audit](https://crscentral.com/audit.html)
 - [Blog](https://crscentral.com/blog.html)
 - [Contact Us](https://crscentral.com/contact.html)
