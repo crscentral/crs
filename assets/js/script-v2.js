@@ -461,7 +461,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const homeAuditForm = document.getElementById('homeAuditForm');
 
   // Optional Web3Forms backup access key (get free key for info@crscentral.com at https://web3forms.com)
-  const WEB3FORMS_ACCESS_KEY = '';
+  const WEB3FORMS_ACCESS_KEY = '2cb4ee63-2955-4c0e-b89d-89d7c7a5fe40';
 
   // Resolve dynamic thank-you redirection URL absolute path
   function resolveThanksUrl(isFallback) {
@@ -554,10 +554,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Tier 2 (Option B): Backup — Web3Forms API (6s timeout)
     if (WEB3FORMS_ACCESS_KEY) {
       try {
-        const w3Payload = Object.assign({}, payload, {
-          access_key: WEB3FORMS_ACCESS_KEY,
-          subject: payload._subject || 'New Lead from CRS Central Website'
+        const w3Payload = {};
+        Object.keys(payload).forEach(k => {
+          if (!k.startsWith('_')) w3Payload[k] = payload[k];
         });
+        w3Payload.access_key = WEB3FORMS_ACCESS_KEY;
+        w3Payload.subject = payload._subject || 'New Lead from CRS Central Website';
+        w3Payload.from_name = 'CRS Central Website';
         const res2 = await fetchWithTimeout('https://api.web3forms.com/submit', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
