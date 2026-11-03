@@ -2870,7 +2870,6 @@ footer { content-visibility: auto; contain-intrinsic-size: 1px 400px; }
   border: 0;
 }
 .breadcrumb-nav {
-  margin-top: var(--header-height, 80px);
   background-color: var(--primary-color, #0a192f);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding: 0.55rem 2rem;
@@ -2900,8 +2899,9 @@ footer { content-visibility: auto; contain-intrinsic-size: 1px 400px; }
   margin-bottom: 0.75rem;
 }
 .audit-steps-list {
+  list-style: decimal;
   margin: 0;
-  padding-left: 1.25rem;
+  padding-left: 1.35rem;
   color: var(--text-dark, #1e293b);
   font-size: 0.95rem;
   line-height: 1.65;
