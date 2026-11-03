@@ -462,6 +462,42 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Optional Web3Forms backup access key (get free key for info@crscentral.com at https://web3forms.com)
   const WEB3FORMS_ACCESS_KEY = '2cb4ee63-2955-4c0e-b89d-89d7c7a5fe40';
+  const DEFAULT_AUTORESPONSE_TEXT = 'Thank you for contacting CRS Central, your trusted Hotel Revenue Management experts. Your inquiry has been received, and one of our specialists will be in touch with you within the next 24 hours.\n\nIf you require immediate assistance, please reach us at info@crscentral.com or via WhatsApp at +91 91217 73501.';
+
+  // Trigger FormSubmit standard POST in a hidden iframe so FormSubmit sends the _autoresponse email to the visitor without navigating the main page
+  function triggerHiddenFormSubmitAutoresponse(payload) {
+    try {
+      if (!payload || !payload.email) return;
+      let iframe = document.getElementById('crsHiddenFormSubmitFrame');
+      if (!iframe) {
+        iframe = document.createElement('iframe');
+        iframe.id = 'crsHiddenFormSubmitFrame';
+        iframe.name = 'crsHiddenFormSubmitFrame';
+        iframe.style.display = 'none';
+        document.body.appendChild(iframe);
+      }
+      const hiddenForm = document.createElement('form');
+      hiddenForm.action = 'https://formsubmit.co/info@crscentral.com';
+      hiddenForm.method = 'POST';
+      hiddenForm.target = 'crsHiddenFormSubmitFrame';
+      hiddenForm.style.display = 'none';
+
+      const fields = Object.assign({}, payload, {
+        _autoresponse: payload._autoresponse || DEFAULT_AUTORESPONSE_TEXT,
+        _captcha: 'false'
+      });
+      Object.keys(fields).forEach(k => {
+        const input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = k;
+        input.value = fields[k];
+        hiddenForm.appendChild(input);
+      });
+      document.body.appendChild(hiddenForm);
+      hiddenForm.submit();
+      setTimeout(() => { hiddenForm.remove(); }, 4000);
+    } catch (e) {}
+  }
 
   // Resolve dynamic thank-you redirection URL absolute path
   function resolveThanksUrl(isFallback) {
@@ -533,7 +569,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const formData = new FormData(formEl);
     const payload = Object.fromEntries(formData.entries());
 
-    // Tier 1: Primary — FormSubmit AJAX endpoint (6s timeout)
+    // Tier 1: Primary — FormSubmit AJAX endpoint (6s timeout) + hidden standard POST for _autoresponse email
     try {
       const res1 = await fetchWithTimeout('https://formsubmit.co/ajax/info@crscentral.com', {
         method: 'POST',
@@ -543,7 +579,8 @@ document.addEventListener('DOMContentLoaded', () => {
       if (res1 && res1.ok) {
         const data1 = await res1.json().catch(() => ({}));
         if (data1.success === 'true' || data1.success === true || res1.status === 200) {
-          window.location.href = resolveThanksUrl(false);
+          triggerHiddenFormSubmitAutoresponse(payload);
+          setTimeout(() => { window.location.href = resolveThanksUrl(false); }, 350);
           return;
         }
       }
@@ -561,6 +598,7 @@ document.addEventListener('DOMContentLoaded', () => {
         w3Payload.access_key = WEB3FORMS_ACCESS_KEY;
         w3Payload.subject = payload._subject || 'New Lead from CRS Central Website';
         w3Payload.from_name = 'CRS Central Website';
+        if (payload.email) w3Payload.replyto = payload.email;
         const res2 = await fetchWithTimeout('https://api.web3forms.com/submit', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
@@ -569,7 +607,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (res2 && res2.ok) {
           const data2 = await res2.json().catch(() => ({}));
           if (data2.success) {
-            window.location.href = resolveThanksUrl(false);
+            triggerHiddenFormSubmitAutoresponse(payload);
+            setTimeout(() => { window.location.href = resolveThanksUrl(false); }, 350);
             return;
           }
         }
