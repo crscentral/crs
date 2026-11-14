@@ -566,6 +566,122 @@ input, textarea, select {
   transform: scale(1.08);
 }
 
+.hero-video-box {
+  aspect-ratio: 9 / 16;
+  max-width: 420px;
+  margin: 0 auto;
+  background-color: #0b192c;
+}
+
+.hero-intro-video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.hero-video-sound-pill {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 4;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 13px;
+  border-radius: 999px;
+  background: rgba(11, 25, 44, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #ffffff;
+  border: 1.5px solid rgba(212, 175, 55, 0.7);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.hero-video-sound-pill:hover {
+  background: rgba(11, 25, 44, 0.96);
+  border-color: var(--accent-color);
+  transform: translateY(-1px);
+}
+
+.hero-video-controls {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: rgba(11, 25, 44, 0.86);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.hero-vc-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.hero-vc-btn:hover {
+  color: var(--accent-color);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.hero-vc-seek {
+  flex: 1;
+  min-width: 60px;
+  height: 5px;
+  accent-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.hero-vc-time {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.hero-vc-volume {
+  width: 64px;
+  height: 5px;
+  accent-color: var(--accent-color);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .hero-vc-time {
+    display: none;
+  }
+  .hero-vc-volume {
+    width: 54px;
+  }
+}
+
 /* ==========================================================================
    Section Layouts
    ========================================================================== */

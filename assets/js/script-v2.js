@@ -1119,4 +1119,174 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeCurrency('USD');
     fetchLiveExchangeRates();
   }
+
+  /* ==========================================================================
+     8. Homepage Hero Intro Video Controller
+     ========================================================================== */
+  const heroVideo = document.getElementById('heroIntroVideo');
+  if (heroVideo) {
+    const playPauseBtn = document.getElementById('heroPlayPauseBtn');
+    const seekSlider = document.getElementById('heroSeekSlider');
+    const timeLabel = document.getElementById('heroVideoTime');
+    const muteBtn = document.getElementById('heroMuteBtn');
+    const volumeSlider = document.getElementById('heroVolumeSlider');
+    const soundPill = document.getElementById('heroSoundPill');
+    const soundPillText = document.getElementById('heroSoundPillText');
+
+    let userPaused = false;
+    let isSeeking = false;
+    let lastVolume = 1;
+
+    function formatTime(sec) {
+      if (!isFinite(sec) || sec < 0) return '0:00';
+      const m = Math.floor(sec / 60);
+      const s = Math.floor(sec % 60);
+      return m + ':' + (s < 10 ? '0' + s : s);
+    }
+
+    function syncPlayPauseUI() {
+      if (!playPauseBtn) return;
+      const pauseIcon = playPauseBtn.querySelector('.vc-icon-pause');
+      const playIcon = playPauseBtn.querySelector('.vc-icon-play');
+      const paused = heroVideo.paused && userPaused;
+      if (pauseIcon) pauseIcon.style.display = paused ? 'none' : '';
+      if (playIcon) playIcon.style.display = paused ? '' : 'none';
+      playPauseBtn.setAttribute('aria-label', paused ? 'Play video' : 'Pause video');
+    }
+
+    function syncAudioUI() {
+      const isMuted = heroVideo.muted || heroVideo.volume === 0;
+      if (muteBtn) {
+        const offIcon = muteBtn.querySelector('.vc-icon-vol-off');
+        const onIcon = muteBtn.querySelector('.vc-icon-vol-on');
+        if (offIcon) offIcon.style.display = isMuted ? '' : 'none';
+        if (onIcon) onIcon.style.display = isMuted ? 'none' : '';
+        muteBtn.setAttribute('aria-label', isMuted ? 'Unmute audio' : 'Mute audio');
+      }
+      if (soundPill) {
+        const pillMuted = soundPill.querySelector('.vc-pill-muted');
+        const pillUnmuted = soundPill.querySelector('.vc-pill-unmuted');
+        if (pillMuted) pillMuted.style.display = isMuted ? '' : 'none';
+        if (pillUnmuted) pillUnmuted.style.display = isMuted ? 'none' : '';
+        if (soundPillText) soundPillText.textContent = isMuted ? 'Tap for Sound' : 'Sound On';
+        soundPill.setAttribute('aria-label', isMuted ? 'Unmute video audio' : 'Mute video audio');
+      }
+      if (volumeSlider) {
+        volumeSlider.value = isMuted ? 0 : heroVideo.volume;
+      }
+    }
+
+    function ensurePlaying() {
+      if (userPaused) return;
+      const p = heroVideo.play();
+      if (p && typeof p.catch === 'function') {
+        p.catch(() => {
+          heroVideo.muted = true;
+          syncAudioUI();
+          heroVideo.play().catch(() => {});
+        });
+      }
+    }
+
+    function togglePlayPause() {
+      if (heroVideo.paused || userPaused) {
+        userPaused = false;
+        ensurePlaying();
+      } else {
+        userPaused = true;
+        heroVideo.pause();
+      }
+      syncPlayPauseUI();
+    }
+
+    function toggleMute() {
+      if (heroVideo.muted || heroVideo.volume === 0) {
+        heroVideo.muted = false;
+        heroVideo.volume = lastVolume > 0 ? lastVolume : 1;
+      } else {
+        lastVolume = heroVideo.volume || 1;
+        heroVideo.muted = true;
+      }
+      syncAudioUI();
+      if (!userPaused && heroVideo.paused) ensurePlaying();
+    }
+
+    if (playPauseBtn) playPauseBtn.addEventListener('click', togglePlayPause);
+    heroVideo.addEventListener('click', togglePlayPause);
+    if (muteBtn) muteBtn.addEventListener('click', toggleMute);
+    if (soundPill) soundPill.addEventListener('click', toggleMute);
+
+    if (volumeSlider) {
+      volumeSlider.addEventListener('input', () => {
+        const val = parseFloat(volumeSlider.value);
+        heroVideo.volume = isNaN(val) ? 1 : val;
+        if (heroVideo.volume > 0) {
+          lastVolume = heroVideo.volume;
+          heroVideo.muted = false;
+        } else {
+          heroVideo.muted = true;
+        }
+        syncAudioUI();
+        if (!userPaused && heroVideo.paused) ensurePlaying();
+      });
+    }
+
+    if (seekSlider) {
+      const handleSeek = () => {
+        if (!heroVideo.duration) return;
+        const pct = parseFloat(seekSlider.value) || 0;
+        const targetTime = (pct / 100) * heroVideo.duration;
+        heroVideo.currentTime = targetTime;
+        if (timeLabel) {
+          timeLabel.textContent = formatTime(targetTime) + ' / ' + formatTime(heroVideo.duration);
+        }
+      };
+      seekSlider.addEventListener('mousedown', () => { isSeeking = true; });
+      seekSlider.addEventListener('touchstart', () => { isSeeking = true; }, { passive: true });
+      seekSlider.addEventListener('input', handleSeek);
+      seekSlider.addEventListener('change', () => {
+        handleSeek();
+        isSeeking = false;
+        if (!userPaused) ensurePlaying();
+      });
+    }
+
+    heroVideo.addEventListener('loadedmetadata', () => {
+      if (timeLabel && heroVideo.duration) {
+        timeLabel.textContent = formatTime(heroVideo.currentTime) + ' / ' + formatTime(heroVideo.duration);
+      }
+      ensurePlaying();
+    });
+
+    heroVideo.addEventListener('timeupdate', () => {
+      if (!isSeeking && heroVideo.duration) {
+        if (seekSlider) {
+          seekSlider.value = ((heroVideo.currentTime / heroVideo.duration) * 100).toFixed(2);
+        }
+        if (timeLabel) {
+          timeLabel.textContent = formatTime(heroVideo.currentTime) + ' / ' + formatTime(heroVideo.duration);
+        }
+      }
+    });
+
+    heroVideo.addEventListener('pause', () => {
+      if (!userPaused && !isSeeking && !document.hidden) {
+        ensurePlaying();
+      }
+      syncPlayPauseUI();
+    });
+
+    heroVideo.addEventListener('play', syncPlayPauseUI);
+    heroVideo.addEventListener('volumechange', syncAudioUI);
+
+    document.addEventListener('visibilitychange', () => {
+      if (!document.hidden && !userPaused) {
+        ensurePlaying();
+      }
+    });
+
+    syncAudioUI();
+    syncPlayPauseUI();
+    ensurePlaying();
+  }
 });
